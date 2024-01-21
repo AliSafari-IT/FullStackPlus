@@ -57,7 +57,115 @@
                 "focus": false,
                 "panel": "shared",
                 "showReuseMessage": true,
-                "clear": false,                
+                "clear": false,
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "BlazorProject Database Migrations",
+            "type": "shell",
+            "command": "dotnet ef database update",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": [],
+            "options": {
+                "cwd": "${workspaceFolder}/ASP.NET/BlazorProject"
+            }
+        },
+        {
+            "label": "RazorProject Database Migrations",
+            "type": "shell",
+            "command": "dotnet ef database update",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": [],
+            "options": {
+                "cwd": "${workspaceFolder}/ASP.NET/RazorProject"
+            }
+        },
+        {
+            "label": "EF BlazorProject",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "ef",
+                "database",
+                "update",
+                "--project",
+                "${workspaceFolder}/ASP.NET/BlazorProject"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "BlazorProject EF Migration",
+            "type": "shell",
+            "command": "${workspaceFolder}/.vscode/BlazorProject.bat",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "EF MigBlazor",
+            "type": "shell",
+            "command": "${workspaceFolder}/.vscode/MigBlazor.bat",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "EF MigRazor",
+            "type": "shell",
+            "command": "${workspaceFolder}/.vscode/MigRazor.bat",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Build and Run RazorProject",
+            "type": "shell",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "${workspaceFolder}/ASP.NET/RazorProject/RazorProject.csproj"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Build BlazorProject",
+            "type": "shell",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "${workspaceFolder}/ASP.NET/BlazorProject/BlazorProject.csproj"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
             },
             "problemMatcher": "$msCompile"
         }

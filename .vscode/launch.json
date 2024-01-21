@@ -17,15 +17,15 @@
             "preLaunchTask": "build"
         },
         {
-            "name": "BlazorProject",
+            "name": "BlazorWebAssemblyProject",
             "type": "coreclr",
             "request": "launch",
-            "program": "${workspaceFolder}/ASP.NET/BlazorProject/bin/Debug/net8.0/BlazorProject.dll",
+            "program": "${workspaceFolder}/ASP.NET/BlazorWebAssemblyProject/bin/Debug/net8.0/BlazorWebAssemblyProject.dll",
             "stopAtEntry": false,
             "console": "internalConsole",
             "internalConsoleOptions": "openOnSessionStart",
-            "cwd": "${workspaceFolder}",
-            "preLaunchTask": "BlazorProject"
+            "cwd": "${workspaceFolder}/ASP.NET/BlazorWebAssemblyProject",
+            "preLaunchTask": "EF Migration"
         },
         {
             "name": "RazorProject",
@@ -35,8 +35,42 @@
             "stopAtEntry": false,
             "console": "internalConsole",
             "internalConsoleOptions": "openOnSessionStart",
-            "cwd": "${workspaceFolder}",
-            "preLaunchTask": "RazorProject"
-        }
+            "cwd": "${workspaceFolder}/ASP.NET/RazorProject",
+            "preLaunchTask": "EF Migration"
+        },
+        {
+            "name": "Launch RazorProject with Migrations",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "EF MigRazor",
+            "postDebugTask": "Build and Run RazorProject",
+            "program": "${workspaceFolder}/ASP.NET/RazorProject/bin/Debug/net8.0/RazorProject.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ASP.NET/RazorProject",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {},
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": "Launch BlazorWebAssemblyProject with Migrations",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "EF MigBlazor",
+            "postDebugTask": "Build BlazorWebAssemblyProject",
+                        
+            "cwd": "${workspaceFolder}/ASP.NET/BlazorWebAssemblyProject",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {},           
+        },
     ]
 }
