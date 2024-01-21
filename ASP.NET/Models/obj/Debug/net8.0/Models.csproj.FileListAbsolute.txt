@@ -1,0 +1,12 @@
+D:\FullStackPlus\ASP.NET\Models\bin\Debug\net8.0\Models.deps.json
+D:\FullStackPlus\ASP.NET\Models\bin\Debug\net8.0\Models.dll
+D:\FullStackPlus\ASP.NET\Models\bin\Debug\net8.0\Models.pdb
+D:\FullStackPlus\ASP.NET\Models\obj\Debug\net8.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\FullStackPlus\ASP.NET\Models\obj\Debug\net8.0\Models.AssemblyInfoInputs.cache
+D:\FullStackPlus\ASP.NET\Models\obj\Debug\net8.0\Models.AssemblyInfo.cs
+D:\FullStackPlus\ASP.NET\Models\obj\Debug\net8.0\Models.csproj.CoreCompileInputs.cache
+D:\FullStackPlus\ASP.NET\Models\obj\Debug\net8.0\Models.sourcelink.json
+D:\FullStackPlus\ASP.NET\Models\obj\Debug\net8.0\Models.dll
+D:\FullStackPlus\ASP.NET\Models\obj\Debug\net8.0\refint\Models.dll
+D:\FullStackPlus\ASP.NET\Models\obj\Debug\net8.0\Models.pdb
+D:\FullStackPlus\ASP.NET\Models\obj\Debug\net8.0\ref\Models.dll

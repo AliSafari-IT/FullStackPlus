@@ -1,4 +1,4 @@
-# RazorBlog: A Simple ASP.NET Core Blogging Platform
+# Blogging Platform: A Simple ASP.NET Core Blogging Platform with Razor and Blazor
 
 RazorBlog is a basic blogging platform built with ASP.NET Core Razor Pages. It's designed as a practice project for those looking to get hands-on experience with full-stack development using Razor Pages. This platform allows users to create, read, update, and delete blog posts, with added functionalities for user authentication and comments.
 
@@ -28,6 +28,8 @@ RazorBlog is a basic blogging platform built with ASP.NET Core Razor Pages. It's
 ## Development Setup
 
 1. **User Authentication**: Implemented with ASP.NET Core Identity. Customization in the Identity UI for registration and login.
+    -   Implement user registration and login functionality.
+    -   Allow only authenticated users to create, edit, or delete posts.
 2. **Database Setup**: Define models and DbContext. Use EF Core migrations to create and update the database schema.
 3. **Razor Pages Development**: Create Razor Pages for each feature in the `Pages` directory.
 4. **Styling**: Use Bootstrap for CSS. Custom CSS can be added in the `wwwroot` directory.
