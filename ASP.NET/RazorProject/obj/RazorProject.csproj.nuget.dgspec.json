@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VS\\Exercises\\FullStackPlus\\ASP.NET\\RazorProject\\RazorProject.csproj": {}
+    "D:\\FullStackPlus\\ASP.NET\\RazorProject\\RazorProject.csproj": {}
   },
   "projects": {
-    "C:\\VS\\Exercises\\FullStackPlus\\ASP.NET\\RazorProject\\RazorProject.csproj": {
+    "D:\\FullStackPlus\\ASP.NET\\RazorProject\\RazorProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VS\\Exercises\\FullStackPlus\\ASP.NET\\RazorProject\\RazorProject.csproj",
+        "projectUniqueName": "D:\\FullStackPlus\\ASP.NET\\RazorProject\\RazorProject.csproj",
         "projectName": "RazorProject",
-        "projectPath": "C:\\VS\\Exercises\\FullStackPlus\\ASP.NET\\RazorProject\\RazorProject.csproj",
+        "projectPath": "D:\\FullStackPlus\\ASP.NET\\RazorProject\\RazorProject.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\VS\\Exercises\\FullStackPlus\\ASP.NET\\RazorProject\\obj\\",
+        "outputPath": "D:\\FullStackPlus\\ASP.NET\\RazorProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

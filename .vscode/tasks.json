@@ -20,6 +20,46 @@
                 "clear": false
             },
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "BlazorProject",
+            "type": "shell",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "${workspaceFolder}/ASP.NET/BlazorProject/BlazorProject.csproj",
+                "--no-build"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false,
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "RazorProject",
+            "type": "shell",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "${workspaceFolder}/ASP.NET/RazorProject/RazorProject.csproj",
+                "--no-build"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false,                
+            },
+            "problemMatcher": "$msCompile"
         }
     ]
 }

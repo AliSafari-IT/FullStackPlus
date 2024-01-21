@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorProject", "ASP.NET\Bl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorProject", "ASP.NET\RazorProject\RazorProject.csproj", "{E32FF673-8215-45EF-83CD-FA4F7622609C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{B4B00D17-E93E-44B0-BFF1-1D20A8BFF531}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F0F1854B-4A5F-4452-B0BB-306DB703CB60} = {C22F9AD5-FF21-49B2-A5FB-8D612FA38C5B}
 		{E32FF673-8215-45EF-83CD-FA4F7622609C} = {C22F9AD5-FF21-49B2-A5FB-8D612FA38C5B}
+		{B4B00D17-E93E-44B0-BFF1-1D20A8BFF531} = {C22F9AD5-FF21-49B2-A5FB-8D612FA38C5B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4966F413-D266-43A3-8804-8AD7936B7445}

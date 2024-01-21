@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VS\\Exercises\\FullStackPlus\\ASP.NET\\BlazorProject\\BlazorProject.csproj": {}
+    "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\BlazorProject.csproj": {}
   },
   "projects": {
-    "C:\\VS\\Exercises\\FullStackPlus\\ASP.NET\\BlazorProject\\BlazorProject.csproj": {
+    "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\BlazorProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VS\\Exercises\\FullStackPlus\\ASP.NET\\BlazorProject\\BlazorProject.csproj",
+        "projectUniqueName": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\BlazorProject.csproj",
         "projectName": "BlazorProject",
-        "projectPath": "C:\\VS\\Exercises\\FullStackPlus\\ASP.NET\\BlazorProject\\BlazorProject.csproj",
+        "projectPath": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\BlazorProject.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\VS\\Exercises\\FullStackPlus\\ASP.NET\\BlazorProject\\obj\\",
+        "outputPath": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -48,6 +48,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",

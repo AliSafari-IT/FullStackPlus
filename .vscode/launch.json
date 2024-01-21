@@ -15,6 +15,28 @@
             "internalConsoleOptions": "openOnSessionStart",
             "cwd": "${workspaceFolder}",
             "preLaunchTask": "build"
+        },
+        {
+            "name": "BlazorProject",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/ASP.NET/BlazorProject/bin/Debug/net8.0/BlazorProject.dll",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "BlazorProject"
+        },
+        {
+            "name": "RazorProject",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/ASP.NET/RazorProject/bin/Debug/net8.0/RazorProject.dll",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "RazorProject"
         }
     ]
 }
