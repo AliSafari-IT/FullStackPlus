@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VS\\Exercises\\c-sharp\\ConsoleApp\\ConsoleApp.csproj": {}
+    "D:\\FullStackPlus\\ConsoleApps\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\VS\\Exercises\\c-sharp\\ConsoleApp\\ConsoleApp.csproj": {
+    "D:\\FullStackPlus\\ConsoleApps\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VS\\Exercises\\c-sharp\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "D:\\FullStackPlus\\ConsoleApps\\ConsoleApp\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "C:\\VS\\Exercises\\c-sharp\\ConsoleApp\\ConsoleApp.csproj",
+        "projectPath": "D:\\FullStackPlus\\ConsoleApps\\ConsoleApp\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\VS\\Exercises\\c-sharp\\ConsoleApp\\obj\\",
+        "outputPath": "D:\\FullStackPlus\\ConsoleApps\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

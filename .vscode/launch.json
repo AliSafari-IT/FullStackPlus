@@ -6,10 +6,10 @@
     "configurations": [
         {
             // Build and run tests in the Debug configuration
-            "name": "Debug",
+            "name": "ConsoleApp",
             "type": "coreclr",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/Debug/net8.0/ConsoleApp.dll",
+            "program": "${workspaceFolder}/ConsoleApps/ConsoleApp/bin/Debug/net8.0/ConsoleApp.dll",
             "stopAtEntry": false,
             "console": "internalConsole",
             "internalConsoleOptions": "openOnSessionStart",
