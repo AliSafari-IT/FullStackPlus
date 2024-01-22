@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "QAQOjMHinqVKd7uCjAMLKJQxYeC3TWhk/9BAOi2I9v8=",
+  "Hash": "PB0L208Sh9h2THGdtZxdYVKCbuv/V/15Nq8DTls9gTc=",
   "Source": "BlazorProject",
   "BasePath": "_content/BlazorProject",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\FullStackPlus\\ASP.NET\\Web.Api\\Web.Api.csproj",
+      "Identity": "D:\\fsx\\ASP.NET\\Web.Api\\Web.Api.csproj",
       "Version": 2,
       "Source": "Web.Api",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,17 +22,17 @@
     {
       "Name": "BlazorProject\\wwwroot",
       "Source": "BlazorProject",
-      "ContentRoot": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\wwwroot\\",
+      "ContentRoot": "D:\\fsx\\ASP.NET\\BlazorProject\\wwwroot\\",
       "BasePath": "_content/BlazorProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorProject.styles.css",
+      "Identity": "D:\\fsx\\ASP.NET\\BlazorProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorProject.styles.css",
       "SourceId": "BlazorProject",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\fsx\\ASP.NET\\BlazorProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorProject",
       "RelativePath": "BlazorProject.styles.css",
       "AssetKind": "All",
@@ -45,13 +45,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorProject.styles.css"
+      "OriginalItemSpec": "D:\\fsx\\ASP.NET\\BlazorProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorProject.styles.css"
     },
     {
-      "Identity": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorProject.bundle.scp.css",
+      "Identity": "D:\\fsx\\ASP.NET\\BlazorProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorProject.bundle.scp.css",
       "SourceId": "BlazorProject",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\fsx\\ASP.NET\\BlazorProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorProject",
       "RelativePath": "BlazorProject.bundle.scp.css",
       "AssetKind": "All",
@@ -64,83 +64,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorProject.bundle.scp.css"
-    },
-    {
-      "Identity": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\wwwroot\\app.css",
-      "SourceId": "BlazorProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\wwwroot\\",
-      "BasePath": "_content/BlazorProject",
-      "RelativePath": "app.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\app.css"
-    },
-    {
-      "Identity": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\wwwroot\\bootstrap\\bootstrap.min.css",
-      "SourceId": "BlazorProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\wwwroot\\",
-      "BasePath": "_content/BlazorProject",
-      "RelativePath": "bootstrap/bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
-    },
-    {
-      "Identity": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\wwwroot\\bootstrap\\bootstrap.min.css.map",
-      "SourceId": "BlazorProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\wwwroot\\",
-      "BasePath": "_content/BlazorProject",
-      "RelativePath": "bootstrap/bootstrap.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\wwwroot\\favicon.png",
-      "SourceId": "BlazorProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\wwwroot\\",
-      "BasePath": "_content/BlazorProject",
-      "RelativePath": "favicon.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.png"
+      "OriginalItemSpec": "D:\\fsx\\ASP.NET\\BlazorProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorProject.bundle.scp.css"
     }
   ]
 }

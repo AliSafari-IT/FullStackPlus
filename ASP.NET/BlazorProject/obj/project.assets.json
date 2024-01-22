@@ -3312,11 +3312,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\BlazorProject.csproj",
+      "projectUniqueName": "D:\\fsx\\ASP.NET\\BlazorProject\\BlazorProject.csproj",
       "projectName": "BlazorProject",
-      "projectPath": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\BlazorProject.csproj",
+      "projectPath": "D:\\fsx\\ASP.NET\\BlazorProject\\BlazorProject.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\obj\\",
+      "outputPath": "D:\\fsx\\ASP.NET\\BlazorProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3333,8 +3333,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\FullStackPlus\\ASP.NET\\Web.Api\\Web.Api.csproj": {
-              "projectPath": "D:\\FullStackPlus\\ASP.NET\\Web.Api\\Web.Api.csproj"
+            "D:\\fsx\\ASP.NET\\Web.Api\\Web.Api.csproj": {
+              "projectPath": "D:\\fsx\\ASP.NET\\Web.Api\\Web.Api.csproj"
             }
           }
         }

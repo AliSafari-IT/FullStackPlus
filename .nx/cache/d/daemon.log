@@ -1,0 +1,49 @@
+[NX Daemon Server] - 2024-01-22T03:03:43.225Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-22T03:03:43.235Z - [WATCHER]: Subscribed to changes within: d:\fsx (native)
+[NX Daemon Server] - 2024-01-22T03:03:43.257Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T03:03:43.263Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-22T03:03:43.263Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T03:03:43.267Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T03:03:43.416Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T03:03:43.416Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T03:03:43.416Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T03:03:43.873Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T03:03:43.875Z - Time taken for 'total for creating and serializing project graph' 605.0577999353409ms
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: multiple: [Read { file: "d:\\fsx\\.gitignore", err: Error { kind: InvalidData, message: "stream did not contain valid UTF-8" } }]] {
+  code: 'GenericFailure'
+}
+
+Node.js v18.15.0
+[NX Daemon Server] - 2024-01-22T03:20:59.834Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-22T03:20:59.843Z - [WATCHER]: Subscribed to changes within: d:\fsx (native)
+[NX Daemon Server] - 2024-01-22T03:20:59.851Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T03:20:59.859Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-22T03:20:59.863Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T03:20:59.871Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T03:20:59.955Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T03:20:59.955Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T03:20:59.955Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T03:21:01.396Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T03:21:01.399Z - Time taken for 'total for creating and serializing project graph' 1524.3465000391006ms
+[NX Daemon Server] - 2024-01-22T03:21:01.400Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T03:21:01.400Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1524. Response time: 5.
+[NX Daemon Server] - 2024-01-22T03:21:01.429Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-22T03:21:01.429Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-01-22T03:21:01.430Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-22T03:21:01.430Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T03:21:01.436Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-01-22T03:21:01.437Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-01-22T03:21:01.437Z - Handled REQUEST_FILE_DATA. Handling time: 3. Response time: 1.
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: multiple: [Read { file: "d:\\fsx\\.gitignore", err: Error { kind: InvalidData, message: "stream did not contain valid UTF-8" } }]] {
+  code: 'GenericFailure'
+}
+
+Node.js v18.15.0
