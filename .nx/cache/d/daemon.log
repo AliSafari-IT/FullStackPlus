@@ -47,3 +47,26 @@ node:internal/process/promises:288
 }
 
 Node.js v18.15.0
+[NX Daemon Server] - 2024-01-22T03:27:29.279Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-22T03:27:29.289Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-22T03:27:29.294Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T03:27:29.299Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-22T03:27:29.300Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T03:27:29.303Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T03:27:29.313Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T03:27:29.313Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T03:27:29.313Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T03:27:29.453Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T03:27:29.456Z - Time taken for 'total for creating and serializing project graph' 149.99699997901917ms
+[NX Daemon Server] - 2024-01-22T03:27:29.459Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T03:27:29.459Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 150. Response time: 6.
+[NX Daemon Server] - 2024-01-22T03:27:29.586Z - Closed a connection. Number of open connections: 0
+node:internal/process/promises:289
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: multiple: [Read { file: "D:\\fsx\\.gitignore", err: Error { kind: InvalidData, message: "stream did not contain valid UTF-8" } }]] {
+  code: 'GenericFailure'
+}
+
+Node.js v20.10.0
