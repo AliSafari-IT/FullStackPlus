@@ -1,0 +1,7 @@
+609e709 - up
+4f63ba5 - initialized: multi prooject repo
+da8d49a - dotnet launch/task added
+7b877f6 - vscode launch & tasks created
+65aed19 - razor/blazor projects setup
+51f7882 - Add ConsoleApp
+5165a4f - Initial commit

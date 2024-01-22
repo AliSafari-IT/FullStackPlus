@@ -1,0 +1,36 @@
+﻿@page "/"
+@using BlazorProject.Services
+@using Models
+@inject WeatherForecastService ForecastService
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+<h3> Weather Forecast </h3>
+
+<div id="WeatherForecast" class="alert alert-info">
+
+    @if (forecasts != null && forecasts.Any())
+    {
+        <ul>
+            @foreach (var forecast in forecasts)
+            {
+                <li>@forecast.Date.ToString("d"): @forecast.Summary with a high of @forecast.TemperatureC°C</li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No weather forecast data available.</p>
+    }
+</div>
+
+@code {
+    private List<WeatherForecast>? forecasts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await ForecastService.GetWeatherForecastsAsync();
+    }
+}
