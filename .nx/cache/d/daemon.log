@@ -776,3 +776,224 @@ Node.js v20.10.0
 [NX Daemon Server] - 2024-01-22T04:20:16.224Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
 [NX Daemon Server] - 2024-01-22T04:20:16.469Z - Closed a connection. Number of open connections: 1
 [NX Daemon Server] - 2024-01-22T04:24:37.436Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-22T04:25:10.805Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-22T04:25:10.814Z - [WATCHER]: Subscribed to changes within: d:\fsx (native)
+[NX Daemon Server] - 2024-01-22T04:25:10.859Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:25:10.866Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-22T04:25:10.866Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:25:10.900Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:25:11.132Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:25:11.132Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:25:11.132Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:25:13.483Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:25:13.489Z - Time taken for 'total for creating and serializing project graph' 2583.591500043869ms
+[NX Daemon Server] - 2024-01-22T04:25:13.490Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:25:13.490Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2584. Response time: 7.
+[NX Daemon Server] - 2024-01-22T04:25:13.505Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-22T04:25:13.507Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:25:13.508Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-22T04:25:13.509Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:25:13.517Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-01-22T04:25:13.517Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-01-22T04:25:13.517Z - Handled REQUEST_FILE_DATA. Handling time: 4. Response time: 0.
+[NX Daemon Server] - 2024-01-22T04:25:44.580Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:25:44.617Z - [WATCHER]: 6 file(s) created or restored, 0 file(s) modified, 6 file(s) deleted
+[NX Daemon Server] - 2024-01-22T04:25:44.621Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:25:44.713Z - [WATCHER]: 10 file(s) created or restored, 0 file(s) modified, 10 file(s) deleted
+[NX Daemon Server] - 2024-01-22T04:25:44.751Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:25:44.752Z - [REQUEST]: dist/intermediates/ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.g.props,dist/intermediates/ASP.NET/Web.Api/obj/Web.Api.csproj.nuget.g.targets,dist/intermediates/ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.g.targets,dist/intermediates/ASP.NET/Web.Api/obj/Web.Api.csproj.nuget.g.props,dist/intermediates/ASP.NET/BlazorProject/obj/BlazorProject.csproj.nuget.g.props,dist/intermediates/ASP.NET/BlazorProject/obj/project.nuget.cache,dist/intermediates/ASP.NET/Web.Api/obj/project.assets.json,dist/intermediates/ASP.NET/Web.Api/obj/project.nuget.cache,dist/intermediates/ASP.NET/Web.Api/obj/Web.Api.csproj.nuget.dgspec.json,dist/intermediates/ASP.NET/BlazorProject/obj/project.assets.json,dist/intermediates/ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.dgspec.json,dist/intermediates/ASP.NET/RazorProject/obj/project.assets.json,dist/intermediates/ASP.NET/BlazorProject/obj/BlazorProject.csproj.nuget.g.targets,dist/intermediates/ASP.NET/BlazorProject/obj/BlazorProject.csproj.nuget.dgspec.json,dist/intermediates/ASP.NET/RazorProject/obj/project.nuget.cache
+[NX Daemon Server] - 2024-01-22T04:25:44.752Z - [REQUEST]: dist/intermediates/ASP.NET/RazorProject/obj/cfd78f50-a7c0-49a8-9fc9-eab42ef6c304.tmp,dist/intermediates/ASP.NET/Web.Api/obj/6c66e9a4-bb22-4537-85d6-ea8f613de177.tmp,dist/intermediates/ASP.NET/BlazorProject/obj/1e8b1f22-601a-4fba-88cf-dea9e468a6df.tmp,dist/intermediates/ASP.NET/RazorProject/obj/1acfbdf5-310e-42d1-b2f4-8d8edf2cb89c.tmp,dist/intermediates/ASP.NET/RazorProject/obj/0048bd3a-3c7c-40b9-806c-4f32b64d6053.tmp,dist/intermediates/ASP.NET/Web.Api/obj/3fe8c02b-8594-46ae-abbd-59b282b084b9.tmp,dist/intermediates/ASP.NET/RazorProject/obj/7e4bbbb6-36c5-43c2-a149-e87ea507df06.tmp,dist/intermediates/ASP.NET/Web.Api/obj/13c3192e-8423-4627-8674-d6eaec0f4dfa.tmp,dist/intermediates/ASP.NET/BlazorProject/obj/c8c7e2b7-c1eb-4a57-b50f-7bc1bfcd9620.tmp,dist/intermediates/ASP.NET/RazorProject/obj/a4b6549a-c355-4549-9132-3667a3b8f6e8.tmp,dist/intermediates/ASP.NET/BlazorProject/obj/5dd9f526-772d-4b6a-ad27-9dc2a9724df5.tmp,dist/intermediates/ASP.NET/Web.Api/obj/8fc99f8f-d113-46ac-81fc-3c84946248bc.tmp,dist/intermediates/ASP.NET/BlazorProject/obj/6445dd5c-8fa3-4276-9589-a776a9781d1b.tmp,dist/intermediates/ASP.NET/BlazorProject/obj/defcecf4-a8e5-42a8-9921-c6e273ab24a2.tmp,dist/intermediates/ASP.NET/Web.Api/obj/bd59d48c-a02c-4c2f-8e51-a3d7255dd894.tmp
+[NX Daemon Server] - 2024-01-22T04:25:45.031Z - Time taken for 'hash changed files from watcher' 17.877300024032593ms
+[NX Daemon Server] - 2024-01-22T04:25:48.676Z - [WATCHER]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.assets.cache was created or restored
+[NX Daemon Server] - 2024-01-22T04:25:48.677Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:25:48.822Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:25:48.822Z - [REQUEST]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.assets.cache
+[NX Daemon Server] - 2024-01-22T04:25:48.822Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:25:49.769Z - Time taken for 'hash changed files from watcher' 4.916500091552734ms
+[NX Daemon Server] - 2024-01-22T04:25:52.849Z - [WATCHER]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.GlobalUsings.g.cs was created or restored
+[NX Daemon Server] - 2024-01-22T04:25:52.850Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:25:52.984Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:25:52.984Z - [REQUEST]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.GlobalUsings.g.cs
+[NX Daemon Server] - 2024-01-22T04:25:52.984Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:25:53.646Z - Time taken for 'hash changed files from watcher' 2.3503000736236572ms
+[NX Daemon Server] - 2024-01-22T04:25:53.646Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:25:53.648Z - [WATCHER]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.csproj.AssemblyReference.cache was created or restored
+[NX Daemon Server] - 2024-01-22T04:25:53.756Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:25:53.757Z - [REQUEST]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.csproj.AssemblyReference.cache
+[NX Daemon Server] - 2024-01-22T04:25:53.757Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:25:54.004Z - Time taken for 'hash changed files from watcher' 2.749000072479248ms
+[NX Daemon Server] - 2024-01-22T04:25:54.105Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:25:54.139Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-01-22T04:25:54.186Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:25:54.197Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-01-22T04:25:54.249Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:25:54.259Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:25:54.259Z - [REQUEST]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs,dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.GeneratedMSBuildEditorConfig.editorconfig,dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.AssemblyInfo.cs,dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.AssemblyInfoInputs.cache
+[NX Daemon Server] - 2024-01-22T04:25:54.259Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:25:54.559Z - Time taken for 'hash changed files from watcher' 9.3714998960495ms
+[NX Daemon Server] - 2024-01-22T04:25:55.875Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:25:55.880Z - [WATCHER]: 1 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-01-22T04:25:55.925Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:25:56.008Z - [WATCHER]: dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.assets.cache was modified
+[NX Daemon Server] - 2024-01-22T04:25:56.027Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:25:56.027Z - [REQUEST]: dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.assets.cache,dist/intermediates/ASP.NET/Models/obj/net8.0/Models.AssemblyInfo.cs,dist/intermediates/ASP.NET/Models/obj/net8.0/Models.AssemblyInfoInputs.cache
+[NX Daemon Server] - 2024-01-22T04:25:56.027Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:25:56.354Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:25:56.354Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:25:56.357Z - [WATCHER]: dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.assets.cache was created or restored
+[NX Daemon Server] - 2024-01-22T04:25:56.358Z - Time taken for 'hash changed files from watcher' 18.19379997253418ms
+[NX Daemon Server] - 2024-01-22T04:25:56.474Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:25:56.475Z - [REQUEST]: dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.assets.cache
+[NX Daemon Server] - 2024-01-22T04:25:56.475Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:25:56.762Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:25:56.764Z - [WATCHER]: dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.assets.cache was modified
+[NX Daemon Server] - 2024-01-22T04:25:56.765Z - Time taken for 'hash changed files from watcher' 3.2477999925613403ms
+[NX Daemon Server] - 2024-01-22T04:25:57.009Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:25:57.009Z - [REQUEST]: dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.assets.cache
+[NX Daemon Server] - 2024-01-22T04:25:57.010Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:25:57.320Z - Time taken for 'hash changed files from watcher' 3.407099962234497ms
+[NX Daemon Server] - 2024-01-22T04:25:57.362Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:25:57.365Z - [WATCHER]: dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.GlobalUsings.g.cs was created or restored
+[NX Daemon Server] - 2024-01-22T04:25:57.517Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:25:57.517Z - [REQUEST]: dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.GlobalUsings.g.cs
+[NX Daemon Server] - 2024-01-22T04:25:57.517Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:25:57.895Z - Time taken for 'hash changed files from watcher' 2.511399984359741ms
+[NX Daemon Server] - 2024-01-22T04:25:58.297Z - [WATCHER]: dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.csproj.AssemblyReference.cache was created or restored
+[NX Daemon Server] - 2024-01-22T04:25:58.298Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:25:58.423Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:25:58.423Z - [REQUEST]: dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.csproj.AssemblyReference.cache
+[NX Daemon Server] - 2024-01-22T04:25:58.423Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:25:58.651Z - Time taken for 'hash changed files from watcher' 2.842600107192993ms
+[NX Daemon Server] - 2024-01-22T04:25:58.686Z - [WATCHER]: dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.GeneratedMSBuildEditorConfig.editorconfig was created or restored
+[NX Daemon Server] - 2024-01-22T04:25:58.734Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:25:58.793Z - [WATCHER]: 2 file(s) created or restored, 1 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-01-22T04:25:58.814Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:25:58.814Z - [REQUEST]: dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.GeneratedMSBuildEditorConfig.editorconfig,dist/intermediates/ASP.NET/Web.Api/obj/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs,dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.AssemblyInfoInputs.cache
+[NX Daemon Server] - 2024-01-22T04:25:58.815Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:25:59.010Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:25:59.010Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:25:59.013Z - [WATCHER]: dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.AssemblyInfo.cs was created or restored
+[NX Daemon Server] - 2024-01-22T04:25:59.015Z - Time taken for 'hash changed files from watcher' 19.927899956703186ms
+[NX Daemon Server] - 2024-01-22T04:25:59.229Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:25:59.230Z - [REQUEST]: dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.AssemblyInfo.cs
+[NX Daemon Server] - 2024-01-22T04:25:59.230Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:26:00.081Z - [WATCHER]: dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.GlobalUsings.g.cs was created or restored
+[NX Daemon Server] - 2024-01-22T04:26:00.081Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:26:00.082Z - Time taken for 'hash changed files from watcher' 3.1212000846862793ms
+[NX Daemon Server] - 2024-01-22T04:26:00.221Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:26:00.221Z - [REQUEST]: dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.GlobalUsings.g.cs
+[NX Daemon Server] - 2024-01-22T04:26:00.221Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:26:00.813Z - [WATCHER]: dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.csproj.AssemblyReference.cache was created or restored
+[NX Daemon Server] - 2024-01-22T04:26:00.814Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:26:00.815Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:26:00.817Z - Time taken for 'hash changed files from watcher' 2.6726999282836914ms
+[NX Daemon Server] - 2024-01-22T04:26:00.870Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:26:00.876Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-01-22T04:26:00.953Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:26:00.954Z - [REQUEST]: dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.csproj.AssemblyReference.cache,dist/intermediates/ASP.NET/RazorProject/obj/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs,dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.AssemblyInfoInputs.cache,dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.GeneratedMSBuildEditorConfig.editorconfig
+[NX Daemon Server] - 2024-01-22T04:26:00.954Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:26:01.658Z - [WATCHER]: dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.AssemblyInfoInputs.cache was modified
+[NX Daemon Server] - 2024-01-22T04:26:01.663Z - [WATCHER]: dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.AssemblyInfo.cs was created or restored
+[NX Daemon Server] - 2024-01-22T04:26:01.670Z - [WATCHER]: dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.AssemblyInfo.cs was modified
+[NX Daemon Server] - 2024-01-22T04:26:01.673Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-01-22T04:26:01.721Z - [WATCHER]: dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.RazorAssemblyInfo.cs was modified
+[NX Daemon Server] - 2024-01-22T04:26:01.721Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:26:01.721Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:26:01.722Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:26:01.722Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:26:01.722Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:26:01.722Z - Time taken for 'hash changed files from watcher' 5.6453999280929565ms
+[NX Daemon Server] - 2024-01-22T04:26:01.959Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:26:01.960Z - [REQUEST]: dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.AssemblyInfoInputs.cache,dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.AssemblyInfo.cs,dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.RazorAssemblyInfo.cache,dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.RazorAssemblyInfo.cs
+[NX Daemon Server] - 2024-01-22T04:26:01.960Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:26:02.437Z - Time taken for 'hash changed files from watcher' 35.82240009307861ms
+[NX Daemon Server] - 2024-01-22T04:26:21.436Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:26:21.442Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-01-22T04:26:21.515Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+[NX Daemon Server] - 2024-01-22T04:26:21.516Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:26:21.557Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:26:21.557Z - [REQUEST]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/project.razor.vscode.bin,dist/intermediates/ASP.NET/RazorProject/obj/net8.0/project.razor.vscode.bin
+[NX Daemon Server] - 2024-01-22T04:26:21.557Z - [REQUEST]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/project.razor.vscode.bin.temp,dist/intermediates/ASP.NET/RazorProject/obj/net8.0/project.razor.vscode.bin.temp
+[NX Daemon Server] - 2024-01-22T04:26:21.702Z - Time taken for 'hash changed files from watcher' 4.07860004901886ms
+[NX Daemon Server] - 2024-01-22T04:28:47.344Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-01-22T04:28:47.344Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:28:47.452Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:28:47.452Z - [REQUEST]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/project.razor.vscode.bin
+[NX Daemon Server] - 2024-01-22T04:28:47.452Z - [REQUEST]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/project.razor.vscode.bin.temp
+[NX Daemon Server] - 2024-01-22T04:28:47.517Z - Time taken for 'hash changed files from watcher' 1.2649999856948853ms
+[NX Daemon Server] - 2024-01-22T04:28:49.410Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-01-22T04:28:49.411Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:28:49.521Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:28:49.522Z - [REQUEST]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/project.razor.vscode.bin
+[NX Daemon Server] - 2024-01-22T04:28:49.522Z - [REQUEST]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/project.razor.vscode.bin.temp
+[NX Daemon Server] - 2024-01-22T04:28:49.602Z - Time taken for 'hash changed files from watcher' 2.0960999727249146ms
+[NX Daemon Server] - 2024-01-22T04:28:50.348Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-01-22T04:28:50.349Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:28:50.457Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:28:50.457Z - [REQUEST]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/project.razor.vscode.bin
+[NX Daemon Server] - 2024-01-22T04:28:50.457Z - [REQUEST]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/project.razor.vscode.bin.temp
+[NX Daemon Server] - 2024-01-22T04:28:50.537Z - Time taken for 'hash changed files from watcher' 1.660099983215332ms
+[NX Daemon Server] - 2024-01-22T04:28:51.205Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+[NX Daemon Server] - 2024-01-22T04:28:51.206Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:28:51.316Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:28:51.316Z - [REQUEST]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/project.razor.vscode.bin,dist/intermediates/ASP.NET/RazorProject/obj/net8.0/project.razor.vscode.bin
+[NX Daemon Server] - 2024-01-22T04:28:51.316Z - [REQUEST]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/project.razor.vscode.bin.temp,dist/intermediates/ASP.NET/RazorProject/obj/net8.0/project.razor.vscode.bin.temp
+[NX Daemon Server] - 2024-01-22T04:28:51.388Z - Time taken for 'hash changed files from watcher' 1.5115000009536743ms
+[NX Daemon Server] - 2024-01-22T04:28:52.245Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+[NX Daemon Server] - 2024-01-22T04:28:52.245Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:28:52.354Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:28:52.355Z - [REQUEST]: dist/intermediates/ASP.NET/RazorProject/obj/net8.0/project.razor.vscode.bin,dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/project.razor.vscode.bin
+[NX Daemon Server] - 2024-01-22T04:28:52.355Z - [REQUEST]: dist/intermediates/ASP.NET/RazorProject/obj/net8.0/project.razor.vscode.bin.temp,dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/project.razor.vscode.bin.temp
+[NX Daemon Server] - 2024-01-22T04:28:52.427Z - Time taken for 'hash changed files from watcher' 1.624400019645691ms
+[NX Daemon Server] - 2024-01-22T04:28:53.240Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:28:53.244Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-01-22T04:28:53.350Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:28:53.350Z - [REQUEST]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/project.razor.vscode.bin
+[NX Daemon Server] - 2024-01-22T04:28:53.350Z - [REQUEST]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/project.razor.vscode.bin.temp
+[NX Daemon Server] - 2024-01-22T04:28:53.443Z - Time taken for 'hash changed files from watcher' 2.237499952316284ms
+[NX Daemon Server] - 2024-01-22T04:28:54.953Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:28:54.955Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-01-22T04:28:55.065Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:28:55.065Z - [REQUEST]: dist/intermediates/ASP.NET/RazorProject/obj/net8.0/project.razor.vscode.bin
+[NX Daemon Server] - 2024-01-22T04:28:55.065Z - [REQUEST]: dist/intermediates/ASP.NET/RazorProject/obj/net8.0/project.razor.vscode.bin.temp
+[NX Daemon Server] - 2024-01-22T04:28:55.171Z - Time taken for 'hash changed files from watcher' 2.599400043487549ms
+[NX Daemon Server] - 2024-01-22T04:28:56.090Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:28:56.091Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-01-22T04:28:56.200Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:28:56.200Z - [REQUEST]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/project.razor.vscode.bin
+[NX Daemon Server] - 2024-01-22T04:28:56.200Z - [REQUEST]: dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/project.razor.vscode.bin.temp
+[NX Daemon Server] - 2024-01-22T04:28:56.269Z - Time taken for 'hash changed files from watcher' 2.2244999408721924ms
+[NX Daemon Server] - 2024-01-22T04:28:59.096Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-01-22T04:28:59.096Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-22T04:28:59.096Z - [WATCHER]: Stopping the watcher for d:\fsx (sources)
+[NX Daemon Server] - 2024-01-22T04:28:59.096Z - [WATCHER]: Stopping the watcher for d:\fsx (outputs)
+[NX Daemon Server] - 2024-01-22T04:28:59.096Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-01-22T04:30:21.767Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-22T04:30:21.775Z - [WATCHER]: Subscribed to changes within: d:\fsx (native)
+[NX Daemon Server] - 2024-01-22T04:30:21.795Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:30:21.802Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-22T04:30:21.802Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:30:21.807Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:30:21.882Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:30:21.883Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:30:21.883Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:30:25.258Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:30:25.267Z - Time taken for 'total for creating and serializing project graph' 3451.0645999908447ms
+[NX Daemon Server] - 2024-01-22T04:30:25.270Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:30:25.271Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 3451. Response time: 14.
+[NX Daemon Server] - 2024-01-22T04:30:25.280Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-22T04:30:25.283Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:30:25.284Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-22T04:30:25.285Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:30:25.294Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-01-22T04:30:25.295Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-01-22T04:30:25.295Z - Handled REQUEST_FILE_DATA. Handling time: 4. Response time: 1.
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: multiple: [Read { file: "d:\\fsx\\.gitignore", err: Error { kind: InvalidData, message: "stream did not contain valid UTF-8" } }]] {
+  code: 'GenericFailure'
+}
+
+Node.js v18.15.0

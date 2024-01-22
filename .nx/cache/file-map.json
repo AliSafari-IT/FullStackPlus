@@ -57,707 +57,695 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.assets.cache",
-        "hash": "6025044064213984261"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/tsconfig.spec.json",
-        "hash": "15575553540147145788"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/BlazorProject.csproj.nuget.g.props",
-        "hash": "6727246537097823203"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/tsconfig.json",
-        "hash": "6830907402848794383"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/package.json",
-        "hash": "17740740855334089007"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.GlobalUsings.g.cs",
-        "hash": "655979258939108364"
-      },
-      {
-        "file": "FullstackSPA/react-app/yarn.lock",
-        "hash": "8102933652248377276"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/README.md",
-        "hash": "12351600458876629758"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.AssemblyInfo.cs",
-        "hash": "9784210935073054464"
-      },
-      {
-        "file": ".vscode/FullStackPlus.code-workspace",
-        "hash": "12666055840052100761"
-      },
-      {
-        "file": ".vs/FullStackPlus/FileContentIndex/16f8ec54-e2cf-40c9-838b-7a0de41fd8e3.vsidx",
-        "hash": "8635930607660900856"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/project.nuget.cache",
-        "hash": "5190255963959791720"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
-      },
-      {
-        "file": ".vs/ProjectEvaluation/fullstackplus.metadata.v7.bin",
-        "hash": "1888348203248063926"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/project.razor.vscode.bin",
-        "hash": "7517374867821503949"
-      },
-      {
-        "file": "FullstackSPA/react-app/public/index.html",
-        "hash": "13308863839730475495"
-      },
-      {
-        "file": ".vs/FullStackPlus/FileContentIndex/2273a5ce-4d0a-4f02-9267-5ef8771102eb.vsidx",
-        "hash": "2991260254672711022"
-      },
-      {
-        "file": "FullstackSPA/react-app/public/favicon.ico",
-        "hash": "2949791817221603359"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.RazorAssemblyInfo.cs",
-        "hash": "11718314784419056311"
-      },
-      {
-        "file": ".vs/FullStackPlus/FileContentIndex/48468479-6731-435c-b754-1c4b88bff725.vsidx",
-        "hash": "7133645608642110146"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.assets.cache",
-        "hash": "10958780697298269790"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.sourcelink.json",
-        "hash": "5987644696718445562"
-      },
-      {
-        "file": "FullStackPlus.sln",
-        "hash": "13728301051931778898"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.csproj.AssemblyReference.cache",
-        "hash": "13112386206337786406"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/src/app/app.component.spec.ts",
-        "hash": "4685610988145205702"
-      },
-      {
-        "file": "ASP.NET/LICENSE.md",
-        "hash": "12568522659151004242"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Models/obj/Models.csproj.nuget.g.props",
-        "hash": "10465015500958232451"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/vue.config.js",
-        "hash": "8675333184868849496"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.AssemblyInfoInputs.cache",
-        "hash": "14832532637666513787"
-      },
-      {
-        "file": "ASP.NET/readme.md",
-        "hash": "796946910876001758"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.GeneratedMSBuildEditorConfig.editorconfig",
-        "hash": "2565800291328431721"
-      },
-      {
-        "file": "FullstackSPA/react-app/public/manifest.json",
-        "hash": "1447645250373428393"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.csproj.CoreCompileInputs.cache",
-        "hash": "17540050545800216384"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.dgspec.json",
-        "hash": "1651079656854619987"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.GeneratedMSBuildEditorConfig.editorconfig",
-        "hash": "6843965783673609192"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.AssemblyInfo.cs",
-        "hash": "9070296812002826192"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Models/obj/Models.csproj.nuget.dgspec.json",
-        "hash": "3992144241197287357"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/angular.json",
-        "hash": "6436833046751374292"
-      },
-      {
-        "file": "Directory.Build.targets",
-        "hash": "9005165865624102645"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-        "hash": "10887795802549845076"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/src/index.html",
-        "hash": "12849153415624508102"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/package-lock.json",
-        "hash": "16275001825841110718"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.g.targets",
-        "hash": "17829600017548701539"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/src/main.js",
-        "hash": "10824564698944073398"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.AssemblyInfoInputs.cache",
-        "hash": "12106547443674317290"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/jsconfig.json",
-        "hash": "14600726147484760282"
-      },
-      {
-        "file": ".vs/FullStackPlus/config/applicationhost.config",
-        "hash": "2281262835049431253"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/project.razor.vscode.bin",
-        "hash": "13308201573546748235"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/src/app/app.routes.ts",
-        "hash": "12397496131277534773"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.GlobalUsings.g.cs",
-        "hash": "655979258939108364"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Models/obj/project.nuget.cache",
-        "hash": "2048286195878160180"
-      },
-      {
-        "file": "FullstackSPA/react-app/src/index.js",
-        "hash": "2247195792079615155"
-      },
-      {
-        "file": "FullstackSPA/react-app/src/index.css",
-        "hash": "14056909652331273425"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.g.props",
-        "hash": "949138502397821396"
-      },
-      {
-        "file": "commits.txt",
-        "hash": "16542859335719159855"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-        "hash": "10887795802549845076"
-      },
-      {
-        "file": "FullstackSPA/react-app/src/logo.svg",
-        "hash": "5137778160416929466"
-      },
-      {
-        "file": ".vscode/add-ef-migration.sh",
-        "hash": "14191674302489807111"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Web.Api/obj/project.assets.json",
-        "hash": "17179388859060498742"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/RazorProject/obj/project.assets.json",
-        "hash": "14163129630360368090"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.AssemblyInfo.cs",
-        "hash": "9256928807975978584"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "README.md",
-        "hash": "2019782625230388275"
-      },
-      {
-        "file": "Directory.Build.props",
-        "hash": "11106101967569859271"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Web.Api/obj/project.nuget.cache",
-        "hash": "7853656586456843134"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-        "hash": "10887795802549845076"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Web.Api/obj/Web.Api.csproj.nuget.dgspec.json",
-        "hash": "13977330564422846116"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.assets.cache",
-        "hash": "16150904504910674212"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/yarn.lock",
-        "hash": "16544650016838597549"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/project.assets.json",
-        "hash": "13241747096306306103"
-      },
-      {
-        "file": ".vs/FullStackPlus/FileContentIndex/23e83761-8758-4a66-abdb-19bd05b957ad.vsidx",
-        "hash": "9283042121781113387"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/src/assets/logo.png",
-        "hash": "6600670850494142607"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/src/app/app.component.ts",
-        "hash": "17613975254668226790"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/.gitignore",
-        "hash": "13044518069027839699"
-      },
-      {
-        "file": "FullstackSPA/react-app/src/setupTests.js",
-        "hash": "16903885983588411080"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/tsconfig.app.json",
-        "hash": "17337579397915052279"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "3395189204293871444"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.assets.cache",
-        "hash": "7060926382268725206"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/src/app/app.config.ts",
-        "hash": "5428614352870646528"
-      },
-      {
-        "file": ".vs/FullStackPlus/v17/.futdcache.v2",
-        "hash": "9259736799561713305"
-      },
-      {
-        "file": "FullstackSPA/react-app/src/App.js",
-        "hash": "15499001305561052840"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.AssemblyInfoInputs.cache",
-        "hash": "9004286246609111718"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/src/styles.scss",
-        "hash": "5195668842064076916"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.csproj.FileListAbsolute.txt",
-        "hash": "4085530848613940155"
-      },
-      {
-        "file": "commitMaker.bat",
-        "hash": "17419194056342953407"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Web.Api/obj/Web.Api.csproj.nuget.g.targets",
-        "hash": "3725803220928926378"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/src/App.vue",
-        "hash": "1340137925167332406"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Models/obj/Models.csproj.nuget.g.targets",
-        "hash": "15192663866877192239"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "ASP.NET/roadmap.md",
-        "hash": "5997169483375800264"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.GlobalUsings.g.cs",
-        "hash": "13163634606147464619"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Models/obj/project.assets.json",
-        "hash": "12314658143070556886"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.csproj.AssemblyReference.cache",
-        "hash": "53544524134987149"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/RazorProject/obj/project.nuget.cache",
-        "hash": "12639321110291346551"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/src/components/HelloWorld.vue",
-        "hash": "947532525360830582"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Web.Api/obj/Web.Api.csproj.nuget.g.props",
-        "hash": "1310616551863338044"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Web.Api/obj/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-        "hash": "10887795802549845076"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.RazorAssemblyInfo.cache",
-        "hash": "10446936465584051911"
-      },
-      {
-        "file": "package.json",
-        "hash": "15476224744978892000"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/public/index.html",
-        "hash": "10609669007784372270"
-      },
-      {
-        "file": ".vscode/launch.json",
-        "hash": "12209632930632761388"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/BlazorProject.csproj.nuget.g.targets",
-        "hash": "5102234618819927479"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.AssemblyInfoInputs.cache",
-        "hash": "6291294341979865673"
-      },
-      {
-        "file": ".vscode/MigRazor.bat",
-        "hash": "9850824982890272347"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.GeneratedMSBuildEditorConfig.editorconfig",
-        "hash": "16117804791125108805"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/src/app/app.component.scss",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "FullstackSPA/react-app/src/App.css",
-        "hash": "3472201094699472689"
-      },
-      {
-        "file": ".vs/FullStackPlus/FileContentIndex/f30b2811-3aef-40fb-ae73-774536080c19.vsidx",
-        "hash": "31096133638295586"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/src/favicon.ico",
-        "hash": "3988961587069885523"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.csproj.AssemblyReference.cache",
-        "hash": "9176571227053323434"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/public/favicon.ico",
-        "hash": "18282137866655320110"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/package.json",
-        "hash": "5997830161236349510"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/src/assets/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/src/app/app.component.html",
-        "hash": "6880513722212066549"
-      },
-      {
-        "file": ".vscode/MigBlazor.bat",
-        "hash": "2900101840437812189"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/babel.config.js",
-        "hash": "10732639881215031983"
-      },
-      {
-        "file": "nx.json",
-        "hash": "12896186803072913542"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/.editorconfig",
-        "hash": "6686520031028425313"
-      },
-      {
         "file": ".config/dotnet-tools.json",
         "hash": "11380184037138673491"
-      },
-      {
-        "file": "FullstackSPA/react-app/public/logo512.png",
-        "hash": "9339365414554387981"
-      },
-      {
-        "file": "FullstackSPA/react-app/public/robots.txt",
-        "hash": "2790380794362165217"
-      },
-      {
-        "file": "FullstackSPA/react-app/public/logo192.png",
-        "hash": "7585273181698778288"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "15337424573129438692"
-      },
-      {
-        "file": ".vs/FullStackPlus/DesignTimeBuild/.dtbcache.v2",
-        "hash": "15098311609599409708"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "5766965348686736361"
-      },
-      {
-        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.GlobalUsings.g.cs",
-        "hash": "655979258939108364"
-      },
-      {
-        "file": ".vscode/tasks.json",
-        "hash": "2146438913413330943"
       },
       {
         "file": ".editorconfig",
         "hash": "5443105041930014821"
       },
       {
-        "file": ".vs/ProjectEvaluation/fullstackplus.projects.v7.bin",
-        "hash": "16186453717083005701"
+        "file": ".gitignore",
+        "hash": "277103717418876466"
       },
       {
-        "file": "FullstackSPA/react-app/package.json",
-        "hash": "2111077618784532865"
+        "file": ".prettierignore",
+        "hash": "3395189204293871444"
       },
       {
-        "file": "FullstackSPA/react-app/src/App.test.js",
-        "hash": "14776661775854159295"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
-        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.GeneratedMSBuildEditorConfig.editorconfig",
-        "hash": "16443320920933974681"
+        "file": ".vs/FullStackPlus/DesignTimeBuild/.dtbcache.v2",
+        "hash": "15098311609599409708"
       },
       {
-        "file": "FullstackSPA/AngularApp/src/main.ts",
-        "hash": "4927504514031276065"
+        "file": ".vs/FullStackPlus/FileContentIndex/16f8ec54-e2cf-40c9-838b-7a0de41fd8e3.vsidx",
+        "hash": "8635930607660900856"
       },
       {
-        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.AssemblyInfo.cs",
-        "hash": "10413096968677009360"
+        "file": ".vs/FullStackPlus/FileContentIndex/2273a5ce-4d0a-4f02-9267-5ef8771102eb.vsidx",
+        "hash": "2991260254672711022"
       },
       {
-        "file": "FullstackSPA/react-app/README.md",
-        "hash": "17524295600495787358"
+        "file": ".vs/FullStackPlus/FileContentIndex/23e83761-8758-4a66-abdb-19bd05b957ad.vsidx",
+        "hash": "9283042121781113387"
+      },
+      {
+        "file": ".vs/FullStackPlus/FileContentIndex/48468479-6731-435c-b754-1c4b88bff725.vsidx",
+        "hash": "7133645608642110146"
+      },
+      {
+        "file": ".vs/FullStackPlus/FileContentIndex/f30b2811-3aef-40fb-ae73-774536080c19.vsidx",
+        "hash": "31096133638295586"
+      },
+      {
+        "file": ".vs/FullStackPlus/config/applicationhost.config",
+        "hash": "2281262835049431253"
+      },
+      {
+        "file": ".vs/FullStackPlus/v17/.futdcache.v2",
+        "hash": "9259736799561713305"
       },
       {
         "file": ".vs/FullStackPlus/v17/.suo",
         "hash": "11174461767548937529"
       },
       {
+        "file": ".vs/ProjectEvaluation/fullstackplus.metadata.v7.bin",
+        "hash": "1888348203248063926"
+      },
+      {
+        "file": ".vs/ProjectEvaluation/fullstackplus.projects.v7.bin",
+        "hash": "16186453717083005701"
+      },
+      {
+        "file": ".vscode/FullStackPlus.code-workspace",
+        "hash": "12666055840052100761"
+      },
+      {
+        "file": ".vscode/MigBlazor.bat",
+        "hash": "2900101840437812189"
+      },
+      {
+        "file": ".vscode/MigRazor.bat",
+        "hash": "9850824982890272347"
+      },
+      {
+        "file": ".vscode/add-ef-migration.sh",
+        "hash": "14191674302489807111"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "12209632930632761388"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "2146438913413330943"
+      },
+      {
+        "file": "ASP.NET/LICENSE.md",
+        "hash": "12568522659151004242"
+      },
+      {
+        "file": "ASP.NET/readme.md",
+        "hash": "796946910876001758"
+      },
+      {
+        "file": "ASP.NET/roadmap.md",
+        "hash": "5997169483375800264"
+      },
+      {
+        "file": "Directory.Build.props",
+        "hash": "11106101967569859271"
+      },
+      {
+        "file": "Directory.Build.targets",
+        "hash": "9005165865624102645"
+      },
+      {
+        "file": "FullStackPlus.sln",
+        "hash": "13728301051931778898"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/.editorconfig",
+        "hash": "6686520031028425313"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/.gitignore",
+        "hash": "13044518069027839699"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/README.md",
+        "hash": "14721902747364967882"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/angular.json",
+        "hash": "6436833046751374292"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/package-lock.json",
+        "hash": "16275001825841110718"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/package.json",
+        "hash": "5997830161236349510"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/app/app.component.html",
+        "hash": "6880513722212066549"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/app/app.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/app/app.component.spec.ts",
+        "hash": "4685610988145205702"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/app/app.component.ts",
+        "hash": "17613975254668226790"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/app/app.config.ts",
+        "hash": "5428614352870646528"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/app/app.routes.ts",
+        "hash": "12397496131277534773"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/favicon.ico",
+        "hash": "3988961587069885523"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/index.html",
+        "hash": "12849153415624508102"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/main.ts",
+        "hash": "4927504514031276065"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/styles.scss",
+        "hash": "5195668842064076916"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/tsconfig.app.json",
+        "hash": "17337579397915052279"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/tsconfig.json",
+        "hash": "6830907402848794383"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/tsconfig.spec.json",
+        "hash": "15575553540147145788"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/yarn.lock",
+        "hash": "16544650016838597549"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/README.md",
+        "hash": "12351600458876629758"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/babel.config.js",
+        "hash": "10732639881215031983"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/jsconfig.json",
+        "hash": "14600726147484760282"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/package.json",
+        "hash": "17740740855334089007"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/public/favicon.ico",
+        "hash": "18282137866655320110"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/public/index.html",
+        "hash": "10609669007784372270"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/src/App.vue",
+        "hash": "1340137925167332406"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/src/assets/logo.png",
+        "hash": "6600670850494142607"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/src/components/HelloWorld.vue",
+        "hash": "947532525360830582"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/src/main.js",
+        "hash": "10824564698944073398"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/vue.config.js",
+        "hash": "8675333184868849496"
+      },
+      {
+        "file": "FullstackSPA/react-app/README.md",
+        "hash": "17524295600495787358"
+      },
+      {
         "file": "FullstackSPA/react-app/package-lock.json",
         "hash": "17995729409009858472"
       },
       {
-        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/BlazorProject.csproj.nuget.dgspec.json",
-        "hash": "202610012236839684"
+        "file": "FullstackSPA/react-app/package.json",
+        "hash": "2111077618784532865"
+      },
+      {
+        "file": "FullstackSPA/react-app/public/favicon.ico",
+        "hash": "2949791817221603359"
+      },
+      {
+        "file": "FullstackSPA/react-app/public/index.html",
+        "hash": "13308863839730475495"
+      },
+      {
+        "file": "FullstackSPA/react-app/public/logo192.png",
+        "hash": "7585273181698778288"
+      },
+      {
+        "file": "FullstackSPA/react-app/public/logo512.png",
+        "hash": "9339365414554387981"
+      },
+      {
+        "file": "FullstackSPA/react-app/public/manifest.json",
+        "hash": "1447645250373428393"
+      },
+      {
+        "file": "FullstackSPA/react-app/public/robots.txt",
+        "hash": "2790380794362165217"
+      },
+      {
+        "file": "FullstackSPA/react-app/src/App.css",
+        "hash": "3472201094699472689"
+      },
+      {
+        "file": "FullstackSPA/react-app/src/App.js",
+        "hash": "15499001305561052840"
+      },
+      {
+        "file": "FullstackSPA/react-app/src/App.test.js",
+        "hash": "14776661775854159295"
+      },
+      {
+        "file": "FullstackSPA/react-app/src/index.css",
+        "hash": "14056909652331273425"
+      },
+      {
+        "file": "FullstackSPA/react-app/src/index.js",
+        "hash": "2247195792079615155"
+      },
+      {
+        "file": "FullstackSPA/react-app/src/logo.svg",
+        "hash": "5137778160416929466"
       },
       {
         "file": "FullstackSPA/react-app/src/reportWebVitals.js",
         "hash": "8937667725995285050"
       },
       {
-        "file": "FullstackSPA/AngularApp/README.md",
-        "hash": "14721902747364967882"
+        "file": "FullstackSPA/react-app/src/setupTests.js",
+        "hash": "16903885983588411080"
+      },
+      {
+        "file": "FullstackSPA/react-app/yarn.lock",
+        "hash": "8102933652248377276"
+      },
+      {
+        "file": "README.md",
+        "hash": "2019782625230388275"
+      },
+      {
+        "file": "commitMaker.bat",
+        "hash": "17419194056342953407"
+      },
+      {
+        "file": "commits.txt",
+        "hash": "16542859335719159855"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/BlazorProject.csproj.nuget.dgspec.json",
+        "hash": "202610012236839684"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/BlazorProject.csproj.nuget.g.props",
+        "hash": "6727246537097823203"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/BlazorProject.csproj.nuget.g.targets",
+        "hash": "5102234618819927479"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+        "hash": "10887795802549845076"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.AssemblyInfo.cs",
+        "hash": "10413096968677009360"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.AssemblyInfoInputs.cache",
+        "hash": "9004286246609111718"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.GeneratedMSBuildEditorConfig.editorconfig",
+        "hash": "2565800291328431721"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.GlobalUsings.g.cs",
+        "hash": "655979258939108364"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.assets.cache",
+        "hash": "16150904504910674212"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/BlazorProject.csproj.AssemblyReference.cache",
+        "hash": "13112386206337786406"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/net8.0/project.razor.vscode.bin",
+        "hash": "7517374867821503949"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/project.assets.json",
+        "hash": "13241747096306306103"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/BlazorProject/obj/project.nuget.cache",
+        "hash": "5190255963959791720"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/Models.csproj.nuget.dgspec.json",
+        "hash": "3992144241197287357"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/Models.csproj.nuget.g.props",
+        "hash": "10465015500958232451"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/Models.csproj.nuget.g.targets",
+        "hash": "15192663866877192239"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+        "hash": "10887795802549845076"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.AssemblyInfo.cs",
+        "hash": "9256928807975978584"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.AssemblyInfoInputs.cache",
+        "hash": "14832532637666513787"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.GeneratedMSBuildEditorConfig.editorconfig",
+        "hash": "16117804791125108805"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.GlobalUsings.g.cs",
+        "hash": "13163634606147464619"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.assets.cache",
+        "hash": "6025044064213984261"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.csproj.CoreCompileInputs.cache",
+        "hash": "17540050545800216384"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.csproj.FileListAbsolute.txt",
+        "hash": "4085530848613940155"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.sourcelink.json",
+        "hash": "5987644696718445562"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/project.assets.json",
+        "hash": "12314658143070556886"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/project.nuget.cache",
+        "hash": "2048286195878160180"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.dgspec.json",
+        "hash": "1651079656854619987"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.g.props",
+        "hash": "949138502397821396"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.g.targets",
+        "hash": "17829600017548701539"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+        "hash": "10887795802549845076"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.AssemblyInfo.cs",
+        "hash": "9784210935073054464"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.AssemblyInfoInputs.cache",
+        "hash": "12106547443674317290"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.GeneratedMSBuildEditorConfig.editorconfig",
+        "hash": "16443320920933974681"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.GlobalUsings.g.cs",
+        "hash": "655979258939108364"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.RazorAssemblyInfo.cache",
+        "hash": "10446936465584051911"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.RazorAssemblyInfo.cs",
+        "hash": "11718314784419056311"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.assets.cache",
+        "hash": "7060926382268725206"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/RazorProject.csproj.AssemblyReference.cache",
+        "hash": "9176571227053323434"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/RazorProject/obj/net8.0/project.razor.vscode.bin",
+        "hash": "2660951371616018774"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/RazorProject/obj/project.assets.json",
+        "hash": "14163129630360368090"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/RazorProject/obj/project.nuget.cache",
+        "hash": "12639321110291346551"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Web.Api/obj/Web.Api.csproj.nuget.dgspec.json",
+        "hash": "13977330564422846116"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Web.Api/obj/Web.Api.csproj.nuget.g.props",
+        "hash": "1310616551863338044"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Web.Api/obj/Web.Api.csproj.nuget.g.targets",
+        "hash": "3725803220928926378"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Web.Api/obj/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+        "hash": "10887795802549845076"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.AssemblyInfo.cs",
+        "hash": "9070296812002826192"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.AssemblyInfoInputs.cache",
+        "hash": "6291294341979865673"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.GeneratedMSBuildEditorConfig.editorconfig",
+        "hash": "6843965783673609192"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.GlobalUsings.g.cs",
+        "hash": "655979258939108364"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.assets.cache",
+        "hash": "10958780697298269790"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Web.Api/obj/net8.0/Web.Api.csproj.AssemblyReference.cache",
+        "hash": "53544524134987149"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Web.Api/obj/project.assets.json",
+        "hash": "17179388859060498742"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Web.Api/obj/project.nuget.cache",
+        "hash": "7853656586456843134"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx.json",
+        "hash": "12896186803072913542"
+      },
+      {
+        "file": "package.json",
+        "hash": "15476224744978892000"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "5766965348686736361"
       }
     ],
     "projectFileMap": {
-      "razorproject": [
+      "models": [
         {
-          "file": "ASP.NET/RazorProject/Pages/Error.cshtml",
-          "hash": "3256323412178963857"
+          "file": "ASP.NET/Models/Category.cs",
+          "hash": "1549305353503821904"
         },
         {
-          "file": "ASP.NET/RazorProject/Pages/Error.cshtml.cs",
-          "hash": "16333320134200695875"
+          "file": "ASP.NET/Models/Comment.cs",
+          "hash": "9319598696188630341"
         },
         {
-          "file": "ASP.NET/RazorProject/Pages/Index.cshtml",
-          "hash": "8303347011789961428"
+          "file": "ASP.NET/Models/Models-ReadMe.md",
+          "hash": "824804113315950769"
         },
         {
-          "file": "ASP.NET/RazorProject/Pages/Index.cshtml.cs",
-          "hash": "16149281044233223692"
+          "file": "ASP.NET/Models/Models.csproj",
+          "hash": "1292097677138460379"
         },
         {
-          "file": "ASP.NET/RazorProject/Pages/Privacy.cshtml",
-          "hash": "1002403739547740126"
+          "file": "ASP.NET/Models/Post.cs",
+          "hash": "14497903188396158518"
         },
         {
-          "file": "ASP.NET/RazorProject/Pages/Privacy.cshtml.cs",
-          "hash": "11131872019933383001"
+          "file": "ASP.NET/Models/PostTag.cs",
+          "hash": "15514036450581471817"
         },
         {
-          "file": "ASP.NET/RazorProject/Pages/Shared/_Layout.cshtml",
-          "hash": "5586563686202944932"
+          "file": "ASP.NET/Models/Tag.cs",
+          "hash": "10799828599083763900"
         },
         {
-          "file": "ASP.NET/RazorProject/Pages/Shared/_Layout.cshtml.css",
-          "hash": "3921726454601773358"
+          "file": "ASP.NET/Models/User.cs",
+          "hash": "14224608182779307348"
         },
         {
-          "file": "ASP.NET/RazorProject/Pages/Shared/_ValidationScriptsPartial.cshtml",
-          "hash": "4846149790228425422"
+          "file": "ASP.NET/Models/WeatherForecast.cs",
+          "hash": "7665029986468275243"
         },
         {
-          "file": "ASP.NET/RazorProject/Pages/_ViewImports.cshtml",
-          "hash": "6147197905869793947"
+          "file": "ASP.NET/Models/bin/Debug/net8.0/Models.deps.json",
+          "hash": "13988300725992933221"
         },
         {
-          "file": "ASP.NET/RazorProject/Pages/_ViewStart.cshtml",
-          "hash": "7174573660892931617"
+          "file": "ASP.NET/Models/bin/Debug/net8.0/Models.dll",
+          "hash": "4192842771479171168"
         },
         {
-          "file": "ASP.NET/RazorProject/Program.cs",
-          "hash": "15827478036622887169"
+          "file": "ASP.NET/Models/bin/Debug/net8.0/Models.pdb",
+          "hash": "18303739877496711"
         },
         {
-          "file": "ASP.NET/RazorProject/Properties/launchSettings.json",
-          "hash": "1299793739817495135"
-        },
-        {
-          "file": "ASP.NET/RazorProject/RazorProject.csproj",
-          "hash": "5086832774121717693",
-          "deps": [
-            "blazorproject",
-            "models"
-          ]
-        },
-        {
-          "file": "ASP.NET/RazorProject/RazorProject.csproj.user",
-          "hash": "16763569234774692237"
-        },
-        {
-          "file": "ASP.NET/RazorProject/appsettings.Development.json",
-          "hash": "1135380627649942102"
-        },
-        {
-          "file": "ASP.NET/RazorProject/appsettings.json",
-          "hash": "6093315082945067005"
-        },
-        {
-          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+          "file": "ASP.NET/Models/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
           "hash": "10887795802549845076"
         },
         {
-          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.AssemblyInfo.cs",
-          "hash": "10103822135227528802"
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.AssemblyInfo.cs",
+          "hash": "9256928807975978584"
         },
         {
-          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.AssemblyInfoInputs.cache",
-          "hash": "12106547443674317290"
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.AssemblyInfoInputs.cache",
+          "hash": "14832532637666513787"
         },
         {
-          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.GeneratedMSBuildEditorConfig.editorconfig",
-          "hash": "16443320920933974681"
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.GeneratedMSBuildEditorConfig.editorconfig",
+          "hash": "16117804791125108805"
         },
         {
-          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.GlobalUsings.g.cs",
-          "hash": "655979258939108364"
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.GlobalUsings.g.cs",
+          "hash": "13163634606147464619"
         },
         {
-          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.RazorAssemblyInfo.cache",
-          "hash": "10446936465584051911"
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.assets.cache",
+          "hash": "5269228831561696669"
         },
         {
-          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.RazorAssemblyInfo.cs",
-          "hash": "8506074975504097900"
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.csproj.CoreCompileInputs.cache",
+          "hash": "1360802576072785142"
         },
         {
-          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.assets.cache",
-          "hash": "1400142978505116866"
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.csproj.FileListAbsolute.txt",
+          "hash": "16236555936709624377"
         },
         {
-          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.csproj.AssemblyReference.cache",
-          "hash": "16918494000056455839"
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.dll",
+          "hash": "4192842771479171168"
         },
         {
-          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/project.razor.vscode.bin",
-          "hash": "3612887960758609804"
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.pdb",
+          "hash": "18303739877496711"
         },
         {
-          "file": "ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.dgspec.json",
-          "hash": "15369268509317479560"
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.sourcelink.json",
+          "hash": "7651683895686269897"
         },
         {
-          "file": "ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.g.props",
-          "hash": "949138502397821396"
+          "file": "ASP.NET/Models/obj/Debug/net8.0/ref/Models.dll",
+          "hash": "1517555465238447268"
         },
         {
-          "file": "ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.g.targets",
-          "hash": "17829600017548701539"
+          "file": "ASP.NET/Models/obj/Debug/net8.0/refint/Models.dll",
+          "hash": "1517555465238447268"
         },
         {
-          "file": "ASP.NET/RazorProject/obj/project.assets.json",
-          "hash": "16472872134276593478"
+          "file": "ASP.NET/Models/obj/Models.csproj.nuget.dgspec.json",
+          "hash": "4469335782325515996"
         },
         {
-          "file": "ASP.NET/RazorProject/obj/project.nuget.cache",
-          "hash": "10883981007443859687"
+          "file": "ASP.NET/Models/obj/Models.csproj.nuget.g.props",
+          "hash": "10465015500958232451"
+        },
+        {
+          "file": "ASP.NET/Models/obj/Models.csproj.nuget.g.targets",
+          "hash": "15192663866877192239"
+        },
+        {
+          "file": "ASP.NET/Models/obj/project.assets.json",
+          "hash": "12542350933113824423"
+        },
+        {
+          "file": "ASP.NET/Models/obj/project.nuget.cache",
+          "hash": "1681772277785385961"
         }
       ],
       "consoleapp": [
@@ -1387,126 +1375,138 @@
           "hash": "18107939308173596340"
         }
       ],
-      "models": [
+      "razorproject": [
         {
-          "file": "ASP.NET/Models/Category.cs",
-          "hash": "1549305353503821904"
+          "file": "ASP.NET/RazorProject/Pages/Error.cshtml",
+          "hash": "3256323412178963857"
         },
         {
-          "file": "ASP.NET/Models/Comment.cs",
-          "hash": "9319598696188630341"
+          "file": "ASP.NET/RazorProject/Pages/Error.cshtml.cs",
+          "hash": "16333320134200695875"
         },
         {
-          "file": "ASP.NET/Models/Models-ReadMe.md",
-          "hash": "824804113315950769"
+          "file": "ASP.NET/RazorProject/Pages/Index.cshtml",
+          "hash": "8303347011789961428"
         },
         {
-          "file": "ASP.NET/Models/Models.csproj",
-          "hash": "1292097677138460379"
+          "file": "ASP.NET/RazorProject/Pages/Index.cshtml.cs",
+          "hash": "16149281044233223692"
         },
         {
-          "file": "ASP.NET/Models/Post.cs",
-          "hash": "14497903188396158518"
+          "file": "ASP.NET/RazorProject/Pages/Privacy.cshtml",
+          "hash": "1002403739547740126"
         },
         {
-          "file": "ASP.NET/Models/PostTag.cs",
-          "hash": "15514036450581471817"
+          "file": "ASP.NET/RazorProject/Pages/Privacy.cshtml.cs",
+          "hash": "11131872019933383001"
         },
         {
-          "file": "ASP.NET/Models/Tag.cs",
-          "hash": "10799828599083763900"
+          "file": "ASP.NET/RazorProject/Pages/Shared/_Layout.cshtml",
+          "hash": "5586563686202944932"
         },
         {
-          "file": "ASP.NET/Models/User.cs",
-          "hash": "14224608182779307348"
+          "file": "ASP.NET/RazorProject/Pages/Shared/_Layout.cshtml.css",
+          "hash": "3921726454601773358"
         },
         {
-          "file": "ASP.NET/Models/WeatherForecast.cs",
-          "hash": "7665029986468275243"
+          "file": "ASP.NET/RazorProject/Pages/Shared/_ValidationScriptsPartial.cshtml",
+          "hash": "4846149790228425422"
         },
         {
-          "file": "ASP.NET/Models/bin/Debug/net8.0/Models.deps.json",
-          "hash": "13988300725992933221"
+          "file": "ASP.NET/RazorProject/Pages/_ViewImports.cshtml",
+          "hash": "6147197905869793947"
         },
         {
-          "file": "ASP.NET/Models/bin/Debug/net8.0/Models.dll",
-          "hash": "4192842771479171168"
+          "file": "ASP.NET/RazorProject/Pages/_ViewStart.cshtml",
+          "hash": "7174573660892931617"
         },
         {
-          "file": "ASP.NET/Models/bin/Debug/net8.0/Models.pdb",
-          "hash": "18303739877496711"
+          "file": "ASP.NET/RazorProject/Program.cs",
+          "hash": "15827478036622887169"
         },
         {
-          "file": "ASP.NET/Models/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+          "file": "ASP.NET/RazorProject/Properties/launchSettings.json",
+          "hash": "1299793739817495135"
+        },
+        {
+          "file": "ASP.NET/RazorProject/RazorProject.csproj",
+          "hash": "5086832774121717693",
+          "deps": [
+            "blazorproject",
+            "models"
+          ]
+        },
+        {
+          "file": "ASP.NET/RazorProject/RazorProject.csproj.user",
+          "hash": "16763569234774692237"
+        },
+        {
+          "file": "ASP.NET/RazorProject/appsettings.Development.json",
+          "hash": "1135380627649942102"
+        },
+        {
+          "file": "ASP.NET/RazorProject/appsettings.json",
+          "hash": "6093315082945067005"
+        },
+        {
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
           "hash": "10887795802549845076"
         },
         {
-          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.AssemblyInfo.cs",
-          "hash": "9256928807975978584"
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.AssemblyInfo.cs",
+          "hash": "10103822135227528802"
         },
         {
-          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.AssemblyInfoInputs.cache",
-          "hash": "14832532637666513787"
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.AssemblyInfoInputs.cache",
+          "hash": "12106547443674317290"
         },
         {
-          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.GeneratedMSBuildEditorConfig.editorconfig",
-          "hash": "16117804791125108805"
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.GeneratedMSBuildEditorConfig.editorconfig",
+          "hash": "16443320920933974681"
         },
         {
-          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.GlobalUsings.g.cs",
-          "hash": "13163634606147464619"
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.GlobalUsings.g.cs",
+          "hash": "655979258939108364"
         },
         {
-          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.assets.cache",
-          "hash": "5269228831561696669"
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.RazorAssemblyInfo.cache",
+          "hash": "10446936465584051911"
         },
         {
-          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.csproj.CoreCompileInputs.cache",
-          "hash": "1360802576072785142"
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.RazorAssemblyInfo.cs",
+          "hash": "8506074975504097900"
         },
         {
-          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.csproj.FileListAbsolute.txt",
-          "hash": "16236555936709624377"
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.assets.cache",
+          "hash": "1400142978505116866"
         },
         {
-          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.dll",
-          "hash": "4192842771479171168"
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.csproj.AssemblyReference.cache",
+          "hash": "16918494000056455839"
         },
         {
-          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.pdb",
-          "hash": "18303739877496711"
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/project.razor.vscode.bin",
+          "hash": "3612887960758609804"
         },
         {
-          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.sourcelink.json",
-          "hash": "7651683895686269897"
+          "file": "ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.dgspec.json",
+          "hash": "15369268509317479560"
         },
         {
-          "file": "ASP.NET/Models/obj/Debug/net8.0/ref/Models.dll",
-          "hash": "1517555465238447268"
+          "file": "ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.g.props",
+          "hash": "949138502397821396"
         },
         {
-          "file": "ASP.NET/Models/obj/Debug/net8.0/refint/Models.dll",
-          "hash": "1517555465238447268"
+          "file": "ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.g.targets",
+          "hash": "17829600017548701539"
         },
         {
-          "file": "ASP.NET/Models/obj/Models.csproj.nuget.dgspec.json",
-          "hash": "4469335782325515996"
+          "file": "ASP.NET/RazorProject/obj/project.assets.json",
+          "hash": "16472872134276593478"
         },
         {
-          "file": "ASP.NET/Models/obj/Models.csproj.nuget.g.props",
-          "hash": "10465015500958232451"
-        },
-        {
-          "file": "ASP.NET/Models/obj/Models.csproj.nuget.g.targets",
-          "hash": "15192663866877192239"
-        },
-        {
-          "file": "ASP.NET/Models/obj/project.assets.json",
-          "hash": "12542350933113824423"
-        },
-        {
-          "file": "ASP.NET/Models/obj/project.nuget.cache",
-          "hash": "1681772277785385961"
+          "file": "ASP.NET/RazorProject/obj/project.nuget.cache",
+          "hash": "10883981007443859687"
         }
       ],
       "web.api": [
