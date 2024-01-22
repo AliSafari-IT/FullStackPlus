@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run blazorproject:build",
+    "startTime": "2024-01-22T04:12:48.884Z",
+    "endTime": "2024-01-22T04:13:08.011Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "models:build",
+      "target": "build",
+      "projectName": "models",
+      "hash": "8512410314540340281",
+      "startTime": "2024-01-22T04:12:48.899Z",
+      "endTime": "2024-01-22T04:13:08.000Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

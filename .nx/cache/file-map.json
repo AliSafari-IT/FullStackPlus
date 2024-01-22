@@ -2,1823 +2,1982 @@
   "version": "6.0",
   "nxVersion": "17.2.8",
   "deps": {
+    "@angular/animations": "~17.0.0",
+    "@angular/common": "~17.0.0",
+    "@angular/compiler": "~17.0.0",
+    "@angular/core": "~17.0.0",
+    "@angular/forms": "~17.0.0",
+    "@angular/platform-browser": "~17.0.0",
+    "@angular/platform-browser-dynamic": "~17.0.0",
+    "@angular/router": "~17.0.0",
+    "@nx-dotnet/core": "2.1.2",
+    "@nx/angular": "17.2.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.0",
+    "@angular-devkit/build-angular": "~17.0.0",
+    "@angular-devkit/core": "~17.0.0",
+    "@angular-devkit/schematics": "~17.0.0",
+    "@angular/cli": "~17.0.0",
+    "@angular/compiler-cli": "~17.0.0",
+    "@angular/language-service": "~17.0.0",
+    "@nx/cypress": "17.2.8",
+    "@nx/jest": "17.2.8",
     "@nx/js": "17.2.8",
+    "@nx/react": "17.2.8",
+    "@nx/web": "17.2.8",
     "@nx/workspace": "17.2.8",
-    "nx": "17.2.8"
+    "@schematics/angular": "~17.0.0",
+    "@swc-node/register": "~1.6.7",
+    "@swc/core": "~1.3.85",
+    "@testing-library/react": "14.0.0",
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.16.9",
+    "@types/react": "18.2.33",
+    "@types/react-dom": "18.2.14",
+    "cypress": "^13.0.0",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "jest-preset-angular": "~13.1.4",
+    "nx": "17.2.8",
+    "prettier": "^2.6.2",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~5.2.2"
   },
   "pathMappings": {},
-  "nxJsonPlugins": [],
+  "nxJsonPlugins": [
+    {
+      "name": "@nx-dotnet/core",
+      "version": "2.1.2"
+    }
+  ],
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "4291927952934316532"
-      },
-      {
-        "file": ".vs/FullStackPlus/DesignTimeBuild/.dtbcache.v2",
-        "hash": "15098311609599409708"
-      },
-      {
-        "file": ".vs/FullStackPlus/FileContentIndex/16f8ec54-e2cf-40c9-838b-7a0de41fd8e3.vsidx",
-        "hash": "8635930607660900856"
-      },
-      {
-        "file": ".vs/FullStackPlus/FileContentIndex/2273a5ce-4d0a-4f02-9267-5ef8771102eb.vsidx",
-        "hash": "2991260254672711022"
-      },
-      {
-        "file": ".vs/FullStackPlus/FileContentIndex/23e83761-8758-4a66-abdb-19bd05b957ad.vsidx",
-        "hash": "9283042121781113387"
-      },
-      {
-        "file": ".vs/FullStackPlus/FileContentIndex/48468479-6731-435c-b754-1c4b88bff725.vsidx",
-        "hash": "7133645608642110146"
-      },
-      {
-        "file": ".vs/FullStackPlus/FileContentIndex/f30b2811-3aef-40fb-ae73-774536080c19.vsidx",
-        "hash": "31096133638295586"
-      },
-      {
-        "file": ".vs/FullStackPlus/config/applicationhost.config",
-        "hash": "2281262835049431253"
-      },
-      {
-        "file": ".vs/FullStackPlus/v17/.futdcache.v2",
-        "hash": "9259736799561713305"
-      },
-      {
-        "file": ".vs/FullStackPlus/v17/.suo",
-        "hash": "11174461767548937529"
-      },
-      {
-        "file": ".vs/ProjectEvaluation/fullstackplus.metadata.v7.bin",
-        "hash": "1888348203248063926"
-      },
-      {
-        "file": ".vs/ProjectEvaluation/fullstackplus.projects.v7.bin",
-        "hash": "16186453717083005701"
-      },
-      {
-        "file": ".vscode/FullStackPlus.code-workspace",
-        "hash": "12666055840052100761"
-      },
-      {
-        "file": ".vscode/MigBlazor.bat",
-        "hash": "2900101840437812189"
-      },
-      {
-        "file": ".vscode/MigRazor.bat",
-        "hash": "9850824982890272347"
-      },
-      {
-        "file": ".vscode/add-ef-migration.sh",
-        "hash": "14191674302489807111"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "3833545590435012078"
-      },
-      {
-        "file": ".vscode/launch.json",
-        "hash": "12209632930632761388"
-      },
-      {
-        "file": ".vscode/tasks.json",
-        "hash": "2146438913413330943"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/BlazorProject.csproj",
-        "hash": "7562036894395710128"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/BlazorProject.csproj.user",
-        "hash": "6876158610951165411"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/Components/App.razor",
-        "hash": "11006962191339258293"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/Components/Layout/MainLayout.razor",
-        "hash": "8958348946909209916"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/Components/Layout/MainLayout.razor.css",
-        "hash": "14138116728934865903"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/Components/Layout/NavMenu.razor",
-        "hash": "5272163282966302985"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/Components/Layout/NavMenu.razor.css",
-        "hash": "13770725052284323819"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/Components/Pages/Counter.razor",
-        "hash": "12071600369752038038"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/Components/Pages/Error.razor",
-        "hash": "1990285525406096021"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/Components/Pages/Home.razor",
-        "hash": "13562542246396156723"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/Components/Pages/Weather.razor",
-        "hash": "16853300484830997395"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/Components/Routes.razor",
-        "hash": "14052246919806260094"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/Components/_Imports.razor",
-        "hash": "16487549656884598853"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/Program.cs",
-        "hash": "3961343611219438500"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/Properties/launchSettings.json",
-        "hash": "14309013673845622545"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/Services/WeatherForecastService.cs",
-        "hash": "1936377468468418552"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/appsettings.Development.json",
-        "hash": "3339958947771738801"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/appsettings.json",
-        "hash": "6093315082945067005"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Azure.Core.dll",
-        "hash": "8958121783403709184"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Azure.Identity.dll",
-        "hash": "5294694639766183593"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/BlazorProject.deps.json",
-        "hash": "14903213686696943877"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/BlazorProject.dll",
-        "hash": "17777667966181664485"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/BlazorProject.exe",
-        "hash": "17405833572985844005"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/BlazorProject.pdb",
-        "hash": "7486198028792229263"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/BlazorProject.runtimeconfig.json",
-        "hash": "2378748134447373851"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/BlazorProject.staticwebassets.runtime.json",
-        "hash": "10185206466682750708"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll",
-        "hash": "9859141906402117602"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll",
-        "hash": "7970034975371699519"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll",
-        "hash": "16250599962547920251"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
-        "hash": "9305135711289534354"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll",
-        "hash": "5642815787377345830"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
-        "hash": "9283582848779935332"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll",
-        "hash": "12109555865619959620"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll",
-        "hash": "13528704667082409424"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.Identity.Client.dll",
-        "hash": "17528580275164578341"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll",
-        "hash": "1051358261034396248"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll",
-        "hash": "2269484650026162358"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll",
-        "hash": "1534408483143691460"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
-        "hash": "5780805211106079416"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll",
-        "hash": "1670458075586989404"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll",
-        "hash": "17049919062629238589"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.OpenApi.dll",
-        "hash": "14138251710137234955"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll",
-        "hash": "14216701811241259256"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll",
-        "hash": "11635529584521470734"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Models.dll",
-        "hash": "4192842771479171168"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Models.pdb",
-        "hash": "18303739877496711"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Newtonsoft.Json.dll",
-        "hash": "9883149618478200357"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll",
-        "hash": "10365789031782649924"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
-        "hash": "5683891036722709085"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
-        "hash": "17664938003933267034"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll",
-        "hash": "3827532699538662600"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/System.Drawing.Common.dll",
-        "hash": "12682639628144472280"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll",
-        "hash": "3283539518762842445"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/System.Memory.Data.dll",
-        "hash": "220145149363327040"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/System.Runtime.Caching.dll",
-        "hash": "13236024572484297611"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll",
-        "hash": "10701675117861516537"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/System.Security.Permissions.dll",
-        "hash": "8394892576804240186"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/System.Windows.Extensions.dll",
-        "hash": "6828698637106114326"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Web.Api.deps.json",
-        "hash": "7507718958176859357"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Web.Api.dll",
-        "hash": "3309207985879061531"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Web.Api.exe",
-        "hash": "16961894859647318812"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Web.Api.pdb",
-        "hash": "4333916825016539274"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Web.Api.runtimeconfig.json",
-        "hash": "11948901871174737213"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/appsettings.Development.json",
-        "hash": "3339958947771738801"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/appsettings.json",
-        "hash": "6093315082945067005"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll",
-        "hash": "1228323109409330934"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll",
-        "hash": "10743623958081456987"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll",
-        "hash": "16908980147743863053"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll",
-        "hash": "12028365876599311806"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll",
-        "hash": "7045993987828987481"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll",
-        "hash": "5443579362714235066"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll",
-        "hash": "7865325869457553621"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
-        "hash": "12859650485612610955"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll",
-        "hash": "6211739387934787453"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll",
-        "hash": "14181909494157989843"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll",
-        "hash": "1613490095567781572"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll",
-        "hash": "12536484415435013956"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/BlazorProject.csproj.nuget.dgspec.json",
-        "hash": "3593228938963533918"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/BlazorProject.csproj.nuget.g.props",
-        "hash": "6727246537097823203"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/BlazorProject.csproj.nuget.g.targets",
-        "hash": "5102234618819927479"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-        "hash": "10887795802549845076"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.AssemblyInfo.cs",
-        "hash": "10561816286890632468"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.AssemblyInfoInputs.cache",
-        "hash": "9004286246609111718"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.GeneratedMSBuildEditorConfig.editorconfig",
-        "hash": "2565800291328431721"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.GlobalUsings.g.cs",
-        "hash": "655979258939108364"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.MvcApplicationPartsAssemblyInfo.cache",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.MvcApplicationPartsAssemblyInfo.cs",
-        "hash": "1478948838288351073"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.assets.cache",
-        "hash": "3897659354031048457"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.csproj.AssemblyReference.cache",
-        "hash": "9923805888436220575"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.csproj.CopyComplete",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.csproj.CoreCompileInputs.cache",
-        "hash": "5420163106964355137"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.csproj.FileListAbsolute.txt",
-        "hash": "2846783123773776009"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.dll",
-        "hash": "17777667966181664485"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.genruntimeconfig.cache",
-        "hash": "4301502247616380511"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.pdb",
-        "hash": "7486198028792229263"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.sourcelink.json",
-        "hash": "7651683895686269897"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/apphost.exe",
-        "hash": "17405833572985844005"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/project.razor.vs.bin",
-        "hash": "18093702323281022079"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/project.razor.vscode.bin",
-        "hash": "921394200078148493"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/ref/BlazorProject.dll",
-        "hash": "3032661812903810724"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/refint/BlazorProject.dll",
-        "hash": "3032661812903810724"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css",
-        "hash": "11737608014369218990"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css",
-        "hash": "3870503964389438358"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/scopedcss/bundle/BlazorProject.styles.css",
-        "hash": "16985149723908523879"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/scopedcss/projectbundle/BlazorProject.bundle.scp.css",
-        "hash": "16985149723908523879"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/staticwebassets.build.json",
-        "hash": "15635917771990158614"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/staticwebassets.development.json",
-        "hash": "10185206466682750708"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/staticwebassets.pack.json",
-        "hash": "18032363294813509181"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/staticwebassets/msbuild.BlazorProject.Microsoft.AspNetCore.StaticWebAssets.props",
-        "hash": "9607985295096568453"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/staticwebassets/msbuild.build.BlazorProject.props",
-        "hash": "14986325128316264622"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BlazorProject.props",
-        "hash": "15181751140351461593"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BlazorProject.props",
-        "hash": "8853702990869832269"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/project.assets.json",
-        "hash": "6631683003304253021"
-      },
-      {
-        "file": "ASP.NET/BlazorProject/obj/project.nuget.cache",
-        "hash": "18107939308173596340"
-      },
-      {
-        "file": "ASP.NET/LICENSE.md",
-        "hash": "12568522659151004242"
-      },
-      {
-        "file": "ASP.NET/Models/Category.cs",
-        "hash": "1549305353503821904"
-      },
-      {
-        "file": "ASP.NET/Models/Comment.cs",
-        "hash": "9319598696188630341"
-      },
-      {
-        "file": "ASP.NET/Models/Models-ReadMe.md",
-        "hash": "824804113315950769"
-      },
-      {
-        "file": "ASP.NET/Models/Models.csproj",
-        "hash": "1292097677138460379"
-      },
-      {
-        "file": "ASP.NET/Models/Post.cs",
-        "hash": "14497903188396158518"
-      },
-      {
-        "file": "ASP.NET/Models/PostTag.cs",
-        "hash": "15514036450581471817"
-      },
-      {
-        "file": "ASP.NET/Models/Tag.cs",
-        "hash": "10799828599083763900"
-      },
-      {
-        "file": "ASP.NET/Models/User.cs",
-        "hash": "14224608182779307348"
-      },
-      {
-        "file": "ASP.NET/Models/WeatherForecast.cs",
-        "hash": "7665029986468275243"
-      },
-      {
-        "file": "ASP.NET/Models/bin/Debug/net8.0/Models.deps.json",
-        "hash": "13988300725992933221"
-      },
-      {
-        "file": "ASP.NET/Models/bin/Debug/net8.0/Models.dll",
-        "hash": "4192842771479171168"
-      },
-      {
-        "file": "ASP.NET/Models/bin/Debug/net8.0/Models.pdb",
-        "hash": "18303739877496711"
-      },
-      {
-        "file": "ASP.NET/Models/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-        "hash": "10887795802549845076"
-      },
-      {
-        "file": "ASP.NET/Models/obj/Debug/net8.0/Models.AssemblyInfo.cs",
-        "hash": "9256928807975978584"
-      },
-      {
-        "file": "ASP.NET/Models/obj/Debug/net8.0/Models.AssemblyInfoInputs.cache",
-        "hash": "14832532637666513787"
-      },
-      {
-        "file": "ASP.NET/Models/obj/Debug/net8.0/Models.GeneratedMSBuildEditorConfig.editorconfig",
-        "hash": "16117804791125108805"
-      },
-      {
-        "file": "ASP.NET/Models/obj/Debug/net8.0/Models.GlobalUsings.g.cs",
-        "hash": "13163634606147464619"
-      },
-      {
-        "file": "ASP.NET/Models/obj/Debug/net8.0/Models.assets.cache",
-        "hash": "5269228831561696669"
-      },
-      {
-        "file": "ASP.NET/Models/obj/Debug/net8.0/Models.csproj.CoreCompileInputs.cache",
-        "hash": "1360802576072785142"
-      },
-      {
-        "file": "ASP.NET/Models/obj/Debug/net8.0/Models.csproj.FileListAbsolute.txt",
-        "hash": "16236555936709624377"
-      },
-      {
-        "file": "ASP.NET/Models/obj/Debug/net8.0/Models.dll",
-        "hash": "4192842771479171168"
-      },
-      {
-        "file": "ASP.NET/Models/obj/Debug/net8.0/Models.pdb",
-        "hash": "18303739877496711"
-      },
-      {
-        "file": "ASP.NET/Models/obj/Debug/net8.0/Models.sourcelink.json",
-        "hash": "7651683895686269897"
-      },
-      {
-        "file": "ASP.NET/Models/obj/Debug/net8.0/ref/Models.dll",
-        "hash": "1517555465238447268"
-      },
-      {
-        "file": "ASP.NET/Models/obj/Debug/net8.0/refint/Models.dll",
-        "hash": "1517555465238447268"
-      },
-      {
-        "file": "ASP.NET/Models/obj/Models.csproj.nuget.dgspec.json",
-        "hash": "4469335782325515996"
-      },
-      {
-        "file": "ASP.NET/Models/obj/Models.csproj.nuget.g.props",
-        "hash": "10465015500958232451"
-      },
-      {
-        "file": "ASP.NET/Models/obj/Models.csproj.nuget.g.targets",
-        "hash": "15192663866877192239"
-      },
-      {
-        "file": "ASP.NET/Models/obj/project.assets.json",
-        "hash": "12542350933113824423"
-      },
-      {
-        "file": "ASP.NET/Models/obj/project.nuget.cache",
-        "hash": "1681772277785385961"
-      },
-      {
-        "file": "ASP.NET/RazorProject/Pages/Error.cshtml",
-        "hash": "3256323412178963857"
-      },
-      {
-        "file": "ASP.NET/RazorProject/Pages/Error.cshtml.cs",
-        "hash": "16333320134200695875"
-      },
-      {
-        "file": "ASP.NET/RazorProject/Pages/Index.cshtml",
-        "hash": "8303347011789961428"
-      },
-      {
-        "file": "ASP.NET/RazorProject/Pages/Index.cshtml.cs",
-        "hash": "16149281044233223692"
-      },
-      {
-        "file": "ASP.NET/RazorProject/Pages/Privacy.cshtml",
-        "hash": "1002403739547740126"
-      },
-      {
-        "file": "ASP.NET/RazorProject/Pages/Privacy.cshtml.cs",
-        "hash": "11131872019933383001"
-      },
-      {
-        "file": "ASP.NET/RazorProject/Pages/Shared/_Layout.cshtml",
-        "hash": "5586563686202944932"
-      },
-      {
-        "file": "ASP.NET/RazorProject/Pages/Shared/_Layout.cshtml.css",
-        "hash": "3921726454601773358"
-      },
-      {
-        "file": "ASP.NET/RazorProject/Pages/Shared/_ValidationScriptsPartial.cshtml",
-        "hash": "4846149790228425422"
-      },
-      {
-        "file": "ASP.NET/RazorProject/Pages/_ViewImports.cshtml",
-        "hash": "6147197905869793947"
-      },
-      {
-        "file": "ASP.NET/RazorProject/Pages/_ViewStart.cshtml",
-        "hash": "7174573660892931617"
-      },
-      {
-        "file": "ASP.NET/RazorProject/Program.cs",
-        "hash": "15827478036622887169"
-      },
-      {
-        "file": "ASP.NET/RazorProject/Properties/launchSettings.json",
-        "hash": "1299793739817495135"
-      },
-      {
-        "file": "ASP.NET/RazorProject/RazorProject.csproj",
-        "hash": "5086832774121717693"
-      },
-      {
-        "file": "ASP.NET/RazorProject/RazorProject.csproj.user",
-        "hash": "16763569234774692237"
-      },
-      {
-        "file": "ASP.NET/RazorProject/appsettings.Development.json",
-        "hash": "1135380627649942102"
-      },
-      {
-        "file": "ASP.NET/RazorProject/appsettings.json",
-        "hash": "6093315082945067005"
-      },
-      {
-        "file": "ASP.NET/RazorProject/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-        "hash": "10887795802549845076"
-      },
-      {
-        "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.AssemblyInfo.cs",
-        "hash": "10103822135227528802"
-      },
-      {
-        "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.AssemblyInfoInputs.cache",
-        "hash": "12106547443674317290"
-      },
-      {
-        "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.GeneratedMSBuildEditorConfig.editorconfig",
-        "hash": "16443320920933974681"
-      },
-      {
-        "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.GlobalUsings.g.cs",
-        "hash": "655979258939108364"
-      },
-      {
-        "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.RazorAssemblyInfo.cache",
-        "hash": "10446936465584051911"
-      },
-      {
-        "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.RazorAssemblyInfo.cs",
-        "hash": "8506074975504097900"
-      },
-      {
-        "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.assets.cache",
-        "hash": "1400142978505116866"
-      },
-      {
-        "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.csproj.AssemblyReference.cache",
-        "hash": "16918494000056455839"
-      },
-      {
-        "file": "ASP.NET/RazorProject/obj/Debug/net8.0/project.razor.vscode.bin",
-        "hash": "3612887960758609804"
-      },
-      {
-        "file": "ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.dgspec.json",
-        "hash": "15369268509317479560"
-      },
-      {
-        "file": "ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.g.props",
-        "hash": "949138502397821396"
-      },
-      {
-        "file": "ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.g.targets",
-        "hash": "17829600017548701539"
-      },
-      {
-        "file": "ASP.NET/RazorProject/obj/project.assets.json",
-        "hash": "16472872134276593478"
-      },
-      {
-        "file": "ASP.NET/RazorProject/obj/project.nuget.cache",
-        "hash": "10883981007443859687"
-      },
-      {
-        "file": "ASP.NET/Web.Api/BContext/BloggingContext.cs",
-        "hash": "13489868073511712521"
-      },
-      {
-        "file": "ASP.NET/Web.Api/Controllers/WeatherForecastController.cs",
-        "hash": "336784454034992320"
-      },
-      {
-        "file": "ASP.NET/Web.Api/Program.cs",
-        "hash": "7373982767450965999"
-      },
-      {
-        "file": "ASP.NET/Web.Api/Properties/launchSettings.json",
-        "hash": "3961223236547355929"
-      },
-      {
-        "file": "ASP.NET/Web.Api/Web.Api.csproj",
-        "hash": "10349193618694918390"
-      },
-      {
-        "file": "ASP.NET/Web.Api/Web.Api.csproj.user",
-        "hash": "16763569234774692237"
-      },
-      {
-        "file": "ASP.NET/Web.Api/Web.Api.http",
-        "hash": "5424108845621341815"
-      },
-      {
-        "file": "ASP.NET/Web.Api/appsettings.Development.json",
-        "hash": "3339958947771738801"
-      },
-      {
-        "file": "ASP.NET/Web.Api/appsettings.json",
-        "hash": "8794831988107864270"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Azure.Core.dll",
-        "hash": "8958121783403709184"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Azure.Identity.dll",
-        "hash": "5294694639766183593"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Humanizer.dll",
-        "hash": "10286719546707737588"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll",
-        "hash": "9859141906402117602"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll",
-        "hash": "14898948175428797953"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
-        "hash": "12787677992587114639"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll",
-        "hash": "13808444651061845473"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll",
-        "hash": "12583359565933630856"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll",
-        "hash": "17801165351484774052"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll",
-        "hash": "16250599962547920251"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
-        "hash": "9305135711289534354"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll",
-        "hash": "15389702497036416047"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll",
-        "hash": "5642815787377345830"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
-        "hash": "9283582848779935332"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll",
-        "hash": "12109555865619959620"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll",
-        "hash": "4607457919174635639"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll",
-        "hash": "13528704667082409424"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.Identity.Client.dll",
-        "hash": "17528580275164578341"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll",
-        "hash": "1051358261034396248"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll",
-        "hash": "2269484650026162358"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll",
-        "hash": "1534408483143691460"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
-        "hash": "5780805211106079416"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll",
-        "hash": "1670458075586989404"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll",
-        "hash": "17049919062629238589"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.OpenApi.dll",
-        "hash": "14138251710137234955"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll",
-        "hash": "14216701811241259256"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll",
-        "hash": "11635529584521470734"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Models.dll",
-        "hash": "4192842771479171168"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Models.pdb",
-        "hash": "18303739877496711"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Mono.TextTemplating.dll",
-        "hash": "13239854044039044011"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Newtonsoft.Json.dll",
-        "hash": "9883149618478200357"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll",
-        "hash": "10365789031782649924"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
-        "hash": "5683891036722709085"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
-        "hash": "17664938003933267034"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.CodeDom.dll",
-        "hash": "8843033699511537382"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Composition.AttributedModel.dll",
-        "hash": "4794964739384921136"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Composition.Convention.dll",
-        "hash": "11240766611729164302"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Composition.Hosting.dll",
-        "hash": "454209603041666246"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Composition.Runtime.dll",
-        "hash": "1329152835567912827"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Composition.TypedParts.dll",
-        "hash": "370437040198956650"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll",
-        "hash": "3827532699538662600"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Drawing.Common.dll",
-        "hash": "12682639628144472280"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll",
-        "hash": "3283539518762842445"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Memory.Data.dll",
-        "hash": "220145149363327040"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Runtime.Caching.dll",
-        "hash": "13236024572484297611"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll",
-        "hash": "10701675117861516537"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Security.Permissions.dll",
-        "hash": "8394892576804240186"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Windows.Extensions.dll",
-        "hash": "6828698637106114326"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Web.Api.deps.json",
-        "hash": "7507718958176859357"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Web.Api.dll",
-        "hash": "3309207985879061531"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Web.Api.exe",
-        "hash": "16961894859647318812"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Web.Api.pdb",
-        "hash": "4333916825016539274"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Web.Api.runtimeconfig.json",
-        "hash": "11948901871174737213"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/appsettings.Development.json",
-        "hash": "3339958947771738801"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/appsettings.json",
-        "hash": "8794831988107864270"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "3349602484217432965"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "15613283459297453372"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "12951569666253838936"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "17315758099920251023"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "14939278876393282510"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "14902330380754641509"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "13984209214082495137"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "6652682761385554026"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "8652545668870639008"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "16484504984514336662"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "15747849583548882854"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "12470218995825284322"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "16403829001361008381"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "1724168584899905525"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "12346312690050038239"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "6069499372879297763"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "10609389776301375391"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "11299329596995229507"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "8981580129632308953"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "4273292714577161075"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "14199331212125801577"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "15460341002741285735"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "10455121288428532463"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "16510174486578202207"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "12105378046811046346"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "4880782785923181923"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "10147345568856280871"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "8400803216192419420"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "6520445948726746509"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "3554780400161580705"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "14973193708732124563"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "9282397840801286455"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "18210071976803687675"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "4226172578857445288"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "10231184349545607817"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "17684646638589557948"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "11113983227253947690"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "12668918419291670981"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "5491412539430305103"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "3511892517904355849"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll",
-        "hash": "1228323109409330934"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll",
-        "hash": "10743623958081456987"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll",
-        "hash": "16908980147743863053"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll",
-        "hash": "12028365876599311806"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll",
-        "hash": "7045993987828987481"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll",
-        "hash": "5443579362714235066"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll",
-        "hash": "7865325869457553621"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
-        "hash": "12859650485612610955"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll",
-        "hash": "6211739387934787453"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll",
-        "hash": "14181909494157989843"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll",
-        "hash": "1613490095567781572"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll",
-        "hash": "12536484415435013956"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "5494318448104048742"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "10149599753525724087"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "12426727526858467904"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "9787741691809501869"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "2523515500445682996"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "6871824175076953755"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "2823419493781326048"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "10305732404329870079"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
-        "hash": "3735820398637227404"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "hash": "15093427125633526583"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll",
-        "hash": "17900985886130302373"
-      },
-      {
-        "file": "ASP.NET/Web.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
-        "hash": "13818532105379849625"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-        "hash": "10887795802549845076"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.AssemblyInfo.cs",
-        "hash": "13786480967997485668"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.AssemblyInfoInputs.cache",
-        "hash": "6291294341979865673"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.GeneratedMSBuildEditorConfig.editorconfig",
-        "hash": "6843965783673609192"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.GlobalUsings.g.cs",
-        "hash": "655979258939108364"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.MvcApplicationPartsAssemblyInfo.cache",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.MvcApplicationPartsAssemblyInfo.cs",
-        "hash": "14592933622465122498"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.assets.cache",
-        "hash": "15329620060197652903"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.csproj.AssemblyReference.cache",
-        "hash": "10524780073031731843"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.csproj.CopyComplete",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.csproj.CoreCompileInputs.cache",
-        "hash": "11617404567414109646"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.csproj.FileListAbsolute.txt",
-        "hash": "6821426424485286802"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.dll",
-        "hash": "3309207985879061531"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.genruntimeconfig.cache",
-        "hash": "14766171294427279748"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.pdb",
-        "hash": "4333916825016539274"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.sourcelink.json",
-        "hash": "7651683895686269897"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/apphost.exe",
-        "hash": "16961894859647318812"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/ref/Web.Api.dll",
-        "hash": "11909579178113518564"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/refint/Web.Api.dll",
-        "hash": "11909579178113518564"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/staticwebassets.build.json",
-        "hash": "10212094696437633905"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/staticwebassets/msbuild.build.Web.Api.props",
-        "hash": "14986325128316264622"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Web.Api.props",
-        "hash": "11441645950530547966"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Web.Api.props",
-        "hash": "8217244140297897053"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Web.Api.csproj.nuget.dgspec.json",
-        "hash": "11231640400359378184"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Web.Api.csproj.nuget.g.props",
-        "hash": "1310616551863338044"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/Web.Api.csproj.nuget.g.targets",
-        "hash": "3725803220928926378"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/project.assets.json",
-        "hash": "11282836567129251243"
-      },
-      {
-        "file": "ASP.NET/Web.Api/obj/project.nuget.cache",
-        "hash": "5614536430774589405"
-      },
-      {
-        "file": "ASP.NET/readme.md",
-        "hash": "796946910876001758"
-      },
-      {
-        "file": "ASP.NET/roadmap.md",
-        "hash": "5997169483375800264"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/.vs/ConsoleApp/DesignTimeBuild/.dtbcache.v2",
-        "hash": "8446644675591939873"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/.vs/ConsoleApp/FileContentIndex/2fb30bb9-3aa9-4fad-a2f3-85b34ecea787.vsidx",
-        "hash": "16628131173229627697"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/.vs/ConsoleApp/v17/.futdcache.v2",
-        "hash": "7254114084698477777"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/.vs/ConsoleApp/v17/.suo",
-        "hash": "5961993139206708137"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/.vs/ProjectEvaluation/consoleapp.metadata.v7.bin",
-        "hash": "9656932670563589979"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/.vs/ProjectEvaluation/consoleapp.projects.v7.bin",
-        "hash": "4647648225424395320"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/ConsoleApp.csproj",
-        "hash": "10784290845371576813"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/ConsoleApp.sln",
-        "hash": "13180935883748543406"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/LICENSE.txt",
-        "hash": "11518015098106475652"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/Program.cs",
-        "hash": "14815118073512450949"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/README.md",
-        "hash": "3710449195905519814"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/bin/Debug/net8.0/ConsoleApp.deps.json",
-        "hash": "3110039952409481535"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/bin/Debug/net8.0/ConsoleApp.dll",
-        "hash": "3004676915211990441"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/bin/Debug/net8.0/ConsoleApp.exe",
-        "hash": "17069070890625181090"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/bin/Debug/net8.0/ConsoleApp.pdb",
-        "hash": "3757610407079279013"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/bin/Debug/net8.0/ConsoleApp.runtimeconfig.json",
-        "hash": "2138333328452378965"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/img/AbstractClass.png",
-        "hash": "4890788259457075087"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/img/ConsoleColor.png",
-        "hash": "14689893740212392119"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/img/interface.png",
-        "hash": "16004053534047367074"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/ConsoleApp.csproj.nuget.dgspec.json",
-        "hash": "14361231305323999778"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/ConsoleApp.csproj.nuget.g.props",
-        "hash": "10465015500958232451"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/ConsoleApp.csproj.nuget.g.targets",
-        "hash": "15192663866877192239"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-        "hash": "10887795802549845076"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.AssemblyInfo.cs",
-        "hash": "8695267163923504677"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.AssemblyInfoInputs.cache",
-        "hash": "8489123618634914573"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig",
-        "hash": "18338654794117390611"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.GlobalUsings.g.cs",
-        "hash": "13163634606147464619"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.assets.cache",
-        "hash": "6828067212365354117"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.csproj.BuildWithSkipAnalyzers",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.csproj.CoreCompileInputs.cache",
-        "hash": "6998360056958401655"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.csproj.FileListAbsolute.txt",
-        "hash": "15964565059914763630"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.dll",
-        "hash": "3004676915211990441"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.genruntimeconfig.cache",
-        "hash": "1608915855362745699"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.pdb",
-        "hash": "3757610407079279013"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.sourcelink.json",
-        "hash": "7651683895686269897"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/apphost.exe",
-        "hash": "17069070890625181090"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ref/ConsoleApp.dll",
-        "hash": "3022819216275295853"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/refint/ConsoleApp.dll",
-        "hash": "3022819216275295853"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/project.assets.json",
-        "hash": "7728078217854721865"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/obj/project.nuget.cache",
-        "hash": "1489294094253745636"
-      },
-      {
-        "file": "ConsoleApps/ConsoleApp/topics/interface.cs",
-        "hash": "14016974760992597190"
-      },
-      {
-        "file": "FullStackPlus.sln",
-        "hash": "13728301051931778898"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/.editorconfig",
-        "hash": "6686520031028425313"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/.gitignore",
-        "hash": "13044518069027839699"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/README.md",
-        "hash": "14721902747364967882"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/angular.json",
-        "hash": "6436833046751374292"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/package-lock.json",
-        "hash": "16275001825841110718"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/package.json",
-        "hash": "5997830161236349510"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/src/app/app.component.html",
-        "hash": "6880513722212066549"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/src/app/app.component.scss",
-        "hash": "3244421341483603138"
+        "file": "FullstackSPA/VueApp/vue-app/src/main.js",
+        "hash": "10824564698944073398"
       },
       {
         "file": "FullstackSPA/AngularApp/src/app/app.component.spec.ts",
         "hash": "4685610988145205702"
       },
       {
-        "file": "FullstackSPA/AngularApp/src/app/app.component.ts",
-        "hash": "17613975254668226790"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/src/app/app.config.ts",
-        "hash": "5428614352870646528"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/src/app/app.routes.ts",
-        "hash": "12397496131277534773"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/src/assets/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/src/favicon.ico",
-        "hash": "3988961587069885523"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/src/index.html",
-        "hash": "12849153415624508102"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/src/main.ts",
-        "hash": "4927504514031276065"
+        "file": ".vscode/MigBlazor.bat",
+        "hash": "2900101840437812189"
       },
       {
         "file": "FullstackSPA/AngularApp/src/styles.scss",
         "hash": "5195668842064076916"
       },
       {
-        "file": "FullstackSPA/AngularApp/tsconfig.app.json",
-        "hash": "17337579397915052279"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/tsconfig.json",
-        "hash": "6830907402848794383"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/tsconfig.spec.json",
-        "hash": "15575553540147145788"
-      },
-      {
-        "file": "FullstackSPA/AngularApp/yarn.lock",
-        "hash": "16544650016838597549"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/README.md",
-        "hash": "12351600458876629758"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/babel.config.js",
-        "hash": "10732639881215031983"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/jsconfig.json",
-        "hash": "14600726147484760282"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/package.json",
-        "hash": "17740740855334089007"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/public/favicon.ico",
-        "hash": "18282137866655320110"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/public/index.html",
-        "hash": "10609669007784372270"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/src/App.vue",
-        "hash": "1340137925167332406"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/src/assets/logo.png",
-        "hash": "6600670850494142607"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/src/components/HelloWorld.vue",
-        "hash": "947532525360830582"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/src/main.js",
-        "hash": "10824564698944073398"
-      },
-      {
-        "file": "FullstackSPA/VueApp/vue-app/vue.config.js",
-        "hash": "8675333184868849496"
-      },
-      {
-        "file": "FullstackSPA/react-app/README.md",
-        "hash": "17524295600495787358"
-      },
-      {
-        "file": "FullstackSPA/react-app/package-lock.json",
-        "hash": "17995729409009858472"
+        "file": "FullstackSPA/AngularApp/src/app/app.config.ts",
+        "hash": "5428614352870646528"
       },
       {
         "file": "FullstackSPA/react-app/package.json",
         "hash": "2111077618784532865"
       },
       {
+        "file": ".vs/FullStackPlus/FileContentIndex/16f8ec54-e2cf-40c9-838b-7a0de41fd8e3.vsidx",
+        "hash": "8635930607660900856"
+      },
+      {
+        "file": "FullstackSPA/react-app/package-lock.json",
+        "hash": "17995729409009858472"
+      },
+      {
+        "file": "FullstackSPA/react-app/yarn.lock",
+        "hash": "8102933652248377276"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.AssemblyInfoInputs.cache",
+        "hash": "12347513941326774097"
+      },
+      {
         "file": "FullstackSPA/react-app/public/favicon.ico",
         "hash": "2949791817221603359"
-      },
-      {
-        "file": "FullstackSPA/react-app/public/index.html",
-        "hash": "13308863839730475495"
-      },
-      {
-        "file": "FullstackSPA/react-app/public/logo192.png",
-        "hash": "7585273181698778288"
-      },
-      {
-        "file": "FullstackSPA/react-app/public/logo512.png",
-        "hash": "9339365414554387981"
-      },
-      {
-        "file": "FullstackSPA/react-app/public/manifest.json",
-        "hash": "1447645250373428393"
-      },
-      {
-        "file": "FullstackSPA/react-app/public/robots.txt",
-        "hash": "2790380794362165217"
-      },
-      {
-        "file": "FullstackSPA/react-app/src/App.css",
-        "hash": "3472201094699472689"
-      },
-      {
-        "file": "FullstackSPA/react-app/src/App.js",
-        "hash": "15499001305561052840"
-      },
-      {
-        "file": "FullstackSPA/react-app/src/App.test.js",
-        "hash": "14776661775854159295"
-      },
-      {
-        "file": "FullstackSPA/react-app/src/index.css",
-        "hash": "14056909652331273425"
-      },
-      {
-        "file": "FullstackSPA/react-app/src/index.js",
-        "hash": "2247195792079615155"
-      },
-      {
-        "file": "FullstackSPA/react-app/src/logo.svg",
-        "hash": "5137778160416929466"
       },
       {
         "file": "FullstackSPA/react-app/src/reportWebVitals.js",
         "hash": "8937667725995285050"
       },
       {
-        "file": "FullstackSPA/react-app/src/setupTests.js",
-        "hash": "16903885983588411080"
+        "file": ".vscode/FullStackPlus.code-workspace",
+        "hash": "12666055840052100761"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/app/app.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".vs/FullStackPlus/FileContentIndex/48468479-6731-435c-b754-1c4b88bff725.vsidx",
+        "hash": "7133645608642110146"
+      },
+      {
+        "file": "nx.json",
+        "hash": "12896186803072913542"
       },
       {
         "file": "README.md",
         "hash": "2019782625230388275"
       },
       {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/README.md",
+        "hash": "14721902747364967882"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "FullstackSPA/react-app/public/manifest.json",
+        "hash": "1447645250373428393"
+      },
+      {
+        "file": "ASP.NET/LICENSE.md",
+        "hash": "12568522659151004242"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/Models.csproj.nuget.dgspec.json",
+        "hash": "3992144241197287357"
+      },
+      {
+        "file": "FullstackSPA/react-app/src/setupTests.js",
+        "hash": "16903885983588411080"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.assets.cache",
+        "hash": "6025044064213984261"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/tsconfig.app.json",
+        "hash": "17337579397915052279"
+      },
+      {
+        "file": "ASP.NET/readme.md",
+        "hash": "796946910876001758"
+      },
+      {
+        "file": "FullstackSPA/react-app/src/App.css",
+        "hash": "3472201094699472689"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/tsconfig.json",
+        "hash": "6830907402848794383"
+      },
+      {
+        "file": ".vs/ProjectEvaluation/fullstackplus.metadata.v7.bin",
+        "hash": "1888348203248063926"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "5766965348686736361"
+      },
+      {
+        "file": ".vs/FullStackPlus/v17/.futdcache.v2",
+        "hash": "9259736799561713305"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+        "hash": "10887795802549845076"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/package.json",
+        "hash": "5997830161236349510"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.GlobalUsings.g.cs",
+        "hash": "13163634606147464619"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/vue.config.js",
+        "hash": "8675333184868849496"
+      },
+      {
+        "file": "FullstackSPA/react-app/src/index.css",
+        "hash": "14056909652331273425"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/project.assets.json",
+        "hash": "12314658143070556886"
+      },
+      {
+        "file": "package.json",
+        "hash": "15476224744978892000"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/Models.csproj.nuget.g.props",
+        "hash": "10465015500958232451"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/Models.csproj.nuget.g.targets",
+        "hash": "15192663866877192239"
+      },
+      {
+        "file": "Directory.Build.targets",
+        "hash": "9005165865624102645"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/jsconfig.json",
+        "hash": "14600726147484760282"
+      },
+      {
+        "file": "FullstackSPA/react-app/public/index.html",
+        "hash": "13308863839730475495"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/main.ts",
+        "hash": "4927504514031276065"
+      },
+      {
+        "file": "FullstackSPA/react-app/README.md",
+        "hash": "17524295600495787358"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/package.json",
+        "hash": "17740740855334089007"
+      },
+      {
+        "file": "FullStackPlus.sln",
+        "hash": "13728301051931778898"
+      },
+      {
+        "file": ".vs/FullStackPlus/FileContentIndex/23e83761-8758-4a66-abdb-19bd05b957ad.vsidx",
+        "hash": "9283042121781113387"
+      },
+      {
+        "file": "Directory.Build.props",
+        "hash": "11106101967569859271"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/src/App.vue",
+        "hash": "1340137925167332406"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/angular.json",
+        "hash": "6436833046751374292"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "12209632930632761388"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/babel.config.js",
+        "hash": "10732639881215031983"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "15337424573129438692"
+      },
+      {
+        "file": ".vs/FullStackPlus/FileContentIndex/f30b2811-3aef-40fb-ae73-774536080c19.vsidx",
+        "hash": "31096133638295586"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
         "file": "commitMaker.bat",
         "hash": "17419194056342953407"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/project.nuget.cache",
+        "hash": "2048286195878160180"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.AssemblyInfo.cs",
+        "hash": "12309885459018105492"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/favicon.ico",
+        "hash": "3988961587069885523"
+      },
+      {
+        "file": ".vs/ProjectEvaluation/fullstackplus.projects.v7.bin",
+        "hash": "16186453717083005701"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/package-lock.json",
+        "hash": "16275001825841110718"
+      },
+      {
+        "file": ".vs/FullStackPlus/FileContentIndex/2273a5ce-4d0a-4f02-9267-5ef8771102eb.vsidx",
+        "hash": "2991260254672711022"
+      },
+      {
+        "file": ".vs/FullStackPlus/v17/.suo",
+        "hash": "11174461767548937529"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/app/app.routes.ts",
+        "hash": "12397496131277534773"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/app/app.component.html",
+        "hash": "6880513722212066549"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/public/favicon.ico",
+        "hash": "18282137866655320110"
       },
       {
         "file": "commits.txt",
         "hash": "16542859335719159855"
       },
       {
-        "file": "nx.json",
-        "hash": "5656316261436677934"
+        "file": "ASP.NET/roadmap.md",
+        "hash": "5997169483375800264"
       },
       {
-        "file": "package.json",
-        "hash": "14550486828513067316"
+        "file": "FullstackSPA/react-app/src/logo.svg",
+        "hash": "5137778160416929466"
       },
       {
-        "file": "yarn.lock",
-        "hash": "3913115114735425969"
+        "file": ".vscode/tasks.json",
+        "hash": "2146438913413330943"
+      },
+      {
+        "file": ".vscode/add-ef-migration.sh",
+        "hash": "14191674302489807111"
+      },
+      {
+        "file": ".config/dotnet-tools.json",
+        "hash": "11380184037138673491"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/.gitignore",
+        "hash": "13044518069027839699"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.csproj.FileListAbsolute.txt",
+        "hash": "4085530848613940155"
+      },
+      {
+        "file": ".vs/FullStackPlus/config/applicationhost.config",
+        "hash": "2281262835049431253"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/src/assets/logo.png",
+        "hash": "6600670850494142607"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/index.html",
+        "hash": "12849153415624508102"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/README.md",
+        "hash": "12351600458876629758"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "3395189204293871444"
+      },
+      {
+        "file": ".vs/FullStackPlus/DesignTimeBuild/.dtbcache.v2",
+        "hash": "15098311609599409708"
+      },
+      {
+        "file": ".vscode/MigRazor.bat",
+        "hash": "9850824982890272347"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "FullstackSPA/react-app/public/logo192.png",
+        "hash": "7585273181698778288"
+      },
+      {
+        "file": "FullstackSPA/react-app/public/robots.txt",
+        "hash": "2790380794362165217"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.csproj.CoreCompileInputs.cache",
+        "hash": "17540050545800216384"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.sourcelink.json",
+        "hash": "5987644696718445562"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/.editorconfig",
+        "hash": "6686520031028425313"
+      },
+      {
+        "file": "FullstackSPA/react-app/src/App.js",
+        "hash": "15499001305561052840"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/yarn.lock",
+        "hash": "16544650016838597549"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/src/app/app.component.ts",
+        "hash": "17613975254668226790"
+      },
+      {
+        "file": "FullstackSPA/react-app/public/logo512.png",
+        "hash": "9339365414554387981"
+      },
+      {
+        "file": "FullstackSPA/react-app/src/App.test.js",
+        "hash": "14776661775854159295"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/public/index.html",
+        "hash": "10609669007784372270"
+      },
+      {
+        "file": "FullstackSPA/VueApp/vue-app/src/components/HelloWorld.vue",
+        "hash": "947532525360830582"
+      },
+      {
+        "file": "dist/intermediates/ASP.NET/Models/obj/net8.0/Models.GeneratedMSBuildEditorConfig.editorconfig",
+        "hash": "16117804791125108805"
+      },
+      {
+        "file": "FullstackSPA/AngularApp/tsconfig.spec.json",
+        "hash": "15575553540147145788"
+      },
+      {
+        "file": "FullstackSPA/react-app/src/index.js",
+        "hash": "2247195792079615155"
       }
     ],
-    "projectFileMap": {}
+    "projectFileMap": {
+      "consoleapp": [
+        {
+          "file": "ConsoleApps/ConsoleApp/.vs/ConsoleApp/DesignTimeBuild/.dtbcache.v2",
+          "hash": "8446644675591939873"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/.vs/ConsoleApp/FileContentIndex/2fb30bb9-3aa9-4fad-a2f3-85b34ecea787.vsidx",
+          "hash": "16628131173229627697"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/.vs/ConsoleApp/v17/.futdcache.v2",
+          "hash": "7254114084698477777"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/.vs/ConsoleApp/v17/.suo",
+          "hash": "5961993139206708137"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/.vs/ProjectEvaluation/consoleapp.metadata.v7.bin",
+          "hash": "9656932670563589979"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/.vs/ProjectEvaluation/consoleapp.projects.v7.bin",
+          "hash": "4647648225424395320"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/ConsoleApp.csproj",
+          "hash": "10784290845371576813"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/ConsoleApp.sln",
+          "hash": "13180935883748543406"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/LICENSE.txt",
+          "hash": "11518015098106475652"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/Program.cs",
+          "hash": "14815118073512450949"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/README.md",
+          "hash": "3710449195905519814"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/bin/Debug/net8.0/ConsoleApp.deps.json",
+          "hash": "3110039952409481535"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/bin/Debug/net8.0/ConsoleApp.dll",
+          "hash": "3004676915211990441"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/bin/Debug/net8.0/ConsoleApp.exe",
+          "hash": "17069070890625181090"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/bin/Debug/net8.0/ConsoleApp.pdb",
+          "hash": "3757610407079279013"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/bin/Debug/net8.0/ConsoleApp.runtimeconfig.json",
+          "hash": "2138333328452378965"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/img/AbstractClass.png",
+          "hash": "4890788259457075087"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/img/ConsoleColor.png",
+          "hash": "14689893740212392119"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/img/interface.png",
+          "hash": "16004053534047367074"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/ConsoleApp.csproj.nuget.dgspec.json",
+          "hash": "14361231305323999778"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/ConsoleApp.csproj.nuget.g.props",
+          "hash": "10465015500958232451"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/ConsoleApp.csproj.nuget.g.targets",
+          "hash": "15192663866877192239"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+          "hash": "10887795802549845076"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.AssemblyInfo.cs",
+          "hash": "8695267163923504677"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.AssemblyInfoInputs.cache",
+          "hash": "8489123618634914573"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig",
+          "hash": "18338654794117390611"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.GlobalUsings.g.cs",
+          "hash": "13163634606147464619"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.assets.cache",
+          "hash": "6828067212365354117"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.csproj.BuildWithSkipAnalyzers",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.csproj.CoreCompileInputs.cache",
+          "hash": "6998360056958401655"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.csproj.FileListAbsolute.txt",
+          "hash": "15964565059914763630"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.dll",
+          "hash": "3004676915211990441"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.genruntimeconfig.cache",
+          "hash": "1608915855362745699"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.pdb",
+          "hash": "3757610407079279013"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.sourcelink.json",
+          "hash": "7651683895686269897"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/apphost.exe",
+          "hash": "17069070890625181090"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/ref/ConsoleApp.dll",
+          "hash": "3022819216275295853"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/Debug/net8.0/refint/ConsoleApp.dll",
+          "hash": "3022819216275295853"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/project.assets.json",
+          "hash": "7728078217854721865"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/obj/project.nuget.cache",
+          "hash": "1489294094253745636"
+        },
+        {
+          "file": "ConsoleApps/ConsoleApp/topics/interface.cs",
+          "hash": "14016974760992597190"
+        }
+      ],
+      "razorproject": [
+        {
+          "file": "ASP.NET/RazorProject/Pages/Error.cshtml",
+          "hash": "3256323412178963857"
+        },
+        {
+          "file": "ASP.NET/RazorProject/Pages/Error.cshtml.cs",
+          "hash": "16333320134200695875"
+        },
+        {
+          "file": "ASP.NET/RazorProject/Pages/Index.cshtml",
+          "hash": "8303347011789961428"
+        },
+        {
+          "file": "ASP.NET/RazorProject/Pages/Index.cshtml.cs",
+          "hash": "16149281044233223692"
+        },
+        {
+          "file": "ASP.NET/RazorProject/Pages/Privacy.cshtml",
+          "hash": "1002403739547740126"
+        },
+        {
+          "file": "ASP.NET/RazorProject/Pages/Privacy.cshtml.cs",
+          "hash": "11131872019933383001"
+        },
+        {
+          "file": "ASP.NET/RazorProject/Pages/Shared/_Layout.cshtml",
+          "hash": "5586563686202944932"
+        },
+        {
+          "file": "ASP.NET/RazorProject/Pages/Shared/_Layout.cshtml.css",
+          "hash": "3921726454601773358"
+        },
+        {
+          "file": "ASP.NET/RazorProject/Pages/Shared/_ValidationScriptsPartial.cshtml",
+          "hash": "4846149790228425422"
+        },
+        {
+          "file": "ASP.NET/RazorProject/Pages/_ViewImports.cshtml",
+          "hash": "6147197905869793947"
+        },
+        {
+          "file": "ASP.NET/RazorProject/Pages/_ViewStart.cshtml",
+          "hash": "7174573660892931617"
+        },
+        {
+          "file": "ASP.NET/RazorProject/Program.cs",
+          "hash": "15827478036622887169"
+        },
+        {
+          "file": "ASP.NET/RazorProject/Properties/launchSettings.json",
+          "hash": "1299793739817495135"
+        },
+        {
+          "file": "ASP.NET/RazorProject/RazorProject.csproj",
+          "hash": "5086832774121717693",
+          "deps": [
+            "blazorproject",
+            "models"
+          ]
+        },
+        {
+          "file": "ASP.NET/RazorProject/RazorProject.csproj.user",
+          "hash": "16763569234774692237"
+        },
+        {
+          "file": "ASP.NET/RazorProject/appsettings.Development.json",
+          "hash": "1135380627649942102"
+        },
+        {
+          "file": "ASP.NET/RazorProject/appsettings.json",
+          "hash": "6093315082945067005"
+        },
+        {
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+          "hash": "10887795802549845076"
+        },
+        {
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.AssemblyInfo.cs",
+          "hash": "10103822135227528802"
+        },
+        {
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.AssemblyInfoInputs.cache",
+          "hash": "12106547443674317290"
+        },
+        {
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.GeneratedMSBuildEditorConfig.editorconfig",
+          "hash": "16443320920933974681"
+        },
+        {
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.GlobalUsings.g.cs",
+          "hash": "655979258939108364"
+        },
+        {
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.RazorAssemblyInfo.cache",
+          "hash": "10446936465584051911"
+        },
+        {
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.RazorAssemblyInfo.cs",
+          "hash": "8506074975504097900"
+        },
+        {
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.assets.cache",
+          "hash": "1400142978505116866"
+        },
+        {
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/RazorProject.csproj.AssemblyReference.cache",
+          "hash": "16918494000056455839"
+        },
+        {
+          "file": "ASP.NET/RazorProject/obj/Debug/net8.0/project.razor.vscode.bin",
+          "hash": "3612887960758609804"
+        },
+        {
+          "file": "ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.dgspec.json",
+          "hash": "15369268509317479560"
+        },
+        {
+          "file": "ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.g.props",
+          "hash": "949138502397821396"
+        },
+        {
+          "file": "ASP.NET/RazorProject/obj/RazorProject.csproj.nuget.g.targets",
+          "hash": "17829600017548701539"
+        },
+        {
+          "file": "ASP.NET/RazorProject/obj/project.assets.json",
+          "hash": "16472872134276593478"
+        },
+        {
+          "file": "ASP.NET/RazorProject/obj/project.nuget.cache",
+          "hash": "10883981007443859687"
+        }
+      ],
+      "models": [
+        {
+          "file": "ASP.NET/Models/Category.cs",
+          "hash": "1549305353503821904"
+        },
+        {
+          "file": "ASP.NET/Models/Comment.cs",
+          "hash": "9319598696188630341"
+        },
+        {
+          "file": "ASP.NET/Models/Models-ReadMe.md",
+          "hash": "824804113315950769"
+        },
+        {
+          "file": "ASP.NET/Models/Models.csproj",
+          "hash": "1292097677138460379"
+        },
+        {
+          "file": "ASP.NET/Models/Post.cs",
+          "hash": "14497903188396158518"
+        },
+        {
+          "file": "ASP.NET/Models/PostTag.cs",
+          "hash": "15514036450581471817"
+        },
+        {
+          "file": "ASP.NET/Models/Tag.cs",
+          "hash": "10799828599083763900"
+        },
+        {
+          "file": "ASP.NET/Models/User.cs",
+          "hash": "14224608182779307348"
+        },
+        {
+          "file": "ASP.NET/Models/WeatherForecast.cs",
+          "hash": "7665029986468275243"
+        },
+        {
+          "file": "ASP.NET/Models/bin/Debug/net8.0/Models.deps.json",
+          "hash": "13988300725992933221"
+        },
+        {
+          "file": "ASP.NET/Models/bin/Debug/net8.0/Models.dll",
+          "hash": "4192842771479171168"
+        },
+        {
+          "file": "ASP.NET/Models/bin/Debug/net8.0/Models.pdb",
+          "hash": "18303739877496711"
+        },
+        {
+          "file": "ASP.NET/Models/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+          "hash": "10887795802549845076"
+        },
+        {
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.AssemblyInfo.cs",
+          "hash": "9256928807975978584"
+        },
+        {
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.AssemblyInfoInputs.cache",
+          "hash": "14832532637666513787"
+        },
+        {
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.GeneratedMSBuildEditorConfig.editorconfig",
+          "hash": "16117804791125108805"
+        },
+        {
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.GlobalUsings.g.cs",
+          "hash": "13163634606147464619"
+        },
+        {
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.assets.cache",
+          "hash": "5269228831561696669"
+        },
+        {
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.csproj.CoreCompileInputs.cache",
+          "hash": "1360802576072785142"
+        },
+        {
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.csproj.FileListAbsolute.txt",
+          "hash": "16236555936709624377"
+        },
+        {
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.dll",
+          "hash": "4192842771479171168"
+        },
+        {
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.pdb",
+          "hash": "18303739877496711"
+        },
+        {
+          "file": "ASP.NET/Models/obj/Debug/net8.0/Models.sourcelink.json",
+          "hash": "7651683895686269897"
+        },
+        {
+          "file": "ASP.NET/Models/obj/Debug/net8.0/ref/Models.dll",
+          "hash": "1517555465238447268"
+        },
+        {
+          "file": "ASP.NET/Models/obj/Debug/net8.0/refint/Models.dll",
+          "hash": "1517555465238447268"
+        },
+        {
+          "file": "ASP.NET/Models/obj/Models.csproj.nuget.dgspec.json",
+          "hash": "4469335782325515996"
+        },
+        {
+          "file": "ASP.NET/Models/obj/Models.csproj.nuget.g.props",
+          "hash": "10465015500958232451"
+        },
+        {
+          "file": "ASP.NET/Models/obj/Models.csproj.nuget.g.targets",
+          "hash": "15192663866877192239"
+        },
+        {
+          "file": "ASP.NET/Models/obj/project.assets.json",
+          "hash": "12542350933113824423"
+        },
+        {
+          "file": "ASP.NET/Models/obj/project.nuget.cache",
+          "hash": "1681772277785385961"
+        }
+      ],
+      "web.api": [
+        {
+          "file": "ASP.NET/Web.Api/BContext/BloggingContext.cs",
+          "hash": "13489868073511712521"
+        },
+        {
+          "file": "ASP.NET/Web.Api/Controllers/WeatherForecastController.cs",
+          "hash": "336784454034992320"
+        },
+        {
+          "file": "ASP.NET/Web.Api/Program.cs",
+          "hash": "7373982767450965999"
+        },
+        {
+          "file": "ASP.NET/Web.Api/Properties/launchSettings.json",
+          "hash": "3961223236547355929"
+        },
+        {
+          "file": "ASP.NET/Web.Api/Web.Api.csproj",
+          "hash": "10349193618694918390",
+          "deps": [
+            "models"
+          ]
+        },
+        {
+          "file": "ASP.NET/Web.Api/Web.Api.csproj.user",
+          "hash": "16763569234774692237"
+        },
+        {
+          "file": "ASP.NET/Web.Api/Web.Api.http",
+          "hash": "5424108845621341815"
+        },
+        {
+          "file": "ASP.NET/Web.Api/appsettings.Development.json",
+          "hash": "3339958947771738801"
+        },
+        {
+          "file": "ASP.NET/Web.Api/appsettings.json",
+          "hash": "8794831988107864270"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Azure.Core.dll",
+          "hash": "8958121783403709184"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Azure.Identity.dll",
+          "hash": "5294694639766183593"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Humanizer.dll",
+          "hash": "10286719546707737588"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll",
+          "hash": "9859141906402117602"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll",
+          "hash": "14898948175428797953"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+          "hash": "12787677992587114639"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll",
+          "hash": "13808444651061845473"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll",
+          "hash": "12583359565933630856"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll",
+          "hash": "17801165351484774052"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll",
+          "hash": "16250599962547920251"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
+          "hash": "9305135711289534354"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll",
+          "hash": "15389702497036416047"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll",
+          "hash": "5642815787377345830"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
+          "hash": "9283582848779935332"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll",
+          "hash": "12109555865619959620"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll",
+          "hash": "4607457919174635639"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll",
+          "hash": "13528704667082409424"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.Identity.Client.dll",
+          "hash": "17528580275164578341"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll",
+          "hash": "1051358261034396248"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+          "hash": "2269484650026162358"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll",
+          "hash": "1534408483143691460"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+          "hash": "5780805211106079416"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll",
+          "hash": "1670458075586989404"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll",
+          "hash": "17049919062629238589"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.OpenApi.dll",
+          "hash": "14138251710137234955"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll",
+          "hash": "14216701811241259256"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll",
+          "hash": "11635529584521470734"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Models.dll",
+          "hash": "4192842771479171168"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Models.pdb",
+          "hash": "18303739877496711"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Mono.TextTemplating.dll",
+          "hash": "13239854044039044011"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Newtonsoft.Json.dll",
+          "hash": "9883149618478200357"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll",
+          "hash": "10365789031782649924"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+          "hash": "5683891036722709085"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+          "hash": "17664938003933267034"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.CodeDom.dll",
+          "hash": "8843033699511537382"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Composition.AttributedModel.dll",
+          "hash": "4794964739384921136"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Composition.Convention.dll",
+          "hash": "11240766611729164302"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Composition.Hosting.dll",
+          "hash": "454209603041666246"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Composition.Runtime.dll",
+          "hash": "1329152835567912827"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Composition.TypedParts.dll",
+          "hash": "370437040198956650"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll",
+          "hash": "3827532699538662600"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Drawing.Common.dll",
+          "hash": "12682639628144472280"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll",
+          "hash": "3283539518762842445"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Memory.Data.dll",
+          "hash": "220145149363327040"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Runtime.Caching.dll",
+          "hash": "13236024572484297611"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll",
+          "hash": "10701675117861516537"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Security.Permissions.dll",
+          "hash": "8394892576804240186"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/System.Windows.Extensions.dll",
+          "hash": "6828698637106114326"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Web.Api.deps.json",
+          "hash": "7507718958176859357"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Web.Api.dll",
+          "hash": "3309207985879061531"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Web.Api.exe",
+          "hash": "16961894859647318812"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Web.Api.pdb",
+          "hash": "4333916825016539274"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/Web.Api.runtimeconfig.json",
+          "hash": "11948901871174737213"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/appsettings.Development.json",
+          "hash": "3339958947771738801"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/appsettings.json",
+          "hash": "8794831988107864270"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+          "hash": "3349602484217432965"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
+          "hash": "15613283459297453372"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+          "hash": "12951569666253838936"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll",
+          "hash": "17315758099920251023"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+          "hash": "14939278876393282510"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
+          "hash": "14902330380754641509"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+          "hash": "13984209214082495137"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll",
+          "hash": "6652682761385554026"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+          "hash": "8652545668870639008"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
+          "hash": "16484504984514336662"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+          "hash": "15747849583548882854"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll",
+          "hash": "12470218995825284322"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+          "hash": "16403829001361008381"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+          "hash": "1724168584899905525"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+          "hash": "12346312690050038239"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll",
+          "hash": "6069499372879297763"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+          "hash": "10609389776301375391"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
+          "hash": "11299329596995229507"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+          "hash": "8981580129632308953"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll",
+          "hash": "4273292714577161075"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+          "hash": "14199331212125801577"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
+          "hash": "15460341002741285735"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+          "hash": "10455121288428532463"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll",
+          "hash": "16510174486578202207"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+          "hash": "12105378046811046346"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
+          "hash": "4880782785923181923"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+          "hash": "10147345568856280871"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll",
+          "hash": "8400803216192419420"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+          "hash": "6520445948726746509"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
+          "hash": "3554780400161580705"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+          "hash": "14973193708732124563"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll",
+          "hash": "9282397840801286455"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+          "hash": "18210071976803687675"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
+          "hash": "4226172578857445288"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+          "hash": "10231184349545607817"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll",
+          "hash": "17684646638589557948"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+          "hash": "11113983227253947690"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
+          "hash": "12668918419291670981"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+          "hash": "5491412539430305103"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll",
+          "hash": "3511892517904355849"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll",
+          "hash": "1228323109409330934"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll",
+          "hash": "10743623958081456987"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll",
+          "hash": "16908980147743863053"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll",
+          "hash": "12028365876599311806"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll",
+          "hash": "7045993987828987481"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll",
+          "hash": "5443579362714235066"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll",
+          "hash": "7865325869457553621"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+          "hash": "12859650485612610955"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll",
+          "hash": "6211739387934787453"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll",
+          "hash": "14181909494157989843"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll",
+          "hash": "1613490095567781572"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll",
+          "hash": "12536484415435013956"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+          "hash": "5494318448104048742"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+          "hash": "10149599753525724087"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+          "hash": "12426727526858467904"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll",
+          "hash": "9787741691809501869"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+          "hash": "2523515500445682996"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
+          "hash": "6871824175076953755"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+          "hash": "2823419493781326048"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
+          "hash": "10305732404329870079"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+          "hash": "3735820398637227404"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
+          "hash": "15093427125633526583"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+          "hash": "17900985886130302373"
+        },
+        {
+          "file": "ASP.NET/Web.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
+          "hash": "13818532105379849625"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+          "hash": "10887795802549845076"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.AssemblyInfo.cs",
+          "hash": "13786480967997485668"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.AssemblyInfoInputs.cache",
+          "hash": "6291294341979865673"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.GeneratedMSBuildEditorConfig.editorconfig",
+          "hash": "6843965783673609192"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.GlobalUsings.g.cs",
+          "hash": "655979258939108364"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.MvcApplicationPartsAssemblyInfo.cache",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.MvcApplicationPartsAssemblyInfo.cs",
+          "hash": "14592933622465122498"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.assets.cache",
+          "hash": "15329620060197652903"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.csproj.AssemblyReference.cache",
+          "hash": "10524780073031731843"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.csproj.CopyComplete",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.csproj.CoreCompileInputs.cache",
+          "hash": "11617404567414109646"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.csproj.FileListAbsolute.txt",
+          "hash": "6821426424485286802"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.dll",
+          "hash": "3309207985879061531"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.genruntimeconfig.cache",
+          "hash": "14766171294427279748"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.pdb",
+          "hash": "4333916825016539274"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/Web.Api.sourcelink.json",
+          "hash": "7651683895686269897"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/apphost.exe",
+          "hash": "16961894859647318812"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/ref/Web.Api.dll",
+          "hash": "11909579178113518564"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/refint/Web.Api.dll",
+          "hash": "11909579178113518564"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/staticwebassets.build.json",
+          "hash": "10212094696437633905"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/staticwebassets/msbuild.build.Web.Api.props",
+          "hash": "14986325128316264622"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Web.Api.props",
+          "hash": "11441645950530547966"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Web.Api.props",
+          "hash": "8217244140297897053"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Web.Api.csproj.nuget.dgspec.json",
+          "hash": "11231640400359378184"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Web.Api.csproj.nuget.g.props",
+          "hash": "1310616551863338044"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/Web.Api.csproj.nuget.g.targets",
+          "hash": "3725803220928926378"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/project.assets.json",
+          "hash": "11282836567129251243"
+        },
+        {
+          "file": "ASP.NET/Web.Api/obj/project.nuget.cache",
+          "hash": "5614536430774589405"
+        }
+      ],
+      "blazorproject": [
+        {
+          "file": "ASP.NET/BlazorProject/BlazorProject.csproj",
+          "hash": "7562036894395710128",
+          "deps": [
+            "web.api"
+          ]
+        },
+        {
+          "file": "ASP.NET/BlazorProject/BlazorProject.csproj.user",
+          "hash": "6876158610951165411"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/Components/App.razor",
+          "hash": "11006962191339258293"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/Components/Layout/MainLayout.razor",
+          "hash": "8958348946909209916"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/Components/Layout/MainLayout.razor.css",
+          "hash": "14138116728934865903"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/Components/Layout/NavMenu.razor",
+          "hash": "5272163282966302985"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/Components/Layout/NavMenu.razor.css",
+          "hash": "13770725052284323819"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/Components/Pages/Counter.razor",
+          "hash": "12071600369752038038"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/Components/Pages/Error.razor",
+          "hash": "1990285525406096021"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/Components/Pages/Home.razor",
+          "hash": "13562542246396156723"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/Components/Pages/Weather.razor",
+          "hash": "16853300484830997395"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/Components/Routes.razor",
+          "hash": "14052246919806260094"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/Components/_Imports.razor",
+          "hash": "16487549656884598853"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/Program.cs",
+          "hash": "3961343611219438500"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/Properties/launchSettings.json",
+          "hash": "14309013673845622545"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/Services/WeatherForecastService.cs",
+          "hash": "1936377468468418552"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/appsettings.Development.json",
+          "hash": "3339958947771738801"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/appsettings.json",
+          "hash": "6093315082945067005"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Azure.Core.dll",
+          "hash": "8958121783403709184"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Azure.Identity.dll",
+          "hash": "5294694639766183593"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/BlazorProject.deps.json",
+          "hash": "14903213686696943877"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/BlazorProject.dll",
+          "hash": "17777667966181664485"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/BlazorProject.exe",
+          "hash": "17405833572985844005"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/BlazorProject.pdb",
+          "hash": "7486198028792229263"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/BlazorProject.runtimeconfig.json",
+          "hash": "2378748134447373851"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/BlazorProject.staticwebassets.runtime.json",
+          "hash": "10185206466682750708"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll",
+          "hash": "9859141906402117602"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll",
+          "hash": "7970034975371699519"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll",
+          "hash": "16250599962547920251"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
+          "hash": "9305135711289534354"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll",
+          "hash": "5642815787377345830"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
+          "hash": "9283582848779935332"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll",
+          "hash": "12109555865619959620"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll",
+          "hash": "13528704667082409424"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.Identity.Client.dll",
+          "hash": "17528580275164578341"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll",
+          "hash": "1051358261034396248"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+          "hash": "2269484650026162358"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll",
+          "hash": "1534408483143691460"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+          "hash": "5780805211106079416"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll",
+          "hash": "1670458075586989404"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll",
+          "hash": "17049919062629238589"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.OpenApi.dll",
+          "hash": "14138251710137234955"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll",
+          "hash": "14216701811241259256"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll",
+          "hash": "11635529584521470734"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Models.dll",
+          "hash": "4192842771479171168"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Models.pdb",
+          "hash": "18303739877496711"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Newtonsoft.Json.dll",
+          "hash": "9883149618478200357"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll",
+          "hash": "10365789031782649924"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+          "hash": "5683891036722709085"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+          "hash": "17664938003933267034"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll",
+          "hash": "3827532699538662600"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/System.Drawing.Common.dll",
+          "hash": "12682639628144472280"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll",
+          "hash": "3283539518762842445"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/System.Memory.Data.dll",
+          "hash": "220145149363327040"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/System.Runtime.Caching.dll",
+          "hash": "13236024572484297611"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll",
+          "hash": "10701675117861516537"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/System.Security.Permissions.dll",
+          "hash": "8394892576804240186"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/System.Windows.Extensions.dll",
+          "hash": "6828698637106114326"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Web.Api.deps.json",
+          "hash": "7507718958176859357"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Web.Api.dll",
+          "hash": "3309207985879061531"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Web.Api.exe",
+          "hash": "16961894859647318812"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Web.Api.pdb",
+          "hash": "4333916825016539274"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/Web.Api.runtimeconfig.json",
+          "hash": "11948901871174737213"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/appsettings.Development.json",
+          "hash": "3339958947771738801"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/appsettings.json",
+          "hash": "6093315082945067005"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll",
+          "hash": "1228323109409330934"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll",
+          "hash": "10743623958081456987"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll",
+          "hash": "16908980147743863053"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll",
+          "hash": "12028365876599311806"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll",
+          "hash": "7045993987828987481"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll",
+          "hash": "5443579362714235066"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll",
+          "hash": "7865325869457553621"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+          "hash": "12859650485612610955"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll",
+          "hash": "6211739387934787453"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll",
+          "hash": "14181909494157989843"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll",
+          "hash": "1613490095567781572"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll",
+          "hash": "12536484415435013956"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/BlazorProject.csproj.nuget.dgspec.json",
+          "hash": "3593228938963533918"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/BlazorProject.csproj.nuget.g.props",
+          "hash": "6727246537097823203"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/BlazorProject.csproj.nuget.g.targets",
+          "hash": "5102234618819927479"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+          "hash": "10887795802549845076"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.AssemblyInfo.cs",
+          "hash": "10561816286890632468"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.AssemblyInfoInputs.cache",
+          "hash": "9004286246609111718"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.GeneratedMSBuildEditorConfig.editorconfig",
+          "hash": "2565800291328431721"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.GlobalUsings.g.cs",
+          "hash": "655979258939108364"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.MvcApplicationPartsAssemblyInfo.cache",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.MvcApplicationPartsAssemblyInfo.cs",
+          "hash": "1478948838288351073"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.assets.cache",
+          "hash": "3897659354031048457"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.csproj.AssemblyReference.cache",
+          "hash": "9923805888436220575"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.csproj.CopyComplete",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.csproj.CoreCompileInputs.cache",
+          "hash": "5420163106964355137"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.csproj.FileListAbsolute.txt",
+          "hash": "2846783123773776009"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.dll",
+          "hash": "17777667966181664485"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.genruntimeconfig.cache",
+          "hash": "4301502247616380511"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.pdb",
+          "hash": "7486198028792229263"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/BlazorProject.sourcelink.json",
+          "hash": "7651683895686269897"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/apphost.exe",
+          "hash": "17405833572985844005"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/project.razor.vs.bin",
+          "hash": "18093702323281022079"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/project.razor.vscode.bin",
+          "hash": "921394200078148493"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/ref/BlazorProject.dll",
+          "hash": "3032661812903810724"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/refint/BlazorProject.dll",
+          "hash": "3032661812903810724"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css",
+          "hash": "11737608014369218990"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css",
+          "hash": "3870503964389438358"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/scopedcss/bundle/BlazorProject.styles.css",
+          "hash": "16985149723908523879"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/scopedcss/projectbundle/BlazorProject.bundle.scp.css",
+          "hash": "16985149723908523879"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/staticwebassets.build.json",
+          "hash": "15635917771990158614"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/staticwebassets.development.json",
+          "hash": "10185206466682750708"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/staticwebassets.pack.json",
+          "hash": "18032363294813509181"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/staticwebassets/msbuild.BlazorProject.Microsoft.AspNetCore.StaticWebAssets.props",
+          "hash": "9607985295096568453"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/staticwebassets/msbuild.build.BlazorProject.props",
+          "hash": "14986325128316264622"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BlazorProject.props",
+          "hash": "15181751140351461593"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BlazorProject.props",
+          "hash": "8853702990869832269"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/project.assets.json",
+          "hash": "6631683003304253021"
+        },
+        {
+          "file": "ASP.NET/BlazorProject/obj/project.nuget.cache",
+          "hash": "18107939308173596340"
+        }
+      ]
+    }
   }
 }

@@ -1,0 +1,5 @@
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.AssemblyInfoInputs.cache
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.AssemblyInfo.cs
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.csproj.CoreCompileInputs.cache
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.sourcelink.json
