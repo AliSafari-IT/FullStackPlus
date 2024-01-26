@@ -10,8 +10,13 @@
         public int UserId { get; set; }
         public virtual User User { get; set; }
 
+        // Initialize the Comments collection in the constructor
+        public Post()
+        {
+            Comments = new List<Comment>();
+        }
+
         public virtual ICollection<Comment> Comments { get; set; }
         public virtual ICollection<PostTag> PostTags { get; set; }
     }
-
 }
