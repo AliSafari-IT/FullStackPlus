@@ -5049,7 +5049,7 @@
       "projectName": "RazorProject",
       "projectPath": "D:\\fsx\\ASP.NET\\RazorProject\\RazorProject.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\fsx\\dist/intermediates/ASP.NET\\RazorProject/obj\\",
+      "outputPath": "D:\\fsx\\dist\\intermediates\\ASP.NET\\RazorProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

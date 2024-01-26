@@ -1,0 +1,34 @@
+Executing Command: dotnet "--version"
+8.0.100
+Executing Command: dotnet "build" "D:\fsx\ASP.NET\Models\Models.csproj" "--configuration" "Debug" "--no-dependencies" "--verbosity" "minimal"
+MSBuild version 17.8.3+195e7f5a3 for .NET
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs(4,12): error CS0579: Duplicate 'global::System.Runtime.Versioning.TargetFrameworkAttribute' attribute [D:\fsx\ASP.NET\Models\Models.csproj]
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.AssemblyInfo.cs(13,12): error CS0579: Duplicate 'System.Reflection.AssemblyCompanyAttribute' attribute [D:\fsx\ASP.NET\Models\Models.csproj]
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.AssemblyInfo.cs(14,12): error CS0579: Duplicate 'System.Reflection.AssemblyConfigurationAttribute' attribute [D:\fsx\ASP.NET\Models\Models.csproj]
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.AssemblyInfo.cs(15,12): error CS0579: Duplicate 'System.Reflection.AssemblyFileVersionAttribute' attribute [D:\fsx\ASP.NET\Models\Models.csproj]
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.AssemblyInfo.cs(16,12): error CS0579: Duplicate 'System.Reflection.AssemblyInformationalVersionAttribute' attribute [D:\fsx\ASP.NET\Models\Models.csproj]
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.AssemblyInfo.cs(17,12): error CS0579: Duplicate 'System.Reflection.AssemblyProductAttribute' attribute [D:\fsx\ASP.NET\Models\Models.csproj]
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.AssemblyInfo.cs(18,12): error CS0579: Duplicate 'System.Reflection.AssemblyTitleAttribute' attribute [D:\fsx\ASP.NET\Models\Models.csproj]
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.AssemblyInfo.cs(19,12): error CS0579: Duplicate 'System.Reflection.AssemblyVersionAttribute' attribute [D:\fsx\ASP.NET\Models\Models.csproj]
+
+Build FAILED.
+
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs(4,12): error CS0579: Duplicate 'global::System.Runtime.Versioning.TargetFrameworkAttribute' attribute [D:\fsx\ASP.NET\Models\Models.csproj]
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.AssemblyInfo.cs(13,12): error CS0579: Duplicate 'System.Reflection.AssemblyCompanyAttribute' attribute [D:\fsx\ASP.NET\Models\Models.csproj]
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.AssemblyInfo.cs(14,12): error CS0579: Duplicate 'System.Reflection.AssemblyConfigurationAttribute' attribute [D:\fsx\ASP.NET\Models\Models.csproj]
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.AssemblyInfo.cs(15,12): error CS0579: Duplicate 'System.Reflection.AssemblyFileVersionAttribute' attribute [D:\fsx\ASP.NET\Models\Models.csproj]
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.AssemblyInfo.cs(16,12): error CS0579: Duplicate 'System.Reflection.AssemblyInformationalVersionAttribute' attribute [D:\fsx\ASP.NET\Models\Models.csproj]
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.AssemblyInfo.cs(17,12): error CS0579: Duplicate 'System.Reflection.AssemblyProductAttribute' attribute [D:\fsx\ASP.NET\Models\Models.csproj]
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.AssemblyInfo.cs(18,12): error CS0579: Duplicate 'System.Reflection.AssemblyTitleAttribute' attribute [D:\fsx\ASP.NET\Models\Models.csproj]
+D:\fsx\dist\intermediates\ASP.NET\Models\obj\net8.0\Models.AssemblyInfo.cs(19,12): error CS0579: Duplicate 'System.Reflection.AssemblyVersionAttribute' attribute [D:\fsx\ASP.NET\Models\Models.csproj]
+    0 Warning(s)
+    8 Error(s)
+
+Time Elapsed 00:00:02.50
+
+ [31m>[39m [0m[7m[1m[31m NX [39m[22m[27m[0m  [31mdotnet execution returned status code 1[39m
+
+   Pass --verbose to see the stacktrace.
+

@@ -997,3 +997,591 @@ node:internal/process/promises:288
 }
 
 Node.js v18.15.0
+[NX Daemon Server] - 2024-01-22T04:34:24.109Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-22T04:34:24.115Z - [WATCHER]: Subscribed to changes within: d:\fsx (native)
+[NX Daemon Server] - 2024-01-22T04:34:24.124Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:34:24.129Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-22T04:34:24.130Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:34:24.132Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:34:24.142Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:34:24.142Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:34:24.142Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:34:24.746Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:34:24.749Z - Time taken for 'total for creating and serializing project graph' 614.3476999998093ms
+[NX Daemon Server] - 2024-01-22T04:34:24.749Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:34:24.750Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 614. Response time: 4.
+[NX Daemon Server] - 2024-01-22T04:34:24.811Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:34:24.812Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:34:24.814Z - Time taken for 'total for creating and serializing project graph' 0.6059000492095947ms
+[NX Daemon Server] - 2024-01-22T04:34:24.815Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:34:24.815Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX Daemon Server] - 2024-01-22T04:34:24.847Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:34:24.847Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:34:24.849Z - Time taken for 'total for creating and serializing project graph' 0.497999906539917ms
+[NX Daemon Server] - 2024-01-22T04:34:24.850Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:34:24.850Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 3.
+[NX Daemon Server] - 2024-01-22T04:34:24.957Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-01-22T04:34:24.957Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-01-22T04:34:24.957Z - Handled REQUEST_FILE_DATA. Handling time: 2. Response time: 0.
+[NX Daemon Server] - 2024-01-22T04:34:25.413Z - Closed a connection. Number of open connections: 0
+node:internal/process/promises:289
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: multiple: [Read { file: "d:\\fsx\\.gitignore", err: Error { kind: InvalidData, message: "stream did not contain valid UTF-8" } }]] {
+  code: 'GenericFailure'
+}
+
+Node.js v20.10.0
+[NX Daemon Server] - 2024-01-22T04:34:27.590Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-22T04:34:27.604Z - [WATCHER]: Subscribed to changes within: d:\fsx (native)
+[NX Daemon Server] - 2024-01-22T04:34:27.608Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:34:27.611Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-22T04:34:27.616Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:34:27.620Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:34:27.625Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:34:27.625Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:34:27.625Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:34:28.192Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:34:28.195Z - Time taken for 'total for creating and serializing project graph' 572.0218999385834ms
+[NX Daemon Server] - 2024-01-22T04:34:28.195Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:34:28.195Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 572. Response time: 3.
+[NX Daemon Server] - 2024-01-22T04:34:28.257Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:34:28.258Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:34:28.260Z - Time taken for 'total for creating and serializing project graph' 0.47689998149871826ms
+[NX Daemon Server] - 2024-01-22T04:34:28.261Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:34:28.261Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 3.
+[NX Daemon Server] - 2024-01-22T04:34:28.282Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:34:28.282Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:34:28.284Z - Time taken for 'total for creating and serializing project graph' 0.40289998054504395ms
+[NX Daemon Server] - 2024-01-22T04:34:28.285Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:34:28.285Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-01-22T04:34:28.391Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-01-22T04:34:28.391Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-01-22T04:34:28.391Z - Handled REQUEST_FILE_DATA. Handling time: 3. Response time: 0.
+[NX Daemon Server] - 2024-01-22T04:34:28.866Z - Closed a connection. Number of open connections: 0
+node:internal/process/promises:289
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: multiple: [Read { file: "d:\\fsx\\.gitignore", err: Error { kind: InvalidData, message: "stream did not contain valid UTF-8" } }]] {
+  code: 'GenericFailure'
+}
+
+Node.js v20.10.0
+[NX Daemon Server] - 2024-01-22T04:35:03.554Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-22T04:35:03.563Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-22T04:35:03.568Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:35:03.571Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-22T04:35:03.576Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:35:03.580Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:35:03.592Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:35:03.592Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:35:03.592Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:35:04.218Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:35:04.221Z - Time taken for 'total for creating and serializing project graph' 637.9763000011444ms
+[NX Daemon Server] - 2024-01-22T04:35:04.221Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:35:04.222Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 638. Response time: 4.
+[NX Daemon Server] - 2024-01-22T04:35:04.360Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-01-22T04:35:04.362Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-01-22T04:35:04.362Z - Handled HASH_TASKS. Handling time: 35. Response time: 2.
+node:internal/process/promises:289
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: multiple: [Read { file: "D:\\fsx\\.gitignore", err: Error { kind: InvalidData, message: "stream did not contain valid UTF-8" } }]] {
+  code: 'GenericFailure'
+}
+
+Node.js v20.10.0
+[NX Daemon Server] - 2024-01-22T04:35:14.659Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-22T04:35:14.669Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-22T04:35:14.673Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:35:14.677Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-22T04:35:14.682Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:35:14.691Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-01-22T04:35:14.692Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-01-22T04:35:14.693Z - Handled RECORD_OUTPUTS_HASH. Handling time: 5. Response time: 2.
+[NX Daemon Server] - 2024-01-22T04:35:16.029Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-01-22T04:35:16.030Z - Uploading file artifacts
+[NX Daemon Server] - 2024-01-22T04:35:16.031Z - Done uploading file artifacts
+[NX Daemon Server] - 2024-01-22T04:35:16.031Z - Sending EndRun request
+[NX Daemon Server] - 2024-01-22T04:35:16.042Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-01-22T04:35:16.042Z - Handled PROCESS_IN_BACKGROUND. Handling time: 1051. Response time: 13.
+[NX Daemon Server] - 2024-01-22T04:35:16.388Z - Closed a connection. Number of open connections: 0
+node:internal/process/promises:289
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: multiple: [Read { file: "D:\\fsx\\.gitignore", err: Error { kind: InvalidData, message: "stream did not contain valid UTF-8" } }]] {
+  code: 'GenericFailure'
+}
+
+Node.js v20.10.0
+[NX Daemon Server] - 2024-01-22T04:36:17.416Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-22T04:36:17.423Z - [WATCHER]: Subscribed to changes within: d:\fsx (native)
+[NX Daemon Server] - 2024-01-22T04:36:17.429Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:36:17.431Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-22T04:36:17.433Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:36:17.435Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:36:17.440Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:36:17.440Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:36:17.440Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:36:17.896Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:36:17.900Z - Time taken for 'total for creating and serializing project graph' 461.5332000255585ms
+[NX Daemon Server] - 2024-01-22T04:36:17.901Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:36:17.901Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 462. Response time: 5.
+[NX Daemon Server] - 2024-01-22T04:36:17.907Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-22T04:36:17.908Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:36:17.908Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-22T04:36:17.909Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:36:17.913Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-01-22T04:36:17.913Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-01-22T04:36:17.914Z - Handled REQUEST_FILE_DATA. Handling time: 2. Response time: 1.
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: multiple: [Read { file: "d:\\fsx\\.gitignore", err: Error { kind: InvalidData, message: "stream did not contain valid UTF-8" } }]] {
+  code: 'GenericFailure'
+}
+
+Node.js v18.15.0
+[NX Daemon Server] - 2024-01-22T04:36:21.060Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-22T04:36:21.078Z - [WATCHER]: Subscribed to changes within: d:\fsx (native)
+[NX Daemon Server] - 2024-01-22T04:36:21.081Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:36:21.085Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-22T04:36:21.090Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:36:21.094Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:36:21.099Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:36:21.099Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:36:21.099Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:36:21.953Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:36:21.960Z - Time taken for 'total for creating and serializing project graph' 858.0799000263214ms
+[NX Daemon Server] - 2024-01-22T04:36:21.961Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:36:21.961Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 858. Response time: 9.
+[NX Daemon Server] - 2024-01-22T04:36:22.081Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:36:22.082Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:36:22.088Z - Time taken for 'total for creating and serializing project graph' 0.6912000179290771ms
+[NX Daemon Server] - 2024-01-22T04:36:22.136Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:36:22.136Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 54.
+[NX Daemon Server] - 2024-01-22T04:36:22.160Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:36:22.161Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:36:22.165Z - Time taken for 'total for creating and serializing project graph' 0.5143001079559326ms
+[NX Daemon Server] - 2024-01-22T04:36:22.166Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:36:22.166Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 5.
+[NX Daemon Server] - 2024-01-22T04:36:22.360Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-01-22T04:36:22.360Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-01-22T04:36:22.360Z - Handled REQUEST_FILE_DATA. Handling time: 4. Response time: 1.
+[NX Daemon Server] - 2024-01-22T04:36:23.040Z - Closed a connection. Number of open connections: 0
+node:internal/process/promises:289
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: multiple: [Read { file: "d:\\fsx\\.gitignore", err: Error { kind: InvalidData, message: "stream did not contain valid UTF-8" } }]] {
+  code: 'GenericFailure'
+}
+
+Node.js v20.10.0
+[NX Daemon Server] - 2024-01-22T04:36:26.239Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-22T04:36:26.249Z - [WATCHER]: Subscribed to changes within: d:\fsx (native)
+[NX Daemon Server] - 2024-01-22T04:36:26.256Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:36:26.259Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-22T04:36:26.262Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:36:26.265Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:36:26.280Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:36:26.280Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:36:26.280Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:36:27.096Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:36:27.100Z - Time taken for 'total for creating and serializing project graph' 831.6087000370026ms
+[NX Daemon Server] - 2024-01-22T04:36:27.100Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:36:27.101Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 832. Response time: 5.
+[NX Daemon Server] - 2024-01-22T04:36:27.200Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:36:27.201Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:36:27.205Z - Time taken for 'total for creating and serializing project graph' 0.8000999689102173ms
+[NX Daemon Server] - 2024-01-22T04:36:27.205Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:36:27.206Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 5.
+[NX Daemon Server] - 2024-01-22T04:36:27.244Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:36:27.244Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:36:27.246Z - Time taken for 'total for creating and serializing project graph' 0.5917000770568848ms
+[NX Daemon Server] - 2024-01-22T04:36:27.247Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:36:27.248Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX Daemon Server] - 2024-01-22T04:36:27.396Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-01-22T04:36:27.396Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-01-22T04:36:27.397Z - Handled REQUEST_FILE_DATA. Handling time: 3. Response time: 1.
+[NX Daemon Server] - 2024-01-22T04:36:27.960Z - Closed a connection. Number of open connections: 0
+node:internal/process/promises:289
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: multiple: [Read { file: "d:\\fsx\\.gitignore", err: Error { kind: InvalidData, message: "stream did not contain valid UTF-8" } }]] {
+  code: 'GenericFailure'
+}
+
+Node.js v20.10.0
+[NX Daemon Server] - 2024-01-22T04:37:25.112Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-22T04:37:25.120Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-22T04:37:25.125Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:37:25.134Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-22T04:37:25.136Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:37:25.141Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:37:25.158Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:37:25.159Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:37:25.159Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:37:25.752Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:37:25.754Z - Time taken for 'total for creating and serializing project graph' 611.0125999450684ms
+[NX Daemon Server] - 2024-01-22T04:37:25.755Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:37:25.755Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 611. Response time: 4.
+[NX Daemon Server] - 2024-01-22T04:37:25.911Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-01-22T04:37:25.914Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-01-22T04:37:25.914Z - Handled HASH_TASKS. Handling time: 54. Response time: 3.
+node:internal/process/promises:289
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: multiple: [Read { file: "D:\\fsx\\.gitignore", err: Error { kind: InvalidData, message: "stream did not contain valid UTF-8" } }]] {
+  code: 'GenericFailure'
+}
+
+Node.js v20.10.0
+[NX Daemon Server] - 2024-01-22T04:37:32.491Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-22T04:37:32.502Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-22T04:37:32.508Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:37:32.512Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-22T04:37:32.523Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:37:32.533Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-01-22T04:37:32.535Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-01-22T04:37:32.536Z - Handled RECORD_OUTPUTS_HASH. Handling time: 6. Response time: 3.
+[NX Daemon Server] - 2024-01-22T04:37:32.607Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-01-22T04:37:32.608Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-01-22T04:37:32.609Z - Handled RECORD_OUTPUTS_HASH. Handling time: 5. Response time: 2.
+[NX Daemon Server] - 2024-01-22T04:37:34.835Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-01-22T04:37:34.837Z - Uploading file artifacts
+[NX Daemon Server] - 2024-01-22T04:37:34.837Z - Done uploading file artifacts
+[NX Daemon Server] - 2024-01-22T04:37:34.841Z - Sending EndRun request
+[NX Daemon Server] - 2024-01-22T04:37:34.850Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-01-22T04:37:34.850Z - Handled PROCESS_IN_BACKGROUND. Handling time: 1675. Response time: 15.
+[NX Daemon Server] - 2024-01-22T04:37:35.184Z - Closed a connection. Number of open connections: 0
+node:internal/process/promises:289
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: multiple: [Read { file: "D:\\fsx\\.gitignore", err: Error { kind: InvalidData, message: "stream did not contain valid UTF-8" } }]] {
+  code: 'GenericFailure'
+}
+
+Node.js v20.10.0
+[NX Daemon Server] - 2024-01-22T04:41:33.730Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-22T04:41:33.738Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-22T04:41:33.742Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:41:33.746Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-22T04:41:33.750Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:41:33.752Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:41:33.755Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:41:33.756Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:41:33.756Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:41:34.294Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:41:34.297Z - Time taken for 'total for creating and serializing project graph' 542.0331000089645ms
+[NX Daemon Server] - 2024-01-22T04:41:34.297Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:41:34.298Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 542. Response time: 4.
+node:internal/process/promises:289
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: multiple: [Read { file: "D:\\fsx\\.gitignore", err: Error { kind: InvalidData, message: "stream did not contain valid UTF-8" } }]] {
+  code: 'GenericFailure'
+}
+
+Node.js v20.10.0
+[NX Daemon Server] - 2024-01-22T04:42:15.140Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-22T04:42:15.148Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-22T04:42:15.152Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:42:15.154Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-22T04:42:15.157Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-22T04:42:15.162Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-22T04:42:15.166Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-22T04:42:15.167Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:42:15.167Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-22T04:42:15.707Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-22T04:42:15.710Z - Time taken for 'total for creating and serializing project graph' 545.4406000375748ms
+[NX Daemon Server] - 2024-01-22T04:42:15.710Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-22T04:42:15.710Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 546. Response time: 3.
+[NX Daemon Server] - 2024-01-22T04:42:15.737Z - Closed a connection. Number of open connections: 0
+node:internal/process/promises:289
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: multiple: [Read { file: "D:\\fsx\\.gitignore", err: Error { kind: InvalidData, message: "stream did not contain valid UTF-8" } }]] {
+  code: 'GenericFailure'
+}
+
+Node.js v20.10.0
+[NX Daemon Server] - 2024-01-26T03:03:37.013Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:03:37.021Z - [WATCHER]: Subscribed to changes within: d:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:03:37.036Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:03:37.040Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-26T03:03:37.041Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:03:37.044Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:03:37.081Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:03:37.082Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:03:37.082Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:03:40.876Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- d:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- d:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- d:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- d:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- d:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- d:\fsx\node_modules\nx\src\daemon\server\server.js
+- d:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- d:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- d:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- d:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- d:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- d:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- d:\fsx\node_modules\nx\src\daemon\server\server.js
+- d:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1129:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:116:19)
+    at getPluginPathAndName (d:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (d:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (d:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (d:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (d:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (d:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (d:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'd:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'd:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'd:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'd:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'd:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'd:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'd:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:03:40.882Z - Time taken for 'hash changed files from watcher' 35.839800000190735ms
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: multiple: [Read { file: "d:\\fsx\\.gitignore", err: Error { kind: InvalidData, message: "stream did not contain valid UTF-8" } }]] {
+  code: 'GenericFailure'
+}
+
+Node.js v18.15.0
+[NX Daemon Server] - 2024-01-26T03:35:56.234Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:35:56.243Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:35:56.249Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:35:56.257Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-26T03:35:56.258Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:35:56.262Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:35:56.284Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:35:56.285Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:35:56.285Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:35:56.945Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getPluginPathAndName (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (D:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:35:56.957Z - Time taken for 'hash changed files from watcher' 20.91959999501705ms
+[NX Daemon Server] - 2024-01-26T03:35:56.980Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-26T03:35:56.981Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-26T03:35:56.982Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-26T03:35:56.982Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-26T03:35:56.982Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-26T03:35:56.983Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-26T03:35:56.983Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T03:38:11.587Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:38:11.595Z - [WATCHER]: Subscribed to changes within: d:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:38:11.606Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:38:11.609Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-26T03:38:11.615Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:38:11.620Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:38:11.626Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:38:11.627Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:38:11.627Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:38:12.372Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getPluginPathAndName (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (D:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:38:12.376Z - Time taken for 'hash changed files from watcher' 3.5147999972105026ms
+[NX Daemon Server] - 2024-01-26T03:38:12.381Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T03:43:55.486Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:43:55.489Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:43:55.496Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:43:55.502Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-26T03:43:55.503Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:43:55.505Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:43:55.537Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:43:55.538Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:43:55.538Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:43:55.807Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getPluginPathAndName (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (D:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:43:55.810Z - Time taken for 'hash changed files from watcher' 31.794200003147125ms
+[NX Daemon Server] - 2024-01-26T03:43:55.812Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T03:43:59.680Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:43:59.685Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:43:59.693Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:43:59.698Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-26T03:43:59.699Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:43:59.701Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:43:59.711Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:43:59.711Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:43:59.711Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:43:59.963Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getPluginPathAndName (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (D:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:43:59.967Z - Time taken for 'hash changed files from watcher' 9.356100007891655ms
+[NX Daemon Server] - 2024-01-26T03:43:59.969Z - Done responding to the client null

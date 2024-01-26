@@ -10,7 +10,8 @@
         "^build"
       ],
       "inputs": [
-        "production",
+        "default",
+        "^production",
         "^production"
       ]
     },
@@ -44,8 +45,6 @@
   },
   "namedInputs": {
     "default": [
-      "{projectRoot}/**/*",
-      "sharedGlobals",
       "{projectRoot}/ConsoleApp/**/*",
       "{projectRoot}/FullStackSPA/**/*",
       "{projectRoot}/ASP.NET/**/*"
@@ -85,6 +84,8 @@
     }
   },
   "plugins": [
-    "@nx-dotnet/core"
+    "@nx-dotnet/core", 
+    "@nx-dotnet/react",
+    "@nx-dotnet/angular"
   ]
 }

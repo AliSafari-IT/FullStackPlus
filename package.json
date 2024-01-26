@@ -3,7 +3,11 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "prepare": "nx g @nx-dotnet/core:restore"
+    "prepare": "nx g @nx-dotnet/core:restore",
+    "nx": "nx",
+    "start": "nx serve",
+    "build": "dotnet build",
+    "test": "nx test"
   },
   "private": true,
   "dependencies": {

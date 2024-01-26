@@ -4591,7 +4591,7 @@
       "projectName": "Web.Api",
       "projectPath": "D:\\fsx\\ASP.NET\\Web.Api\\Web.Api.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\fsx\\dist/intermediates/ASP.NET\\Web.Api/obj\\",
+      "outputPath": "D:\\fsx\\dist\\intermediates\\ASP.NET\\Web.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

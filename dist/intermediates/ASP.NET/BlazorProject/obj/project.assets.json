@@ -3316,7 +3316,7 @@
       "projectName": "BlazorProject",
       "projectPath": "D:\\fsx\\ASP.NET\\BlazorProject\\BlazorProject.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\fsx\\dist/intermediates/ASP.NET\\BlazorProject/obj\\",
+      "outputPath": "D:\\fsx\\dist\\intermediates\\ASP.NET\\BlazorProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
