@@ -2299,3 +2299,105 @@ Require stack:
 }
 [NX Daemon Server] - 2024-01-26T03:52:23.033Z - Time taken for 'hash changed files from watcher' 24.450699999928474ms
 [NX Daemon Server] - 2024-01-26T03:52:23.035Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T06:07:59.727Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\2dc120b4c2d22d77e44f\d.sock
+[NX Daemon Server] - 2024-01-26T06:07:59.775Z - [WATCHER]: Subscribed to changes within: d:\FullStackPlus (native)
+[NX Daemon Server] - 2024-01-26T06:07:59.778Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T06:07:59.781Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-26T06:07:59.784Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T06:07:59.790Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T06:08:00.014Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T06:08:00.014Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T06:08:00.015Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T06:08:04.688Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- d:\FullStackPlus\node_modules\nx\src\utils\nx-plugin.js
+- d:\FullStackPlus\node_modules\nx\src\project-graph\build-project-graph.js
+- d:\FullStackPlus\node_modules\nx\src\project-graph\project-graph.js
+- d:\FullStackPlus\node_modules\nx\src\utils\project-graph-utils.js
+- d:\FullStackPlus\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- d:\FullStackPlus\node_modules\nx\src\daemon\server\server.js
+- d:\FullStackPlus\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- d:\FullStackPlus\node_modules\nx\src\utils\nx-plugin.js
+- d:\FullStackPlus\node_modules\nx\src\project-graph\build-project-graph.js
+- d:\FullStackPlus\node_modules\nx\src\project-graph\project-graph.js
+- d:\FullStackPlus\node_modules\nx\src\utils\project-graph-utils.js
+- d:\FullStackPlus\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- d:\FullStackPlus\node_modules\nx\src\daemon\server\server.js
+- d:\FullStackPlus\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1129:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:116:19)
+    at getPluginPathAndName (d:\FullStackPlus\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (d:\FullStackPlus\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (d:\FullStackPlus\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (d:\FullStackPlus\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (d:\FullStackPlus\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (d:\FullStackPlus\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (d:\FullStackPlus\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'd:\\FullStackPlus\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'd:\\FullStackPlus\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'd:\\FullStackPlus\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'd:\\FullStackPlus\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'd:\\FullStackPlus\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'd:\\FullStackPlus\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'd:\\FullStackPlus\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T06:08:04.703Z - Time taken for 'hash changed files from watcher' 220.79129999876022ms
+[NX Daemon Server] - 2024-01-26T06:08:04.707Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T06:08:26.416Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\2dc120b4c2d22d77e44f\d.sock
+[NX Daemon Server] - 2024-01-26T06:08:26.422Z - [WATCHER]: Subscribed to changes within: d:\FullStackPlus (native)
+[NX Daemon Server] - 2024-01-26T06:08:26.460Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T06:08:26.465Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-26T06:08:26.465Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T06:08:26.477Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T06:08:26.488Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T06:08:26.488Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T06:08:26.488Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T06:08:27.643Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- d:\FullStackPlus\node_modules\nx\src\utils\nx-plugin.js
+- d:\FullStackPlus\node_modules\nx\src\project-graph\build-project-graph.js
+- d:\FullStackPlus\node_modules\nx\src\project-graph\project-graph.js
+- d:\FullStackPlus\node_modules\nx\src\utils\project-graph-utils.js
+- d:\FullStackPlus\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- d:\FullStackPlus\node_modules\nx\src\daemon\server\server.js
+- d:\FullStackPlus\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- d:\FullStackPlus\node_modules\nx\src\utils\nx-plugin.js
+- d:\FullStackPlus\node_modules\nx\src\project-graph\build-project-graph.js
+- d:\FullStackPlus\node_modules\nx\src\project-graph\project-graph.js
+- d:\FullStackPlus\node_modules\nx\src\utils\project-graph-utils.js
+- d:\FullStackPlus\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- d:\FullStackPlus\node_modules\nx\src\daemon\server\server.js
+- d:\FullStackPlus\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1129:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:116:19)
+    at getPluginPathAndName (d:\FullStackPlus\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (d:\FullStackPlus\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (d:\FullStackPlus\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (d:\FullStackPlus\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (d:\FullStackPlus\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (d:\FullStackPlus\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (d:\FullStackPlus\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'd:\\FullStackPlus\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'd:\\FullStackPlus\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'd:\\FullStackPlus\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'd:\\FullStackPlus\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'd:\\FullStackPlus\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'd:\\FullStackPlus\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'd:\\FullStackPlus\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T06:08:27.673Z - Time taken for 'hash changed files from watcher' 8.871500000357628ms
+[NX Daemon Server] - 2024-01-26T06:08:27.684Z - Done responding to the client null
