@@ -1,7 +1,0 @@
-D:\fsx\dist\intermediates\ASP.NET\Web.Api\obj\net8.0\Web.Api.csproj.AssemblyReference.cache
-D:\fsx\dist\intermediates\ASP.NET\Web.Api\obj\net8.0\Web.Api.GeneratedMSBuildEditorConfig.editorconfig
-D:\fsx\dist\intermediates\ASP.NET\Web.Api\obj\net8.0\Web.Api.AssemblyInfoInputs.cache
-D:\fsx\dist\intermediates\ASP.NET\Web.Api\obj\net8.0\Web.Api.AssemblyInfo.cs
-D:\fsx\dist\intermediates\ASP.NET\Web.Api\obj\net8.0\Web.Api.csproj.CoreCompileInputs.cache
-D:\fsx\dist\intermediates\ASP.NET\Web.Api\obj\net8.0\Web.Api.MvcApplicationPartsAssemblyInfo.cache
-D:\fsx\dist\intermediates\ASP.NET\Web.Api\obj\net8.0\Web.Api.sourcelink.json

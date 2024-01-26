@@ -1585,3 +1585,717 @@ Require stack:
 }
 [NX Daemon Server] - 2024-01-26T03:43:59.967Z - Time taken for 'hash changed files from watcher' 9.356100007891655ms
 [NX Daemon Server] - 2024-01-26T03:43:59.969Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T03:44:38.560Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:44:38.564Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:44:38.575Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:44:38.578Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-26T03:44:38.578Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:44:38.579Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:44:38.607Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:44:38.607Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:44:38.607Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:44:38.849Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getPluginPathAndName (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (D:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:44:38.853Z - Time taken for 'hash changed files from watcher' 26.89589999616146ms
+[NX Daemon Server] - 2024-01-26T03:44:38.856Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T03:45:21.908Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:45:21.913Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:45:21.919Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:45:21.924Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-26T03:45:21.925Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:45:21.928Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:45:21.939Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:45:21.939Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:45:21.939Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:45:22.260Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getPluginPathAndName (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (D:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:45:22.264Z - Time taken for 'hash changed files from watcher' 10.382500007748604ms
+[NX Daemon Server] - 2024-01-26T03:45:22.267Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T03:45:55.942Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:45:55.947Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:45:55.950Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:45:55.952Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-26T03:45:55.954Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:45:55.956Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:45:55.962Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:45:55.962Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:45:55.962Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:45:56.231Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getPluginPathAndName (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (D:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:45:56.236Z - Time taken for 'hash changed files from watcher' 5.297800004482269ms
+[NX Daemon Server] - 2024-01-26T03:45:56.238Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T03:46:01.696Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:46:01.701Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:46:01.704Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:46:01.707Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-26T03:46:01.709Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:46:01.711Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:46:01.734Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:46:01.734Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:46:01.734Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:46:02.008Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getPluginPathAndName (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (D:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:46:02.012Z - Time taken for 'hash changed files from watcher' 22.175400003790855ms
+[NX Daemon Server] - 2024-01-26T03:46:02.014Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T03:46:27.067Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:46:27.072Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:46:27.079Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:46:27.083Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-26T03:46:27.084Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:46:27.086Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:46:27.097Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:46:27.097Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:46:27.097Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:46:27.374Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getPluginPathAndName (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (D:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:46:27.378Z - Time taken for 'hash changed files from watcher' 10.155699998140335ms
+[NX Daemon Server] - 2024-01-26T03:46:27.380Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T03:46:40.988Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:46:40.994Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:46:40.996Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:46:40.999Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-26T03:46:41.002Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:46:41.004Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:46:41.009Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:46:41.009Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:46:41.009Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:46:41.262Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getPluginPathAndName (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (D:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:46:41.267Z - Time taken for 'hash changed files from watcher' 2.6617999970912933ms
+[NX Daemon Server] - 2024-01-26T03:46:41.268Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T03:47:03.276Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:47:03.281Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:47:03.284Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:47:03.285Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-26T03:47:03.287Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:47:03.289Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:47:03.295Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:47:03.296Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:47:03.296Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:47:03.535Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getPluginPathAndName (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (D:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:47:03.538Z - Time taken for 'hash changed files from watcher' 5.969300001859665ms
+[NX Daemon Server] - 2024-01-26T03:47:03.540Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T03:47:21.252Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:47:21.258Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:47:21.266Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:47:21.270Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-26T03:47:21.271Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:47:21.273Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:47:21.275Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:47:21.275Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:47:21.275Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:47:21.509Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getPluginPathAndName (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (D:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:47:21.513Z - Time taken for 'hash changed files from watcher' 0.9127999991178513ms
+[NX Daemon Server] - 2024-01-26T03:47:21.515Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T03:47:46.492Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:47:46.497Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:47:46.502Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:47:46.508Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-26T03:47:46.508Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:47:46.510Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:47:46.534Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:47:46.535Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:47:46.535Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:47:46.789Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getPluginPathAndName (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (D:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:47:46.795Z - Time taken for 'hash changed files from watcher' 23.859099999070168ms
+[NX Daemon Server] - 2024-01-26T03:47:46.797Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T03:48:12.278Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:48:12.283Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:48:12.292Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:48:12.295Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-26T03:48:12.295Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:48:12.297Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:48:12.310Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:48:12.310Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:48:12.310Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:48:12.555Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getPluginPathAndName (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (D:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:48:12.559Z - Time taken for 'hash changed files from watcher' 12.049000009894371ms
+[NX Daemon Server] - 2024-01-26T03:48:12.561Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T03:50:46.291Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:50:46.296Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:50:46.299Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:50:46.301Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-26T03:50:46.303Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:50:46.304Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:50:46.314Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:50:46.314Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:50:46.314Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:50:46.682Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getPluginPathAndName (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (D:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:50:46.686Z - Time taken for 'hash changed files from watcher' 8.487700000405312ms
+[NX Daemon Server] - 2024-01-26T03:50:46.688Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T03:50:50.141Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:50:50.144Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:50:50.150Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:50:50.155Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-26T03:50:50.155Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:50:50.156Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:50:50.183Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:50:50.183Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:50:50.183Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:50:50.443Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getPluginPathAndName (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (D:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:50:50.448Z - Time taken for 'hash changed files from watcher' 25.625799998641014ms
+[NX Daemon Server] - 2024-01-26T03:50:50.450Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T03:51:52.090Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:51:52.093Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:51:52.102Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:51:52.106Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-26T03:51:52.107Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:51:52.109Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:51:52.120Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:51:52.120Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:51:52.120Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:51:52.393Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getPluginPathAndName (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (D:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:51:52.398Z - Time taken for 'hash changed files from watcher' 9.64640000462532ms
+[NX Daemon Server] - 2024-01-26T03:51:52.400Z - Done responding to the client null
+[NX Daemon Server] - 2024-01-26T03:52:22.730Z - Started listening on: \\.\pipe\nx\C:\Users\User\AppData\Local\Temp\b1751549701faf787aeb\d.sock
+[NX Daemon Server] - 2024-01-26T03:52:22.733Z - [WATCHER]: Subscribed to changes within: D:\fsx (native)
+[NX Daemon Server] - 2024-01-26T03:52:22.743Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:52:22.747Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-26T03:52:22.748Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-26T03:52:22.749Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-26T03:52:22.775Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-26T03:52:22.775Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-26T03:52:22.775Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx-dotnet/react
+[NX Daemon Server] - 2024-01-26T03:52:23.028Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx-dotnet/react'
+Require stack:
+- D:\fsx\node_modules\nx\src\utils\nx-plugin.js
+- D:\fsx\node_modules\nx\src\project-graph\build-project-graph.js
+- D:\fsx\node_modules\nx\src\project-graph\project-graph.js
+- D:\fsx\node_modules\nx\src\utils\project-graph-utils.js
+- D:\fsx\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- D:\fsx\node_modules\nx\src\daemon\server\server.js
+- D:\fsx\node_modules\nx\src\daemon\server\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getPluginPathAndName (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:34:30)
+    at loadNxPluginAsync (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:77:38)
+    at loadNxPlugins (D:\fsx\node_modules\nx\src\utils\nx-plugin.js:104:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (D:\fsx\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (D:\fsx\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (D:\fsx\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'D:\\fsx\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'D:\\fsx\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-01-26T03:52:23.033Z - Time taken for 'hash changed files from watcher' 24.450699999928474ms
+[NX Daemon Server] - 2024-01-26T03:52:23.035Z - Done responding to the client null
