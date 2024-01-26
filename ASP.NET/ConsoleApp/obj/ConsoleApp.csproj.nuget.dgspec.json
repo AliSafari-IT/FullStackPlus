@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\fsx\\ASP.NET\\ConsoleApp\\ConsoleApp.csproj": {}
+    "D:\\FullStackPlus\\ASP.NET\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "D:\\fsx\\ASP.NET\\ConsoleApp\\ConsoleApp.csproj": {
+    "D:\\FullStackPlus\\ASP.NET\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\fsx\\ASP.NET\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "D:\\FullStackPlus\\ASP.NET\\ConsoleApp\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "D:\\fsx\\ASP.NET\\ConsoleApp\\ConsoleApp.csproj",
+        "projectPath": "D:\\FullStackPlus\\ASP.NET\\ConsoleApp\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\fsx\\ASP.NET\\ConsoleApp\\obj\\",
+        "outputPath": "D:\\FullStackPlus\\ASP.NET\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

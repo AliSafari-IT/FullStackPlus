@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\fsx\\ASP.NET\\RazorProject\\RazorProject.csproj": {}
+    "D:\\FullStackPlus\\ASP.NET\\RazorProject\\RazorProject.csproj": {}
   },
   "projects": {
-    "D:\\fsx\\ASP.NET\\Models\\Models.csproj": {
+    "D:\\FullStackPlus\\ASP.NET\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\fsx\\ASP.NET\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\FullStackPlus\\ASP.NET\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "D:\\fsx\\ASP.NET\\Models\\Models.csproj",
+        "projectPath": "D:\\FullStackPlus\\ASP.NET\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\fsx\\ASP.NET\\Models\\obj\\",
+        "outputPath": "D:\\FullStackPlus\\ASP.NET\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "D:\\fsx\\ASP.NET\\RazorProject\\RazorProject.csproj": {
+    "D:\\FullStackPlus\\ASP.NET\\RazorProject\\RazorProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\fsx\\ASP.NET\\RazorProject\\RazorProject.csproj",
+        "projectUniqueName": "D:\\FullStackPlus\\ASP.NET\\RazorProject\\RazorProject.csproj",
         "projectName": "RazorProject",
-        "projectPath": "D:\\fsx\\ASP.NET\\RazorProject\\RazorProject.csproj",
+        "projectPath": "D:\\FullStackPlus\\ASP.NET\\RazorProject\\RazorProject.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\fsx\\ASP.NET\\RazorProject\\obj\\",
+        "outputPath": "D:\\FullStackPlus\\ASP.NET\\RazorProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\fsx\\ASP.NET\\Models\\Models.csproj": {
-                "projectPath": "D:\\fsx\\ASP.NET\\Models\\Models.csproj"
+              "D:\\FullStackPlus\\ASP.NET\\Models\\Models.csproj": {
+                "projectPath": "D:\\FullStackPlus\\ASP.NET\\Models\\Models.csproj"
               }
             }
           }

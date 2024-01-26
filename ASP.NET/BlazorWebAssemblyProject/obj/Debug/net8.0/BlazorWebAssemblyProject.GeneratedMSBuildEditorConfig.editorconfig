@@ -13,39 +13,39 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorWebAssemblyProject
 build_property.RootNamespace = BlazorWebAssemblyProject
-build_property.ProjectDir = D:\fsx\ASP.NET\BlazorWebAssemblyProject\
+build_property.ProjectDir = D:\FullStackPlus\ASP.NET\BlazorWebAssemblyProject\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\fsx\ASP.NET\BlazorWebAssemblyProject
+build_property.MSBuildProjectDirectory = D:\FullStackPlus\ASP.NET\BlazorWebAssemblyProject
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/fsx/ASP.NET/BlazorWebAssemblyProject/App.razor]
+[D:/FullStackPlus/ASP.NET/BlazorWebAssemblyProject/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/fsx/ASP.NET/BlazorWebAssemblyProject/Pages/Counter.razor]
+[D:/FullStackPlus/ASP.NET/BlazorWebAssemblyProject/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/fsx/ASP.NET/BlazorWebAssemblyProject/Pages/Home.razor]
+[D:/FullStackPlus/ASP.NET/BlazorWebAssemblyProject/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/fsx/ASP.NET/BlazorWebAssemblyProject/Pages/Weather.razor]
+[D:/FullStackPlus/ASP.NET/BlazorWebAssemblyProject/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/fsx/ASP.NET/BlazorWebAssemblyProject/_Imports.razor]
+[D:/FullStackPlus/ASP.NET/BlazorWebAssemblyProject/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/fsx/ASP.NET/BlazorWebAssemblyProject/Layout/MainLayout.razor]
+[D:/FullStackPlus/ASP.NET/BlazorWebAssemblyProject/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-z8xsnhjaru
 
-[D:/fsx/ASP.NET/BlazorWebAssemblyProject/Layout/NavMenu.razor]
+[D:/FullStackPlus/ASP.NET/BlazorWebAssemblyProject/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-gz4ybxkjs1

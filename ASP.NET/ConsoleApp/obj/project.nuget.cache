@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+8Ne6QzOoye/EQsPmn5LHp3AgsF+Qef5teoyECAcVkYlQTSMMFUtNBghx1NfCWRbXuxvCW9J+Q1KYgHGl9dDVA==",
+  "dgSpecHash": "2ysK2YRcBUA/gxfYoZpgVdOp0Fv6O9iahXsFzKTwnCp4IuhBIXT/1cA1/7mTO21khomQv4ziWkVH1Ej+CV9LTA==",
   "success": true,
-  "projectFilePath": "D:\\fsx\\ASP.NET\\ConsoleApp\\ConsoleApp.csproj",
+  "projectFilePath": "D:\\FullStackPlus\\ASP.NET\\ConsoleApp\\ConsoleApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
