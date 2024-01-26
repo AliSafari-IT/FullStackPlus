@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tCYDfDrAMtbPF2LhW5+IDpseGrWO3tZHmZdmCgXFk9tpYYY4NTQqPn1DHGYZubd6LxTaeDq7997ZLY4yY7uwmQ==",
+  "dgSpecHash": "YUZ266J/X6n4iEIt/qLx/QFkQy/ZPWCnPzE5gLnpiTRMJxaz44Z/TRaSaSM3UyZWeWWJR+2Z9z+IceIx76atCA==",
   "success": true,
-  "projectFilePath": "D:\\FullStackPlus\\ASP.NET\\RazorProject\\RazorProject.csproj",
+  "projectFilePath": "D:\\fsx\\ASP.NET\\RazorProject\\RazorProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

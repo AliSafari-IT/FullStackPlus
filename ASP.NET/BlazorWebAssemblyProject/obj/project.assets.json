@@ -2062,11 +2062,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FullStackPlus\\ASP.NET\\BlazorWebAssemblyProject\\BlazorWebAssemblyProject.csproj",
+      "projectUniqueName": "D:\\fsx\\ASP.NET\\BlazorWebAssemblyProject\\BlazorWebAssemblyProject.csproj",
       "projectName": "BlazorWebAssemblyProject",
-      "projectPath": "D:\\FullStackPlus\\ASP.NET\\BlazorWebAssemblyProject\\BlazorWebAssemblyProject.csproj",
+      "projectPath": "D:\\fsx\\ASP.NET\\BlazorWebAssemblyProject\\BlazorWebAssemblyProject.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\FullStackPlus\\ASP.NET\\BlazorWebAssemblyProject\\obj\\",
+      "outputPath": "D:\\fsx\\ASP.NET\\BlazorWebAssemblyProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

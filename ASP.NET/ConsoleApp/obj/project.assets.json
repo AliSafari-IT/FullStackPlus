@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\fsx\\ASP.NET\\Models\\Models.csproj",
-      "projectName": "Models",
-      "projectPath": "D:\\fsx\\ASP.NET\\Models\\Models.csproj",
+      "projectUniqueName": "D:\\fsx\\ASP.NET\\ConsoleApp\\ConsoleApp.csproj",
+      "projectName": "ConsoleApp",
+      "projectPath": "D:\\fsx\\ASP.NET\\ConsoleApp\\ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\fsx\\ASP.NET\\Models\\obj\\",
+      "outputPath": "D:\\fsx\\ASP.NET\\ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
