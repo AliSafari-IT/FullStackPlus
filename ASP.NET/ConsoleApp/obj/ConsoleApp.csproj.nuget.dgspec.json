@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD:ASP.NET/ConsoleApp/obj/ConsoleApp.csproj.nuget.dgspec.json
     "D:\\FullStackPlus\\ASP.NET\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "D:\\FullStackPlus\\ASP.NET\\ConsoleApp\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "D:\\FullStackPlus\\ASP.NET\\ConsoleApp\\obj\\",
+=======
+    "D:\\fsx\\ConsoleApps\\ConsoleApp\\ConsoleApp.csproj": {}
+  },
+  "projects": {
+    "D:\\fsx\\ConsoleApps\\ConsoleApp\\ConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\fsx\\ConsoleApps\\ConsoleApp\\ConsoleApp.csproj",
+        "projectName": "ConsoleApp",
+        "projectPath": "D:\\fsx\\ConsoleApps\\ConsoleApp\\ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\fsx\\ConsoleApps\\ConsoleApp\\obj\\",
+>>>>>>> 5d76bdc9f9b4729757780b2ca2afa7fdc3a285f2:ConsoleApps/ConsoleApp/obj/ConsoleApp.csproj.nuget.dgspec.json
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

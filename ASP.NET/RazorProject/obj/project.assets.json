@@ -5045,11 +5045,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FullStackPlus\\ASP.NET\\RazorProject\\RazorProject.csproj",
+      "projectUniqueName": "D:\\fsx\\ASP.NET\\RazorProject\\RazorProject.csproj",
       "projectName": "RazorProject",
-      "projectPath": "D:\\FullStackPlus\\ASP.NET\\RazorProject\\RazorProject.csproj",
+      "projectPath": "D:\\fsx\\ASP.NET\\RazorProject\\RazorProject.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\FullStackPlus\\ASP.NET\\RazorProject\\obj\\",
+      "outputPath": "D:\\fsx\\ASP.NET\\RazorProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5066,11 +5066,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\BlazorProject.csproj": {
-              "projectPath": "D:\\FullStackPlus\\ASP.NET\\BlazorProject\\BlazorProject.csproj"
+            "D:\\fsx\\ASP.NET\\BlazorProject\\BlazorProject.csproj": {
+              "projectPath": "D:\\fsx\\ASP.NET\\BlazorProject\\BlazorProject.csproj"
             },
-            "D:\\FullStackPlus\\ASP.NET\\Models\\Models.csproj": {
-              "projectPath": "D:\\FullStackPlus\\ASP.NET\\Models\\Models.csproj"
+            "D:\\fsx\\ASP.NET\\Models\\Models.csproj": {
+              "projectPath": "D:\\fsx\\ASP.NET\\Models\\Models.csproj"
             }
           }
         }

@@ -63,7 +63,7 @@
             "request": "launch",
             "preLaunchTask": "EF MigBlazor",
             "postDebugTask": "Build BlazorWebAssemblyProject",
-                        
+            "program": "${workspaceFolder}/ASP.NET/BlazorWebAssemblyProject/bin/Debug/net8.0/BlazorWebAssemblyProject.dll",                        
             "cwd": "${workspaceFolder}/ASP.NET/BlazorWebAssemblyProject",
             "stopAtEntry": false,
             "serverReadyAction": {

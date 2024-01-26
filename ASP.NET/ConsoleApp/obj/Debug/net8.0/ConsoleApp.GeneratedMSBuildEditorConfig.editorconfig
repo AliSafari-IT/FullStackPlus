@@ -8,6 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ConsoleApp
+<<<<<<< HEAD:ASP.NET/ConsoleApp/obj/Debug/net8.0/ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
 build_property.ProjectDir = D:\FullStackPlus\ASP.NET\ConsoleApp\
+=======
+build_property.ProjectDir = D:\fsx\ConsoleApps\ConsoleApp\
+>>>>>>> 5d76bdc9f9b4729757780b2ca2afa7fdc3a285f2:ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

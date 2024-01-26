@@ -1,0 +1,32 @@
+{
+  "run": {
+    "command": "nx run-many --target=build",
+    "startTime": "2024-01-22T04:37:26.158Z",
+    "endTime": "2024-01-22T04:37:32.694Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "models:build",
+      "target": "build",
+      "projectName": "models",
+      "hash": "2237733029379241902",
+      "startTime": "2024-01-22T04:37:26.185Z",
+      "endTime": "2024-01-22T04:37:32.543Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    },
+    {
+      "taskId": "consoleapp:build",
+      "target": "build",
+      "projectName": "consoleapp",
+      "hash": "12547352788343029606",
+      "startTime": "2024-01-22T04:37:26.187Z",
+      "endTime": "2024-01-22T04:37:32.609Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

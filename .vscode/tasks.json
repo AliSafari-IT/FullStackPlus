@@ -103,6 +103,19 @@
             "problemMatcher": "$msCompile"
         },
         {
+            "label": "EF RazorProject",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "ef",
+                "database",
+                "update",
+                "--project",
+                "${workspaceFolder}/ASP.NET/RazorProject"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
             "label": "BlazorProject EF Migration",
             "type": "shell",
             "command": "${workspaceFolder}/.vscode/BlazorProject.bat",

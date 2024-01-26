@@ -1,3 +1,4 @@
+<<<<<<< HEAD:ASP.NET/ConsoleApp/obj/Debug/net8.0/ConsoleApp.csproj.FileListAbsolute.txt
 C:\VS\Exercises\c-sharp\ConsoleApp\bin\Debug\net8.0\ConsoleApp.exe
 C:\VS\Exercises\c-sharp\ConsoleApp\bin\Debug\net8.0\ConsoleApp.deps.json
 C:\VS\Exercises\c-sharp\ConsoleApp\bin\Debug\net8.0\ConsoleApp.runtimeconfig.json
@@ -43,3 +44,20 @@ D:\FullStackPlus\ASP.NET\ConsoleApp\obj\Debug\net8.0\refint\ConsoleApp.dll
 D:\FullStackPlus\ASP.NET\ConsoleApp\obj\Debug\net8.0\ConsoleApp.pdb
 D:\FullStackPlus\ASP.NET\ConsoleApp\obj\Debug\net8.0\ConsoleApp.genruntimeconfig.cache
 D:\FullStackPlus\ASP.NET\ConsoleApp\obj\Debug\net8.0\ref\ConsoleApp.dll
+=======
+D:\fsx\ConsoleApps\ConsoleApp\bin\Debug\net8.0\ConsoleApp.exe
+D:\fsx\ConsoleApps\ConsoleApp\bin\Debug\net8.0\ConsoleApp.deps.json
+D:\fsx\ConsoleApps\ConsoleApp\bin\Debug\net8.0\ConsoleApp.runtimeconfig.json
+D:\fsx\ConsoleApps\ConsoleApp\bin\Debug\net8.0\ConsoleApp.dll
+D:\fsx\ConsoleApps\ConsoleApp\bin\Debug\net8.0\ConsoleApp.pdb
+D:\fsx\ConsoleApps\ConsoleApp\obj\Debug\net8.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\fsx\ConsoleApps\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfoInputs.cache
+D:\fsx\ConsoleApps\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfo.cs
+D:\fsx\ConsoleApps\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\fsx\ConsoleApps\ConsoleApp\obj\Debug\net8.0\ConsoleApp.sourcelink.json
+D:\fsx\ConsoleApps\ConsoleApp\obj\Debug\net8.0\ConsoleApp.dll
+D:\fsx\ConsoleApps\ConsoleApp\obj\Debug\net8.0\refint\ConsoleApp.dll
+D:\fsx\ConsoleApps\ConsoleApp\obj\Debug\net8.0\ConsoleApp.pdb
+D:\fsx\ConsoleApps\ConsoleApp\obj\Debug\net8.0\ConsoleApp.genruntimeconfig.cache
+D:\fsx\ConsoleApps\ConsoleApp\obj\Debug\net8.0\ref\ConsoleApp.dll
+>>>>>>> 5d76bdc9f9b4729757780b2ca2afa7fdc3a285f2:ConsoleApps/ConsoleApp/obj/Debug/net8.0/ConsoleApp.csproj.FileListAbsolute.txt
